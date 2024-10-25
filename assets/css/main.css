@@ -42,6 +42,10 @@ div.footer svg.logo-footer g#text {
   transition: all 0.5s ease-in-out;
 }
 
+div.platform {
+  width: 400px;
+}
+
 /*
 div.footer:hover svg.logo-footer g#text {
     fill: #ffc0cb; 
@@ -702,6 +706,69 @@ div.highlight.gww a.alt-link {
   border-left: 3px solid #EC5656;
   margin-bottom: 15px;
   padding-left: 1rem;
+}
+
+.blink.rlcw, g.circle.rlcw, i.rlcw, div.footer.rlcw i, div.footer.rlcw a {
+  fill: #DF4F4F;
+  color: #DF4F4F;
+}
+
+div.highlight.rlcw {
+  background-color: #DF4F4F;
+}
+
+div.halftone-rlcw {
+  background: url("/assets/img/portfolio/redletterclay/halftone-redletterclay.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+}
+
+div.highlight.rlcw h1, div.highlight.rlcw h2, div.highlight.rlcw h3, div.highlight.rlcw h4, div.highlight.rlcw h5, div.highlight.rlcw h6, div.highlight.rlcw a {
+  color: white;
+}
+
+div.highlight.rlcw p, div.highlight.rlcw ul, div.highlight.rlcw li {
+  color: white;
+}
+
+div.rlcw h2.case-study {
+  letter-spacing: 0;
+}
+
+.navbar a.active.rlcw {
+  color: #DF4F4F;
+}
+
+.dropdown-item.active.rlcw {
+  background: #DF4F4F;
+  color: white !important;
+}
+
+h4 span.category.rlcw {
+  border-bottom: thick #c12121;
+  border-width: 0.2rem;
+  border-bottom-style: solid;
+}
+
+.row.rlcw li.left-bar {
+  border-left: 3px solid #c12121;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+h2.rlcw {
+  color: #6E4E3C;
+}
+
+h4.rlcw {
+  color: #c12121;
+  text-transform: uppercase;
+}
+
+div.rlcw a.alt {
+  color: #c12121;
 }
 
 div.highlight.rlc {
