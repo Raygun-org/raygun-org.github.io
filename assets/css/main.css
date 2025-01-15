@@ -161,7 +161,7 @@ h4 span.category {
 }
 
 .border-coin {
-  border-color: #fcdfe3 !important;
+  border-color: #b8b844 !important;
 }
 
 .text-theme-blue {
@@ -401,12 +401,14 @@ h4.hero {
 }
 
 div.statement {
-  background-color: #16384e;
+  background-color: #124a61;
   color: white;
 }
 
 div.statement a {
   color: #ffc0cb;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.4rem;
 }
 
 div.image-caption {
@@ -588,6 +590,69 @@ h5.case-study {
   font-family: "quatro-slab", serif;
 }
 
+.blink.hgrounds, g.circle.hgrounds, i.hgrounds, div.footer.hgrounds i, div.footer.hgrounds a {
+  fill: #f8ca80;
+  color: #f8ca80;
+}
+
+div.highlight.hgrounds {
+  background-color: #2a5146;
+}
+
+div.halftone-hgrounds {
+  background: url("/assets/img/portfolio/highergrounds/halftone-highergrounds.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+}
+
+div.highlight.hgrounds h1, div.highlight.hgrounds h2, div.highlight.hgrounds h3, div.highlight.hgrounds h4, div.highlight.hgrounds h5, div.highlight.hgrounds h6, div.highlight.hgrounds a {
+  color: #f8ca80;
+}
+
+div.highlight.hgrounds p, div.highlight.hgrounds ul, div.highlight.hgrounds li {
+  color: #fefff7;
+}
+
+div.hgrounds h2.case-study {
+  letter-spacing: 0;
+}
+
+.navbar a.active.hgrounds {
+  color: #f8ca80;
+}
+
+.dropdown-item.active.hgrounds {
+  background: #2a5146;
+  color: white !important;
+}
+
+h4 span.category.hgrounds {
+  border-bottom: thick #f8ca80;
+  border-width: 0.2rem;
+  border-bottom-style: solid;
+}
+
+.row.hgrounds li.left-bar {
+  border-left: 3px solid #923f15;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+h2.hgrounds {
+  color: #923f15;
+}
+
+h4.hgrounds {
+  color: #923f15;
+  text-transform: uppercase;
+}
+
+div.hgrounds a.alt {
+  color: #923f15;
+}
+
 .blink.utl, g.circle.utl, i.utl, div.footer.utl i, div.footer.utl a {
   fill: #f9b275;
   color: #f9b275;
@@ -708,7 +773,7 @@ div.highlight.gww a.alt-link {
   padding-left: 1rem;
 }
 
-.blink.rlcw, g.circle.rlcw, i.rlcw, div.footer.rlcw i, div.footer.rlcw a {
+.blink.hgrounds, g.circle.rlcw, i.rlcw, div.footer.rlcw i, div.footer.rlcw a {
   fill: #DF4F4F;
   color: #DF4F4F;
 }
