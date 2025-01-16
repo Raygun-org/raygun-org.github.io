@@ -869,7 +869,7 @@ div.rlc h2.case-study {
 }
 
 .navbar-dark a.active.rlc {
-  --bs-navbar-active-color: white;
+  --bs-navbar-active-color: #ffc0cb;
 }
 
 .dropdown-item.active.rlc {
@@ -1213,8 +1213,8 @@ div.highlight.blackdoor img.img-thumbnail {
   border-color: white;
 }
 
-.navbar-dark a.active.blackdoor {
-  --bs-navbar-active-color: black;
+.navbar-dark a.active.bds {
+  --bs-navbar-active-color: #ffc0cb;
 }
 
 .dropdown-item.active.blackdoor {
