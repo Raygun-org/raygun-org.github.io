@@ -99,20 +99,6 @@ active.dropdown-item, .dropdown-item:active {
   color: black;
 }
 
-body {
-  font-family: "fieldwork-hum", sans-serif;
-  background: #ffffff;
-  color: #000000;
-  font-weight: 400;
-  font-style: normal;
-  list-style: none;
-  padding-left: 0px;
-  font-size: 1.3rem;
-  line-height: 2rem;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-}
-
 div.highlight p, p.introduction, p {
   font-family: "europa", "quatro-slab", san-serif;
   font-weight: 400;
@@ -298,9 +284,10 @@ button.btn-hireme:hover i {
 .masthead h1 {
   font-family: "quatro-slab", serif;
   font-size: 5rem;
+  text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 12px;
-  text-shadow: 3px 3px #1b2022;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px #1b2022;
   padding-bottom: 20px;
 }
 
@@ -309,9 +296,9 @@ h4.hero {
   font-weight: 400;
   font-size: 1.25rem;
   text-transform: capitalize;
-  text-shadow: -0.1rem 0.2rem 0.1rem black;
+  text-shadow: -0.1rem 0.2rem 0.2rem black;
   line-height: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   display: inline-block;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
@@ -321,14 +308,13 @@ h4.hero {
 }
 
 .masthead.kominka {
-  background-image: url("/assets/img/kominka-resize.jpg");
+  background-image: url("/assets/img/hero/kominka.jpg");
   background-size: cover;
   position: relative;
   background-position: center center;
   -webkit-transition: background-image 3s ease-in;
   transition: background-image 3s ease-in;
   min-height: 80vh;
-  background-color: #000000;
 }
 
 .masthead.seeds {
@@ -394,7 +380,7 @@ h4.hero {
   -webkit-transition: background-image 3s ease-in;
   transition: background-image 3s ease-in;
   min-height: 80vh;
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 
 .masthead.hunauma {
@@ -513,6 +499,20 @@ form {
 .send-button:hover i {
   transform: translateX(10px);
   transition: all 0.5s ease-out;
+}
+
+body {
+  font-family: "fieldwork-hum", sans-serif;
+  background: black;
+  color: #000000;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
 .scroll-full {
