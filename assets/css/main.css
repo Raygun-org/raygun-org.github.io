@@ -176,6 +176,10 @@ h4 span.category {
   font-size: 5rem;
 }
 
+.letter-spacing {
+  letter-spacing: 0.1rem;
+}
+
 h1 {
   font-family: "quatro-slab", serif;
   font-weight: 600;
