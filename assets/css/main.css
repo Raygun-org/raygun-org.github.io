@@ -57,6 +57,37 @@ input[type=text] {
   padding: 1rem;
 }
 
+@media (min-width: 769px) {
+  li.nav-item {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 769px) {
+  li.nav-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 3.7rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 769px) {
+  li.nav-item:not(:last-child) {
+    border-bottom: solid 2px white;
+  }
+}
+
+@media (min-width: 769px) {
+  li.nav-item:not(:last-child) {
+    padding-right: 1em;
+  }
+}
+
 .navbar-nav {
   --bs-nav-link-padding-y: 0px;
 }
@@ -65,6 +96,13 @@ input[type=text] {
   --bs-navbar-active-color: #ffc0cb;
   --bs-navbar-hover-color: #ffc0cb;
   --bs-navbar-color: white;
+}
+
+.navbar.transparent {
+  --bs-navbar-active-color: #ffc0cb;
+  --bs-navbar-hover-color: #ffc0cb;
+  --bs-navbar-color: white;
+  background-color: #124a61;
 }
 
 .dropdown-menu {
@@ -110,6 +148,17 @@ p.introduction {
   margin-bottom: 2rem;
 }
 
+a.cat {
+  font-family: "fieldwork-hum", sans-serif;
+  color: #16384e;
+  font-weight: 400;
+}
+
+a.cat.current {
+  color: #EC5656;
+  font-weight: 600;
+}
+
 p.alt, li.alt {
   font-family: "fieldwork-hum", sans-serif;
   font-weight: 400;
@@ -119,9 +168,13 @@ p.alt, li.alt {
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.9);
+  background: #124a61;
   font-family: "fieldwork-hum", sans-serif;
   font-size: 1.2rem;
+}
+
+body {
+  background-color: #16384e;
 }
 
 body a {
@@ -295,6 +348,26 @@ button.btn-hireme:hover i {
   padding-bottom: 20px;
 }
 
+div.no-hero {
+  padding-bottom: 3rem;
+  background: #f9f9f9;
+}
+
+div.no-hero div.statement {
+  padding-top: 50px;
+  padding-bottom: 2rem;
+}
+
+div.no-hero div.statement h3 a {
+  color: #ffc0cb;
+}
+
+div.no-hero h3 a, div.no-hero h1 a, div.no-hero h2, div.no-hero h4 {
+  color: #516d78;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
 h4.hero {
   font-family: fieldwork-hum, sans-serif;
   font-weight: 400;
@@ -302,10 +375,10 @@ h4.hero {
   text-transform: capitalize;
   text-shadow: -0.1rem 0.2rem 0.2rem black;
   line-height: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: inline-block;
   padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.6rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   border-radius: 0.5rem;
@@ -399,7 +472,7 @@ h4.hero {
 }
 
 div.statement {
-  background-color: #124a61;
+  background-color: #16384e;
   color: white;
 }
 
@@ -461,6 +534,11 @@ g.circle {
 svg#site-logo {
   display: block;
 }
+@media (max-width: 768px) {
+  svg#site-logo {
+    margin: 0 auto;
+  }
+}
 
 nav.navbar g#text {
   transition: all 0.5s ease-out;
@@ -476,7 +554,7 @@ nav.navbar g#text {
   }
 }
 svg.raygun-logo {
-  min-height: 80px;
+  min-height: 115px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -629,15 +707,19 @@ div.stat {
   object-position: bottom center;
 }
 
-@supports not (-webkit-touch-callout: none) {
-  div.halftone {
-    background: url("/assets/img/backgrounds/halftone-test-2.png");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: auto 749px;
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-  }
+.halftone-indigo, .halftone- {
+  background: url("/assets/img/backgrounds/halftone-indigo.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+  width: 100%;
+  background-color: #16384e;
+  color: white;
+}
+
+.halftone- a, h3 a {
+  color: #ffc0cb;
 }
 
 div.wap, div.ftt {
@@ -647,6 +729,16 @@ div.wap, div.ftt {
 div.statement .text-date {
   color: #75cce9;
   letter-spacing: 0.08rem;
+}
+
+div.statement {
+  background: url("/assets/img/backgrounds/halftone-indigo.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+  width: 100%;
+  background-color: #16384e;
 }
 
 .header-spacing {
@@ -719,7 +811,6 @@ h2.hgrounds {
 
 h4.hgrounds {
   color: #923f15;
-  text-transform: uppercase;
 }
 
 div.hgrounds a.alt {
@@ -734,6 +825,10 @@ div.hgrounds a.alt {
 div.highlight.utl {
   background-color: #101219;
   color: #f9b275;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
 }
 
 div.highlight.utl h1, div.highlight.utl h2, div.highlight.utl h3, div.highlight.utl h4, div.highlight.utl h5, div.highlight.utl h6, div.highlight.utl a {
@@ -910,7 +1005,7 @@ div.rlcw a.alt {
 }
 
 div.highlight.rlc {
-  background-color: #064032;
+  background-color: #000000;
 }
 
 div.halftone-rlc {
@@ -938,7 +1033,7 @@ div.rlc h2.case-study {
 }
 
 .dropdown-item.active.rlc {
-  background: #064032;
+  background: #000000;
   color: white;
 }
 
@@ -1143,20 +1238,18 @@ h5.wap {
   color: hsl(45, 100%, 81%);
 }
 
-div.highlight.tog {
-  background-color: #a66761;
+div.footer.tog svg g#text {
+  fill: white;
+  color: white;
 }
 
-div.tog {
-  background-color: black;
-}
-
-div.halftone-tog {
+div.halftone-tog, div.highlight-tog, div.tog {
   background: url("/assets/img/portfolio/the-other-guantanamo/halftone-the-other-guantanamo.png");
   background-position: center;
   background-repeat: repeat;
   background-size: auto 749px;
   background-attachment: fixed;
+  background-color: #a66761;
 }
 
 h4 span.category.tog {
@@ -1171,7 +1264,6 @@ h4 span.category.tog {
 
 .dropdown-item.active.tog {
   background: hsl(45, 100%, 81%);
-  color: black;
 }
 
 div.highlight.tog h1, div.highlight.tog h2, div.highlight.tog h3, div.highlight.tog h4, div.highlight.tog h5, div.highlight.tog h6, div.highlight.tog a {
@@ -1207,7 +1299,7 @@ div.highlight.kdv {
 }
 
 .navbar-dark a.active.kdv {
-  --bs-navbar-active-color: #73868f;
+  --bs-navbar-active-color: #feaafd;
 }
 
 .dropdown-item.active.kdv {
@@ -1237,7 +1329,7 @@ div.halftone-kdv {
 }
 
 div.highlight.kdv-dark h1, div.highlight.kdv-dark h2, div.highlight.kdv-dark h3, div.highlight.kdv-dark h4, div.highlight.kdv-dark h5, div.highlight.kdv-dark h6, div.highlight.kdv-dark a, div.highlight.kdv-dark p, div.highlight.kdv-dark ul, div.highlight.kdv-dark li {
-  color: white;
+  color: #feaafd;
 }
 
 div.highlight.kdv h1, div.highlight.kdv h2, div.highlight.kdv h3, div.highlight.kdv h4, div.highlight.kdv h5, div.highlight.kdv h6, div.highlight.kdv a {
@@ -1262,7 +1354,7 @@ div.kdv-dark a.alt-link {
 }
 
 div.highlight.blackdoor {
-  background-color: black;
+  background-color: #101219;
 }
 
 div.highlight.blackdoor h1, div.highlight.blackdoor h2, div.highlight.blackdoor h3, div.highlight.blackdoor h4, div.highlight.blackdoor h5, div.highlight.blackdoor h6, div.highlight.blackdoor a {
@@ -1289,6 +1381,11 @@ div.highlight.blackdoor img.img-thumbnail {
 
 div.highlight.rwe {
   background-color: #dac9ad;
+  background: url("/assets/img/portfolio/royal-wolf-events/halftone-royal-wolf-events.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
 }
 
 .blink.rwe, g.circle.rwe, i.rwe, div.footer.rwe i, div.footer.rwe a {
@@ -1456,8 +1553,8 @@ div.sattb h2 {
 }
 
 .blink.coc, g.circle.coc, i.coc, div.footer.coc i, div.footer.coc a {
-  fill: #b5062a;
-  color: #b5062a;
+  fill: #fff45a;
+  color: #fff45a;
 }
 
 div.highlight.coc {
@@ -1473,7 +1570,7 @@ div.halftone-coc {
 }
 
 .navbar-dark a.active.coc {
-  --bs-navbar-active-color: #b5062a;
+  --bs-navbar-active-color: #fff45a;
 }
 
 .dropdown-item.active.coc {
@@ -1554,8 +1651,8 @@ h5.coc {
 }
 
 .blink.hiv, g.circle.hiv, i.hiv, div.footer.hiv i, div.footer.hiv a {
-  fill: #3467de;
-  color: #3467de;
+  fill: #fffd3a;
+  color: #fffd3a;
 }
 
 div.highlight.hiv {
@@ -1576,7 +1673,7 @@ div.highlight.hiv img.img-thumbnail {
 }
 
 .navbar-dark a.active.hiv {
-  --bs-navbar-active-color: #3467de;
+  --bs-navbar-active-color: #fffd3a;
 }
 
 .dropdown-item.active.hiv {
