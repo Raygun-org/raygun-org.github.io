@@ -3,3 +3,5 @@
 portfolio/.DS_Store
 websites/.DS_Store
 docs/justfile
+.DS_Store
+templates/

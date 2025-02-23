@@ -1,0 +1,24 @@
+<div class="container d-flex flex-row p-4 align-items-top">
+  {%if page.previous.url %}
+    <div class="text-start">
+      <h1><a href="{{ page.previous.url}}"><i class="fa-solid fa-angles-left opacity-75"></i></a></h1>
+      </div>
+      {% if page.previous.image-thumb %}
+        <div class="text-start ps-3">
+        <a href="{{ page.previous.url }}"><img src="{{page.previous.image-thumb}}" class="img-fluid w-50 border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+        <h6 class="text-start mt-3 fw-semibold text-uppercase letter-spacing">{{page.previous.title}}</h6>
+      </div>
+      {% endif %}
+  {% endif %}
+  {%if page.next.url %}
+      {% if page.next.image-thumb %}
+        <div class="text-end align-items-top pe-3">
+          <a href="{{ page.next.url }}"><img src="{{page.next.image-thumb}}" class="img-fluid w-50 border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+          <h6 class="text-end mt-3 fw-semibold text-uppercase letter-spacing">{{page.next.title}}</h6>
+        </div>
+      {% endif %}
+      <div>
+        <h1><a href="{{ page.next.url}}"><i class="fa-solid fa-angles-right opacity-75"></i></a></h1>
+      </div>
+  {% endif %}
+</div>

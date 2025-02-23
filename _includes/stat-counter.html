@@ -1,0 +1,27 @@
+<div class="d-flex flex-wrap justify-content-evenly align-items-center px-5">
+{% if page.score-1 %}
+    <div class="d-flex flex-column text-center p-5 align-items-center">
+        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: {{page.score-1}}" class="p-5"></div>
+        <h4 class="text-center pt-3 text-white text-uppercase">Performance</h4>
+    </div>
+{% endif %}
+{% if page.score-2 %}
+    <div class="d-flex flex-column text-center p-5 align-items-center">
+        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: {{ page.score-2}}"></div>
+        <h4 class="text-center pt-3 text-white text-uppercase">Accessibility</h4>
+    </div>
+{% endif %}
+{% if page.score-3 %}
+    <div class="d-flex flex-column text-center p-5 align-items-center">
+        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: {{ page.score-3}}"></div>
+        <h4 class="text-center pt-3 text-white text-uppercase">Best Practices</h4>
+    </div>
+{% endif %}
+{% if page.score-4 %}
+    <div class="d-flex flex-column text-center p-5 align-items-center">
+        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: {{ page.score-4}}"></div>
+        <h4 class="text-center pt-3 text-white text-uppercase">SEO</h4>
+    </div>
+{% endif %}
+<h4 class="text-uppercase pb-5 fw-normal letter-spacing">{% if page.score-report %}<a href="{{ page.score-report }}" target="_blank"><i class="fa-solid fa-gauge-high pe-3 text-white"></i>Google PageSpeed Insight Scores <i class="fa fa-arrow-right ps-2 text-white"></i></a>{% endif %}</h4>
+</div>

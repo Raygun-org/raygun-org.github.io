@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row mt">
+      <div class="col-lg-6 col-md-12 py-5 text-uppercase">
+        {% if page.previous.url %}
+          <h4><i class="fas fa-left-long pe-2"></i> <a href="{{ page.previous.url }}" class="alt-link">{{ page.previous.title }}</a></h4>
+        {% endif %}
+        {% if page.previous.image-thumb %}
+        <a href="{{ page.previous.url }}"><img src="{{page.previous.image-thumb}}" class="img-fluid w-50 mt-3 border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+        {% endif %}
+      </div>
+      <div class="col-lg-6 col-md-12 py-5 text-uppercase text-end">
+        {% if page.next.url %}
+          <h4><a href="{{ page.next.url }}" class="alt-link">{{ page.next.title }} <i class="fas fa-right-long pe-2"></i></a></h4>
+        {% endif %}
+        {% if page.next.image-thumb %}
+        <a href="{{ page.next.url }}"><img src="{{page.next.image-thumb}}" class="img-fluid w-50 mt-3 border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+        {% endif %}
+      </div>
+  </div>

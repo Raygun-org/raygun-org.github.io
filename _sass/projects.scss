@@ -1,0 +1,1182 @@
+// ULTRA TRADING LTD
+$utlBackgroundColor: #101219;
+$utlLinkColor: #f9b275;
+$utlHeaderColor: #f9b275;
+$utlTextColor: #FFFFFF;
+$utlSparkColor: #f9b275;
+$utlBarColor: #f9b275;
+
+// RED LETTER CLAY WEBSITE
+$rlcwBackgroundColor: #DF4F4F;
+// $rlcLinkColor: #6E4E3C;
+$rlcwLinkColor: white;
+$rlcwHeaderColor: #6E4E3C;
+$rlcwTextColor: white;
+$rlcwBarColor: #c12121;
+$rlcwSparkColor: #DF4F4F;
+
+// HIGHERGROUNDS WEBSITE
+$hgroundsBackgroundColor: #2a5146;
+// $rlcLinkColor: #6E4E3C;
+$hgroundsLinkColor: #f8ca80;
+$hgroundsHeaderColor: #f8ca80;
+$hgroundsTextColor: #fefff7;
+$hgroundsBarColor: #923f15;
+$hgroundsSparkColor: #f8ca80;
+
+// GNARWARE WORKSHOP
+$gwwBackgroundColor: #4D3832;
+$gwwLinkColor: #EC5656;
+$gwwHeaderColor: #C3E2E2;
+$gwwTextColor: #FFFFFF;
+$gwwBarColor: #CB9272;
+$gwwSparkColor: #C3E2E2;
+
+// RED LETTER CLAY PHOTO
+$rlcBackgroundColor: #000000;
+// $rlcLinkColor: #d371cd;
+$rlcLinkColor: white;
+$rlcHeaderColor: #2e1607;
+$rlcTextColor: white;
+$rlcBarColor: #064032;
+$rlcSparkColor: #064032;
+
+// PRESENT ABSENCE
+$paBackgroundColor: #000000;
+$paLinkColor: #4d7cc3;
+$paHeaderColor: #76c6b7;
+$paTextColor: white;
+$paAltLinkColor: #76c6b7;
+$paBarColor: #4d7cc3;
+$paSparkColor: #76c6b7;
+
+// THE OTHER GUANTANAMO
+$togBackgroundColor: #a66761;
+$togLinkColor: white;
+$togHeaderColor: hsl(45, 100%, 81%);
+$togTextColor: white;
+$togBarColor: hsl(45, 100%, 81%);
+$togSparkColor: hsl(45, 100%, 81%);
+
+// LIZ MCCARTHY
+$lmBackgroundColor: #e8b468;
+//$lmLinkColor: #713231;
+$lmLinkColor: #382c10;
+$lmHeaderColor: #382c10;
+$lmTextColor: black;
+$lmAltTextColor: white;
+$lmSparkColor: #e8b468;
+
+// WOMEN + PRISON
+$wapBackgroundColor: #eaf1c1;
+$wapLinkColor: white;
+$wapHeaderColor: #55321b;
+$wapSubHeadColor: #95a91a;
+$wapTextColor: #55321b;
+$wapBarColor: #95a91a;
+$wapLinkColor: #ed6709;
+$wapSparkColor: #95a91a;
+
+// FIRE THIS TIME FUND
+$fttBackgroundColor: #ead9c1;
+$fttLinkColor: #ee5042;
+$fttHeaderColor: #513711;
+$fttTextColor: #513711;
+$fttBarColor: #ee5042;
+$fttSubHeadColor: #c7b69c;
+$fttSparkColor: #ee5042;
+
+// KNEE DEEP VINTAGE
+$kdvBackgroundColor: white;
+$kdvBackgroundColorDark: #73868f;
+$kdvLinkColor: #feaafd;
+$kdvHeaderColor: #73868f;
+$kdvTextColor: black;
+$kdvTextColorDark: white;
+
+// BLACKDOOR STORE
+$blackdoorBackgroundColor: black;
+$blackdoorLinkColor: black;
+$blackdoorHeaderColor: white;
+$blackdoorTextColor: white;
+$blackdoorBarColor: #c12121;
+$blackdoorSparkColor: #DF4F4F;
+
+// ROYAL WOLF EVENTS
+$royalwolfeventsBackgroundColor: #dac9ad;
+$rweBackgroundColor: #dac9ad;
+$royalwolfeventsLinkColor: #422b25;
+$royalwolfeventsHeaderColor: #422b25;
+$royalwolfeventsTextColor: #4b3818;
+
+
+// SARAH AND THE TALLBOYS
+$sattbBackgroundColor: #47625a;
+$sattbLinkColor: #e2daa1;
+$sattbHeaderColor: #e2daa1;
+$sattbTextColor: white;
+$sattbSparkColor: #e2daa1;
+
+// CHAIN OF CHANGE
+// $cocBackgroundColor: #01232e;
+$cocBackgroundColor: #b5062a;
+$cocLinkColor: #00ace5;
+$cocHeaderColor: white;
+$cocTextColor: white;
+$cocBarColor: #b5062a;
+$cocSubHeadColor: #002f3e;
+$cocAltLinkColor: #fff45a;
+$cocSparkColor: #fff45a;
+
+// HIV HEY ITS VIRAL
+$hivBackgroundColor: #3467de;
+$hivLinkColor: #fffd3a;
+$hivHeaderColor: white;
+$hivTextColor: white;
+$hivBarColor: #fffd3a;
+$hivSubHeadColor: white;
+$hivSparkColor: #fffd3a;
+
+// BEYONDMEDIA
+$bmeBackgroundColor: #49565b;
+$bmeLinkColor: #ff3399;
+$bmeAltLinkColor: #ff3399;
+$bmeHeaderColor: white;
+$bmeTextColor: white;
+$bmeSubHeadColor: #49565b;
+$bmeSparkColor: #ff3399;
+
+// full site scroll on hover
+.scroll-full {
+    width: 100%;
+    height: 637px;
+    overflow: hidden;
+}
+.scroll-full img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1.6s ease-in-out;
+}
+.scroll-full:hover img {
+    object-position: bottom center;
+}
+.scroll-full-sm {
+    width: 100%;
+    height: 710px;
+    overflow: hidden;
+}
+.scroll-full-sm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1.6s ease-in-out;  
+}
+.scroll-full-sm:hover img {
+    object-position: bottom center;
+}
+
+.scroll-full-cs {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.scroll-full-cs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1.6s ease-in-out;
+}
+.scroll-full-cs:hover img {
+    object-position: bottom center;
+}
+//
+
+.halftone-indigo, .halftone- {
+    background: url('/assets/img/backgrounds/halftone-indigo.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;;
+    background-attachment: fixed;
+    width: 100%;
+    background-color: #16384e;
+    color: white;
+}
+
+.halftone- a, h3 a {
+    color: #ffc0cb;
+}
+
+div.wap, div.ftt {
+    overflow-x: hidden;
+}
+
+div.statement .text-date {
+    color:#75cce9;
+    letter-spacing: 0.08rem;
+}
+
+div.statement {
+    background: url('/assets/img/backgrounds/halftone-indigo.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;;
+    background-attachment: fixed;
+    width: 100%;
+    background-color: #16384e;
+}
+
+.header-spacing {
+    letter-spacing: 0.08rem;
+}
+
+h5.case-study {
+    font-weight: 800;
+    font-family: $typefaceSecondary;
+}
+
+// HIGHER GROUNDS OF MAINE WEB
+.blink.hgrounds,g.circle.hgrounds,i.hgrounds,div.footer.hgrounds i, div.footer.hgrounds a {
+    fill: $hgroundsSparkColor;
+    color: $hgroundsSparkColor;
+}
+div.hgrounds div[role="progressbar"] {
+    --primary: #{$hgroundsSparkColor};
+    --secondary: #ffffff;
+  }
+
+div.highlight.hgrounds {
+    background-color: $hgroundsBackgroundColor;
+}
+div.halftone-hgrounds {
+    background: url('/assets/img/portfolio/highergrounds/halftone-highergrounds.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.hgrounds h1,div.highlight.hgrounds h2,div.highlight.hgrounds h3,div.highlight.hgrounds h4,div.highlight.hgrounds h5,div.highlight.hgrounds h6,div.highlight.hgrounds a {
+    color: $hgroundsLinkColor;
+}
+div.highlight.hgrounds p,div.highlight.hgrounds ul,div.highlight.hgrounds li {
+    color: $hgroundsTextColor;
+}
+div.hgrounds h2.case-study {
+    letter-spacing: 0;
+}
+.navbar a.active.hgrounds {
+    color: $hgroundsSparkColor;
+}
+.border-hgrounds, .border-hgrounds:hover {
+    border-color: $hgroundsSparkColor;
+    background-color: $hgroundsBackgroundColor;
+}
+.dropdown-item.active.hgrounds {
+    background: $hgroundsBackgroundColor;
+    color: white !important;
+}
+h4 span.category.hgrounds {
+    border-bottom: thick $hgroundsHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.row.hgrounds li.left-bar {
+    border-left: 3px solid $hgroundsBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h2.hgrounds {
+    color: $hgroundsBarColor;
+}
+h4.hgrounds {
+    color: $hgroundsBarColor;
+}
+div.hgrounds a.alt {
+    color: $hgroundsBarColor;
+}
+
+// ULTRA TRADING LTD
+.blink.utl,g.circle.utl,i.utl,div.footer.utl i, div.footer.utl a {
+    fill: $utlSparkColor;
+    color: $utlSparkColor;
+}
+div.highlight.utl {
+    background-color: $utlBackgroundColor;
+    color: $utlHeaderColor;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.utl h1,div.highlight.utl h2,div.highlight.utl h3,div.highlight.utl h4,div.highlight.utl h5,div.highlight.utl h6,div.highlight.utl a {
+    color: $utlHeaderColor;
+}
+div.highlight.utl p,div.highlight.utl ul,div.highlight.utl li {
+    color: $utlTextColor;
+}
+div.utl h2.case-study {
+    letter-spacing: 0;
+}
+.dropdown-item.active.utl {
+    background: $utlHeaderColor;
+    color: $utlBackgroundColor;
+}
+h4 span.category.utl {
+    border-bottom: thick $utlHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.utl a {
+    color: $utlLinkColor;
+}
+.border-utl, .border-utl:hover {
+    border-color: $utlLinkColor;
+    background-color: $utlBackgroundColor;
+}
+h4.utl {
+    color: $utlBarColor;
+    text-transform: uppercase;
+}
+.navbar-dark a.active.utl {
+    --bs-navbar-active-color: #{$utlHeaderColor};
+}
+div.highlight.utl a.alt-link {
+    color: $utlHeaderColor;
+}
+.row.utl li.left-bar {
+    border-left: 3px solid $utlLinkColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+
+// GNARWARE WORKSHOP
+.blink.gww,g.circle.gww,i.gww,div.footer.gww i, div.footer.gww a {
+    fill: $gwwSparkColor;
+    color: $gwwSparkColor !important;
+}
+div.highlight.gww {
+    background-color: $gwwHeaderColor;
+    color: $gwwBackgroundColor;
+}
+div.halftone-gww {
+    background: url('/assets/img/portfolio/gnarware-workshop/halftone-gnarware-workshop.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.gww h1,div.highlight.gww h2,div.highlight.gww h3,div.highlight.gww h4,div.highlight.gww h5,div.highlight.gww h6,div.highlight.gww a {
+    color: $gwwHeaderColor;
+}
+div.highlight.gww p,div.highlight.gww ul,div.highlight.gww li {
+    color: $gwwTextColor;
+}
+.border-gww, .border-gww:hover {
+    border-color: $gwwHeaderColor;
+    background-color: $gwwBackgroundColor;
+}
+div.gww h2.case-study {
+    letter-spacing: 0;
+}
+.dropdown-item.active.gww {
+    background: $gwwHeaderColor;
+    color: $gwwBackgroundColor;
+}
+h4 span.category.gww {
+    border-bottom: thick $gwwHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.gww a {
+    color: $gwwLinkColor;
+}
+h4.gww {
+    color: $gwwBarColor;
+    text-transform: uppercase;
+}
+.navbar-dark a.active.gww {
+    --bs-navbar-active-color: #{$gwwHeaderColor};
+}
+div.highlight.gww a.alt-link {
+    color: $gwwHeaderColor;
+}
+.row.gww li.left-bar {
+    border-left: 3px solid $gwwLinkColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+
+// RLC WEB
+.blink.hgrounds,g.circle.rlcw,i.rlcw,div.footer.rlcw i, div.footer.rlcw a {
+    fill: $rlcwSparkColor;
+    color: $rlcwSparkColor;
+}
+div.highlight.rlcw {
+    background-color: $rlcwBackgroundColor;
+}
+div.halftone-rlcw {
+    background: url('/assets/img/portfolio/redletterclay/halftone-redletterclay.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.rlcw h1,div.highlight.rlcw h2,div.highlight.rlcw h3,div.highlight.rlcw h4,div.highlight.rlcw h5,div.highlight.rlcw h6,div.highlight.rlcw a {
+    color: $rlcwLinkColor;
+}
+div.highlight.rlcw p,div.highlight.rlcw ul,div.highlight.rlcw li {
+    color: $rlcwTextColor;
+}
+
+.border-rlcw, .border-rlcw:hover {
+    border-color: white;
+    background-color: $rlcwBackgroundColor;
+}
+div.rlcw h2.case-study {
+    letter-spacing: 0;
+}
+.navbar a.active.rlcw {
+    color: $rlcwSparkColor;
+}
+
+.dropdown-item.active.rlcw {
+    background: $rlcwBackgroundColor;
+    color: white !important;
+}
+h4 span.category.rlcw {
+    border-bottom: thick $rlcwBarColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.row.rlcw li.left-bar {
+    border-left: 3px solid $rlcwBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h2.rlcw {
+    color: $rlcwHeaderColor;
+}
+h4.rlcw {
+    color: $rlcwBarColor;
+    text-transform: uppercase;
+}
+div.rlcw a.alt {
+    color: $rlcwBarColor;
+}
+
+// RLC
+div.highlight.rlc {
+    background-color: $rlcBackgroundColor;
+}
+div.halftone-rlc {
+    background: url('/assets/img/portfolio/rlc/halftone-red-letter-clay.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.rlc h1,div.highlight.rlc h2,div.highlight.rlc h3,div.highlight.rlc h4,div.highlight.rlc h5,div.highlight.rlc h6,div.highlight.rlc a {
+    color: $rlcLinkColor;
+}
+div.highlight.rlc p,div.highlight.rlc ul,div.highlight.rlc li {
+    color: $rlcTextColor;
+}
+div.rlc h2.case-study {
+    letter-spacing: 0;
+}
+.navbar-dark a.active.rlc {
+    --bs-navbar-active-color: #ffc0cb;
+}
+.dropdown-item.active.rlc {
+    background: $rlcBackgroundColor;
+    color: $rlcTextColor;
+}
+h4 span.category.rlc {
+    border-bottom: thick $rlcHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+
+// PA
+.blink.pa,g.circle.pa,i.pa,div.footer.pa i, div.footer.pa a {
+    fill: $paSparkColor;
+    color: $paSparkColor;
+}
+.border-pa, .border-pa:hover {
+    border-color: $paSparkColor;
+    background-color: $paBackgroundColor;
+}
+div.highlight.pa {
+    background-color: $paBackgroundColor;
+}
+.navbar-dark a.active.pa {
+    --bs-navbar-active-color: #{$paHeaderColor};
+}
+.dropdown-item.active.pa {
+    background: $paHeaderColor;
+    color: $paBackgroundColor;
+}
+h4 span.category.pa {
+    border-bottom: thick $paHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+h4.pa {
+    color: $paBarColor;
+    text-transform: uppercase;
+}
+div.pa a {
+    color: $paLinkColor;
+}
+div.pa h2 {
+    color: black;
+    letter-spacing: 0rem;
+}
+.row.pa li.left-bar {
+    border-left: 3px solid $paBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+div.highlight.pa h1,div.highlight.pa h2,div.highlight.pa h3,div.highlight.pa h4,div.highlight.pa h5,div.highlight.pa h6,div.highlight.pa a {
+    color: $paHeaderColor;
+}
+div.highlight.pa p, div.highlight.pa ul, div.highlight.pa li {
+    color: $paTextColor;
+}
+div.highlight.pa img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+
+// LM
+.blink.lm,g.circle.lm,i.lm,div.footer.lm i, div.footer.lm a {
+    fill: $lmSparkColor;
+    color: $lmSparkColor;
+}
+div.highlight.lm {
+    background-color: $lmBackgroundColor;
+}
+div.halftone-lm {
+    background: url('/assets/img/portfolio/liz-mccarthy/halftone-liz-mccarthy.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+.border-lm, .border-lm:hover {
+    border-color: $lmLinkColor;
+    background-color: $lmBackgroundColor;
+}
+.navbar-dark a.active.lm {
+    --bs-navbar-active-color: #{$lmBackgroundColor};
+}
+.dropdown-item.active.lm {
+    background: $lmBackgroundColor;
+    color: $lmTextColor;
+}
+h4 span.category.lm {
+    border-bottom: thick $lmBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.lm a {
+    color: $lmLinkColor;
+}
+div.lm h2 {
+    color: black;
+    letter-spacing: 0rem;
+}
+div.highlight.lm h1,div.highlight.lm h2,div.highlight.lm h3,div.highlight.lm h4,div.highlight.lm h5,div.highlight.lm h6,div.highlight.lm a {
+    color: $lmLinkColor;
+}
+div.highlight.lm p, div.highlight.lm ul, div.highlight.lm li {
+    color: $lmTextColor;
+}
+.border-lm {
+    --bs-border-color: #f3f3f3;
+    --bs-border-width: 0.4rem;
+}
+
+// WAP
+.blink.wap,g.circle.wap,i.wap,div.footer.wap i, div.footer.wap a {
+    fill: $wapBackgroundColor;
+    color: $wapBackgroundColor;
+}
+div.highlight.wap {
+    background-color: $wapBackgroundColor;
+}
+div.halftone-wap {
+    background: url('/assets/img/portfolio/WAP/halftone-women-and-prison.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+.navbar-dark a.active.wap {
+    --bs-navbar-active-color: #{$wapBackgroundColor};
+}
+.border-wap, .border-wap:hover {
+    border-color: $wapHeaderColor;
+    background-color: $wapBackgroundColor;
+}
+.dropdown-item.active.wap {
+    background: $wapBackgroundColor;
+    color: $wapTextColor;
+}
+h4 span.category.wap {
+    border-bottom: thick $wapBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.highlight.wap h1,div.highlight.wap h2,div.highlight.wap h3,div.highlight.wap h4,div.highlight.wap h5,div.highlight.wap h6,div.highlight.wap a {
+    color: $wapHeaderColor;
+}
+div.highlight.wap p, div.highlight.wap ul, div.highlight.wap li {
+    color: $wapTextColor;
+}
+div.highlight.wap a.alt-link {
+    color: $wapLinkColor;
+}
+div.wap a {
+    color: $wapLinkColor;
+}
+div.wap h2 {
+    color: $wapHeaderColor;
+    letter-spacing: 0rem;
+}
+div.wap h4 {
+    color: $wapSubHeadColor;
+}
+
+.row.wap li.left-bar {
+    border-left: 3px solid $wapBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h1.wap {
+    letter-spacing: 0rem;
+    color: $wapHeaderColor;
+}
+h4.wap {
+    color: $wapBarColor;
+    text-transform: uppercase;
+}
+h5.wap {
+    font-family: $typefaceSecondary;
+    font-weight: 800;
+    color: $wapHeaderColor;
+}
+
+// TOG
+.blink.tog,g.circle.tog,i.tog,div.footer.tog i, div.footer.tog a   {
+    fill: $togSparkColor;
+    color: $togSparkColor;
+}
+div.footer.tog svg g#text {
+    fill: white;
+    color: white;
+}
+div.halftone-tog, div.highlight-tog, div.tog {
+    background: url('/assets/img/portfolio/the-other-guantanamo/halftone-the-other-guantanamo.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+    background-color: $togBackgroundColor;
+}
+h4 span.category.tog {
+    border-bottom: thick $togHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.navbar-dark a.active.tog {
+    --bs-navbar-active-color: #{$togHeaderColor};
+}
+.border-tog, .border-tog:hover {
+    border-color: $togHeaderColor;
+    background-color: $togBackgroundColor;
+}
+.dropdown-item.active.tog {
+    background: $togHeaderColor;
+}
+div.highlight.tog h1,div.highlight.tog h2,div.highlight.tog h3,div.highlight.tog h4,div.highlight.tog h5,div.highlight.tog h6,div.highlight.tog a {
+    color: $togHeaderColor;
+}
+div.highlight.tog p, div.highlight.tog ul, div.highlight.tog li {
+    color: $togTextColor;
+}
+div.highlight.tog img.img-thumbnail {
+    background-color: $togLinkColor;
+    border-color: $togLinkColor;
+}
+.row.tog li.left-bar {
+    border-left: 3px solid $togBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+
+div.tog h2.case-study {
+    letter-spacing: 0;
+}
+
+// KDV
+div.highlight.kdv {
+    background-color: $kdvBackgroundColor;
+}
+.blink.kdv,g.circle.kdv,i.kdv,div.footer.kdv i, div.footer.kdv a {
+    fill: $kdvBackgroundColorDark;
+    color: $kdvBackgroundColorDark;
+}
+.navbar-dark a.active.kdv {
+    --bs-navbar-active-color: #{$kdvLinkColor};
+}
+.dropdown-item.active.kdv {
+    background: $kdvBackgroundColorDark;
+    color: $kdvTextColorDark;
+}
+h4 span.category.kdv {
+    border-bottom: thick $kdvBackgroundColor;
+    border-width: 0.2rem;
+}
+div.kdv-dark h2.case-study {
+    letter-spacing: 0;
+}
+div.highlight.kdv-dark {
+    background-color: $kdvBackgroundColorDark;
+}
+div.halftone-kdv {
+    background: url('/assets/img/portfolio/kneedeepvintage/halftone-knee-deep-vintage.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.kdv-dark h1,div.highlight.kdv-dark h2,div.highlight.kdv-dark h3,div.highlight.kdv-dark h4,div.highlight.kdv-dark h5,div.highlight.kdv-dark h6,div.highlight.kdv-dark a,div.highlight.kdv-dark p, div.highlight.kdv-dark ul, div.highlight.kdv-dark li {
+    color: $kdvLinkColor;
+}
+div.highlight.kdv h1,div.highlight.kdv h2,div.highlight.kdv h3,div.highlight.kdv h4,div.highlight.kdv h5,div.highlight.kdv h6,div.highlight.kdv a {
+    color: $kdvHeaderColor;
+}
+div.highlight.kdv p, div.highlight.kdv ul, div.highlight.kdv li {
+    color: $kdvTextColor;
+}
+div.highlight.kdv img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+div.kdv-dark.highlight a {
+    color: $kdvLinkColor;
+}
+div.kdv-dark a.alt-link {
+    color: $kdvTextColorDark;
+}
+
+// BDS
+div.highlight.blackdoor {
+    background-color: $utlBackgroundColor;
+}
+div.highlight.blackdoor h1,div.highlight.blackdoor h2,div.highlight.blackdoor h3,div.highlight.blackdoor h4,div.highlight.blackdoor h5,div.highlight.blackdoor h6,div.highlight.blackdoor a {
+    color: $blackdoorHeaderColor;
+}
+div.highlight.blackdoor p, div.highlight.blackdoor ul, div.highlight.blackdoor li {
+    color: $blackdoorTextColor;
+}
+div.highlight.blackdoor img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+.navbar-dark a.active.bds {
+    --bs-navbar-active-color: #ffc0cb;
+}
+.dropdown-item.active.blackdoor {
+    background: $blackdoorTextColor;
+    color: $blackdoorBackgroundColor;
+}
+
+// RWE
+div.highlight.rwe {
+    background-color: $royalwolfeventsBackgroundColor;
+    background: url('/assets/img/portfolio/royal-wolf-events/halftone-royal-wolf-events.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+.blink.rwe,g.circle.rwe,i.rwe,div.footer.rwe i, div.footer.rwe a {
+    fill: $rweBackgroundColor;
+    color: $rweBackgroundColor;
+}
+h4 span.category.rwe {
+    border-bottom: thick $royalwolfeventsBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.halftone-rwe {
+    background: url('/assets/img/portfolio/royal-wolf-events/halftone-royal-wolf-events.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.rwe h1,div.highlight.rwe h2,div.highlight.rwe h3,div.highlight.rwe h4,div.highlight.rwe h5,div.highlight.rwe h6,div.highlight.rwe a {
+    color: $royalwolfeventsHeaderColor;
+}
+div.highlight.rwe p, div.highlight.rwe ul, div.highlight.rwe li {
+    color: $royalwolfeventsTextColor;
+}
+.border-rwe, .border-rwe:hover {
+    border-color: $rlcwHeaderColor;
+    background-color: $rweBackgroundColor;
+}
+div.highlight.rwe img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+.navbar-dark a.active.rwe {
+    --bs-navbar-active-color: #{$royalwolfeventsBackgroundColor};
+}
+.dropdown-item.active.rwe {
+    background: $royalwolfeventsBackgroundColor;
+    color: $royalwolfeventsTextColor;
+}
+
+// FTT
+.blink.ftt,g.circle.ftt,i.ftt,div.footer.ftt i, div.footer.ftt a {
+    fill: $fttSparkColor;
+    color: $fttSparkColor;
+}
+div.highlight.ftt {
+    background-color: $fttBackgroundColor;
+}
+div.halftone-ftt {
+    background: url('/assets/img/portfolio/FTT/halftone-fire-this-time-fund.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+
+.navbar-dark a.active.ftt {
+    --bs-navbar-active-color: #{$fttBackgroundColor};
+}
+.dropdown-item.active.ftt {
+    background: $fttBackgroundColor;
+    color: $fttTextColor;
+}
+h4 span.category.ftt {
+    border-bottom: thick $fttBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.highlight.ftt h1,div.highlight.ftt h2,div.highlight.ftt h3,div.highlight.ftt h4,div.highlight.ftt h5,div.highlight.ftt h6,div.highlight.ftt a {
+    color: $fttHeaderColor;
+}
+div.highlight.ftt p, div.highlight.ftt ul, div.highlight.ftt li {
+    color: $fttTextColor;
+}
+div.highlight.ftt a.alt-link {
+    color: $fttLinkColor;
+}
+div.ftt a {
+    color: $fttLinkColor;
+}
+.border-ftt, .border-ftt:hover {
+    border-color: $fttHeaderColor;
+    background-color: $fttBackgroundColor;
+}
+div.ftt h2 {
+    color: $fttHeaderColor;
+    letter-spacing: 0rem;
+}
+
+.row.ftt li.left-bar {
+    border-left: 3px solid $fttBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h1.ftt {
+    letter-spacing: 0rem;
+    color: $fttHeaderColor;
+}
+h4.ftt {
+    color: $fttSubHeadColor;
+}
+h5.ftt {
+    font-family: $typefaceSecondary;
+    font-weight: 800;
+    color: $fttHeaderColor;
+}
+
+// SATTB
+.blink.sattb,g.circle.sattb,i.sattb,div.footer.sattb i, div.footer.sattb a {
+    fill: $sattbSparkColor;
+    color: $sattbSparkColor;
+}
+div.highlight.sattb {
+    background-color: $sattbBackgroundColor;
+}
+div.halftone-sattb {
+    background: url('/assets/img/portfolio/sattb/halftone-sattb.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+.navbar-dark a.active.sattb {
+    --bs-navbar-active-color: #{$sattbHeaderColor};
+}
+.dropdown-item.active.sattb {
+    background: $sattbBackgroundColor;
+    color: $sattbHeaderColor;
+}
+.border-sattb, .border-sattb:hover {
+    border-color: $sattbLinkColor;
+    background-color: $sattbBackgroundColor;
+}
+h4 span.category.sattb {
+    border-bottom: thick $sattbLinkColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.highlight.sattb h1,div.highlight.sattb h2,div.highlight.sattb h3,div.highlight.sattb h4,div.highlight.sattb h5,div.highlight.sattb h6,div.highlight.sattb a {
+    color: $sattbHeaderColor;
+}
+div.highlight.sattb p, div.highlight.sattb ul, div.highlight.sattb li {
+    color: $sattbTextColor;
+}
+div.highlight.sattb img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+div.sattb h2 {
+    letter-spacing: 0rem;
+}
+
+// COC
+.blink.coc,g.circle.coc,i.coc,div.footer.coc i, div.footer.coc a {
+    fill: $cocSparkColor;
+    color: $cocSparkColor;
+}
+div.highlight.coc {
+    background-color: $cocBackgroundColor;
+}
+div.halftone-coc {
+    background: url('/assets/img/portfolio/coc/halftone-chain-of-change.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+.navbar-dark a.active.coc {
+    --bs-navbar-active-color: #{$cocSparkColor};
+}
+.dropdown-item.active.coc {
+    background: $cocBackgroundColor;
+    color: $cocTextColor;
+}
+h4 span.category.coc {
+    border-bottom: thick $cocBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.highlight.coc h1,div.highlight.coc h2,div.highlight.coc h3,div.highlight.coc h4,div.highlight.coc h5,div.highlight.coc h6,div.highlight.coc a {
+    color: $cocHeaderColor;
+}
+div.highlight.coc p, div.highlight.coc ul, div.highlight.coc li {
+    color: $cocTextColor;
+}
+div.highlight.coc img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+div.highlight.coc {
+    background-color: $cocBackgroundColor;
+}
+div.highlight.coc h1,div.highlight.coc h2,div.highlight.coc h3,div.highlight.coc h4,div.highlight.coc h5,div.highlight.coc h6,div.highlight.coc a {
+    color: $cocHeaderColor;
+}
+div.highlight.coc p, div.highlight.coc ul, div.highlight.coc li {
+    color: $cocTextColor;
+}
+div.highlight.coc a.alt-link {
+    color: $cocAltLinkColor;
+}
+div.coc a {
+    color: $cocLinkColor;
+}
+.border-coc, .border-coc:hover {
+    border-color: white;
+    background-color: $cocBackgroundColor;
+}
+
+div.coc h2 {
+    color: black;
+    letter-spacing: 0rem;
+}
+
+.row.coc li.left-bar {
+    border-left: 3px solid $cocBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+div.coc blockquote.left-bar {
+    border-left: 3px solid $cocSubHeadColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h1.coc {
+    letter-spacing: 0rem;
+    color: $cocHeaderColor;
+}
+h4.coc {
+    color: $cocBackgroundColor;
+    text-transform: uppercase;
+}
+h5.coc {
+    font-family: $typefaceSecondary;
+    font-weight: 800;
+    color: $cocHeaderColor;
+}
+
+// HIV
+.blink.hiv,g.circle.hiv,i.hiv,div.footer.hiv i, div.footer.hiv a {
+    fill: $hivSparkColor;
+    color: $hivSparkColor;
+}
+div.highlight.hiv {
+    background-color: $hivBackgroundColor;
+}
+div.halftone-hiv {
+    background: url('/assets/img/portfolio/hiv/halftone-hiv-hey-its-viral.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.hiv img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+.navbar-dark a.active.hiv {
+    --bs-navbar-active-color: #{$hivSparkColor};
+}
+.border-hiv, .border-hiv:hover {
+    border-color: $hivLinkColor;
+    background-color: $hivBackgroundColor;
+}
+.dropdown-item.active.hiv {
+    background: $hivBackgroundColor;
+    color: $hivLinkColor;
+}
+h4 span.category.hiv {
+    border-bottom: thick $hivBackgroundColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.highlight.hiv h1,div.highlight.hiv h2,div.highlight.hiv h3,div.highlight.hiv h4,div.highlight.hiv h5,div.highlight.hiv h6 {
+    color: $hivHeaderColor;
+}
+div.highlight.hiv p, div.highlight.hiv ul, div.highlight.hiv li {
+    color: $hivTextColor;
+}
+div.highlight.hiv a, div.hiv a.alt-link {  
+    color: $hivLinkColor;
+}
+div.hiv a {
+    color: $hivBackgroundColor;
+}
+
+div.hiv h2 {
+    color: $hivBackgroundColor;
+    letter-spacing: 0rem;
+}
+
+.row.hiv li.left-bar {
+    border-left: 3px solid $hivBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+div.hiv blockquote.left-bar {
+    border-left: 3px solid $hivBackgroundColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h1.hiv {
+    letter-spacing: 0rem;
+    color: $hivBackgroundColor;
+}
+h4.hiv {
+    color: $hivBackgroundColor;
+    text-transform: uppercase;
+}
+h5.hiv {
+    font-family: $typefaceSecondary;
+    font-weight: 800;
+    color: $hivBackgroundColor;
+}
+
+// BME
+.blink.bme,g.circle.bme,i.bme,div.footer.bme i, div.footer.bme a {
+    fill: $bmeSparkColor;
+    color: $bmeSparkColor;
+}
+div.highlight.bme {
+    background-color: $bmeBackgroundColor;
+}
+div.halftone-bme {
+    background: url('/assets/img/portfolio/beyondmedia/halftone-beyondmedia.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.bme h1,div.highlight.bme h2,div.highlight.bme h3,div.highlight.bme h4,div.highlight.bme h5,div.highlight.bme h6,div.highlight.bme a {
+    color: $bmeHeaderColor;
+}
+div.highlight.bme p, div.highlight.bme ul, div.highlight.bme li {
+    color: $bmeTextColor;
+}
+div.highlight.bme img.img-thumbnail {
+    background-color: white;
+    border-color: white;
+}
+div.highlight.bme a.alt-link {
+    color: $bmeAltLinkColor;
+}
+.border-bme, .border-bme:hover {
+    border-color: white;
+    background-color: $bmeBackgroundColor;
+}
+.navbar-dark a.active.bme {
+    --bs-navbar-active-color: #{$bmeAltLinkColor};
+}
+.dropdown-item.active.bme {
+    background: $bmeLinkColor;
+    color: $bmeTextColor;
+}
+h4.bme {
+    color: $bmeLinkColor;
+    text-transform: uppercase;
+}
+h4 span.category.bme {
+    border-bottom: thick $bmeAltLinkColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+div.bme h2 {
+    color: $bmeSubHeadColor;
+    letter-spacing: 0rem;
+}
+.row.bme li.left-bar {
+    border-left: 3px solid $bmeAltLinkColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+div.bme blockquote.left-bar {
+    border-left: 3px solid $bmeLinkColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}

@@ -1,0 +1,45 @@
+<h4 class="hero">
+    {% if page.sub-nav == "tog" %}
+        <span class="category tog px-1"> Video Post-Production</span>
+        {% elsif page.sub-nav == "pa" %}
+        <span class="category pa px-1"> Video Post-Production</span>
+        {% else %}
+        <span class="px-1">Video Post-Production</span> 
+    {% endif %} | 
+    {% if page.sub-nav == "wap" %}
+        <span class="category wap px-1">Website Development</span>
+        {% elsif page.sub-nav == "ftt" %}
+        <span class="category ftt px-1">Website Development</span>
+        {% elsif page.sub-nav == "hgrounds" %}
+        <span class="category hgrounds px-1">Website Development</span>
+        {% elsif page.sub-nav == "sattb" %}
+        <span class="category sattb px-1">Website Development</span>
+        {% elsif page.sub-nav == "coc" %}
+        <span class="category coc px-1">Website Development</span>
+        {% elsif page.sub-nav == "hiv" %}
+        <span class="category hiv px-1">Website Development</span>
+        {% elsif page.sub-nav == "bme" %}
+        <span class="category bme px-1">Website Development</span>
+        {% elsif page.sub-nav == "pa" %}
+        <span class="category pa px-1">Website Development</span>
+        {% elsif page.sub-nav == "gww" %}
+        <span class="category gww px-1">Website Development</span>
+        {% elsif page.sub-nav == "lm" %}
+        <span class="category lm px-1">Website Development</span>
+        {% elsif page.sub-nav == "rlcw" %}
+        <span class="category rlcw px-1">Website Development</span>
+        {% elsif page.nav == "web" %}
+        <span class="category px-1">Website Development</span> 
+        {% else %}
+        <span class="px-1">Website Development</span>
+    {% endif %} | 
+    {% if page.hero-highlight == "photo" %}
+        <span class="category px-1">Photography</span>
+        {% elsif page.sub-nav == "lm" %}
+        <span class="category lm px-1">Photography</span>
+        {% elsif page.sub-nav == "rwe" %}
+        <span class-="category rwe px-1">Photography</span>
+        {% else %}
+        <span class="px-1">Photography</span> 
+    {% endif %}
+</h4>
