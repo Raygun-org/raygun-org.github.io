@@ -24,6 +24,15 @@ $hgroundsTextColor: #fefff7;
 $hgroundsBarColor: #923f15;
 $hgroundsSparkColor: #f8ca80;
 
+// 11DEGREES WEBSITE
+$elevendegBackgroundColor: #314C9B;
+// $rlcLinkColor: #6E4E3C;
+$elevendegLinkColor: #a5ff09;
+$elevendegHeaderColor: #97d9f7;
+$elevendegTextColor: #fefff7;
+$elevendegBarColor: #97d9f7;
+$elevendegSparkColor: #97d9f7;
+
 // GNARWARE WORKSHOP
 $gwwBackgroundColor: #4D3832;
 $gwwLinkColor: #EC5656;
@@ -236,6 +245,69 @@ div.statement {
 h5.case-study {
     font-weight: 800;
     font-family: $typefaceSecondary;
+}
+
+// 11 DEGREES
+.blink.elevendeg,g.circle.elevendeg,i.elevendeg,div.footer.elevendeg i, div.footer.elevendeg a {
+    fill: $elevendegSparkColor;
+    color: $elevendegSparkColor;
+}
+div.elevendeg div[role="progressbar"] {
+    --primary: #{$elevendegSparkColor};
+    --secondary: #ffffff;
+  }
+
+div.highlight.elevendeg {
+    background-color: $elevendegBackgroundColor;
+}
+div.halftone-elevendeg {
+    background: url('/assets/img/portfolio/11-degrees/halftone-11degrees.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.elevendeg h1,div.highlight.elevendeg h2,div.highlight.elevendeg h3,div.highlight.elevendeg h4,div.highlight.elevendeg h5,div.highlight.elevendeg h6,div.highlight.elevendeg a {
+    color: $elevendegHeaderColor;
+}
+div.highlight.elevendeg p,div.highlight.elevendeg ul,div.highlight.elevendeg li {
+    color: $elevendegTextColor;
+}
+div.elevendeg h2.case-study {
+    letter-spacing: 0;
+}
+.navbar a.active.elevendeg {
+    color: $elevendegLinkColor;
+}
+.border-elevendeg, .border-elevendeg:hover {
+    border-color: $elevendegSparkColor;
+    background-color: $elevendegBackgroundColor;
+}
+.dropdown-item.active.elevendeg {
+    background: $elevendegBackgroundColor;
+    color: white !important;
+}
+h4 span.category.elevendeg {
+    border-bottom: thick $elevendegHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.row.elevendeg li.left-bar {
+    border-left: 3px solid $elevendegBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h2.elevendeg {
+    color: $elevendegHeaderColor;
+}
+h4.elevendeg, div.elevendeg h3, div.elevendeg h4 {
+    color: $elevendegHeaderColor;
+}
+div.elevendeg a {
+    color: $elevendegLinkColor;
+}
+div.elevendeg a.alt {
+    color: $elevendegBarColor;
 }
 
 // HIGHER GROUNDS OF MAINE WEB

@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Red Letter Clay
-subtitle: E-commerce
+sub-title: Handmade Ceramics
 description: Red Letter Clay is a handmade ceramic line. After a 5 year studio practice and selling at various markets around Chicago, I designed & developed an online store to allow for national shipping and in-person pick ups as an option for sales.
 image: https://raygun.org/assets/img/portfolio/redletterclay/RLC-nav.jpg
 nav: web
@@ -9,7 +9,7 @@ sub-nav: rlcw
 url-link: https://redletterclay.com
 url-title: www.redletterclay.com
 image-thumb: /assets/img/portfolio/redletterclay/RLC-nav.jpg
-tags: [ e-commerce, cms, website design, featured ]
+tags: [ e-commerce, cms, website design, website development, featured, websites ]
 involvement: [ Website Design, Website Development, Logo Design, Print Design, Email Marketing, Photography, E-commerce ]
 technology: [ Jekyll + Github Pages, Snipcart E-commerce, Adobe Lightroom, Adobe Illustrator, Figma ]
 hero: kominka

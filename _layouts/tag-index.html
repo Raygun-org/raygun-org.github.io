@@ -35,18 +35,22 @@
       </div>
       <div class="container pt-2">
         <div class="row">
-            <div class="col">
-              <div class="row d-inline-flex my-3 ps-2">
+            <div class="col-12">
+              <div class="row d-flex align-items-center my-3 ps-2">
                 <div class="col-2 halftone-rlcw p-3 rounded-2 text-white text-center"><div class="d-block d-md-inline text-center text-md-start"><span class="fw-bold pe-2">Sort <i class="fa-solid fa-arrow-down-wide-short px-2"></i></span></div></div>
                 <div class="col flex-wrap animate__animated animate__fadeIn ps-3">
                   <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/featured/" class="{%if page.tag == "featured"%}current {%endif%}cat pe-4">Featured</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/cms/" class="{%if page.tag == "cms" %}current {%endif%}cat pe-4">CMS</a></div>
+                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/websites/" class="{% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce"%}current {%endif%}cat pe-4">Websites</a></div>
                   <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/photography/" class="{%if page.tag == "photography"%}current {%endif%}cat pe-4">Photography</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/website-design/" class="{%if page.tag == "website design" %}current {%endif%}cat pe-4">Website Design</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/website-development/" class="{%if page.tag == "website development" %}current {%endif%}cat pe-4">Website Development</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/e-commerce/" class="{%if page.tag == "e-commerce" %}current {%endif%}cat pe-4">Ecommerce</a></div>
                   <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/video/" class="{%if page.tag == "video" %}current {%endif%}cat pe-4">Video</a></div>
                   <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/marketing/" class="{%if page.tag == "marketing" %}current {%endif%}cat pe-4">Marketing</a></div>
+                  {% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce" %}
+                    <hr>
+                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/website-design/" class="{%if page.tag == "website design" %}current {%endif%}cat pe-4">Website Design</a></div>
+                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/website-development/" class="{%if page.tag == "website development" %}current {%endif%}cat pe-4">Website Development</a></div>
+                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/e-commerce/" class="{%if page.tag == "e-commerce" %}current {%endif%}cat pe-4">Ecommerce</a></div>
+                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="{{site.url}}/portfolio/cms/" class="{%if page.tag == "cms" %}current {%endif%}cat pe-4">Content Management Systems</a></div>
+                  {% endif %}
                 </div>
               </div>
                 {% include collecttags.html %}

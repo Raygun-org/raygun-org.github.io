@@ -9,7 +9,7 @@ nav: web
 sub-nav: gww
 url-link: https://www.gnarwareworkshop.com
 url-title: www.gnarwareworkshop.com
-tags: [ website design, marketing, featured, e-commerce ]
+tags: [ website design, marketing, featured, e-commerce, websites ]
 involvement: [ Website Design, Content Strategy, Email Marketing ]
 technology: [ Squarespace 7.1 Custom Template, Constant Contact]
 hero: kominka

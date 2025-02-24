@@ -1,8 +1,8 @@
 ---
 layout: landing
 nav: home
-title: "David Ball - Website Design + Photography + Video Post-Production"
-image: /assets/img/kominka-resize.jpg
+title: "Digital Marketing, Photography, Websites + Video"
+image: https://raygun.org/assets/img/vasquez.jpg
 description: "With over a decade of experience utilizing digital media to tell engaging stories and establishing my client's online presence, I believe that mindful design leaves a lasting impression. Combining my professional experience with photography, website design, digital video, and print, I have a toolset capable of executing campaigns that elevate my customers' projects to help them flourish."
 ---
 <div class="container-fluid g-0 statement pb-5 overflow-hidden">

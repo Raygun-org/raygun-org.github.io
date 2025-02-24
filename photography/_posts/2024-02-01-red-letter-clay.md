@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Red Letter Clay
-sub-title: Product Photography
+sub-title: Handmade Ceramics
 description: Product and marketing photography for a Chicago-based handmade ceramic business.
 tags: [ photography ]
 involvement: [ Digital Photography, Photo Editing]

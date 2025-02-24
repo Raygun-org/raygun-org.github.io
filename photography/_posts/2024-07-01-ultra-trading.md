@@ -1,9 +1,9 @@
 ---
 layout: case-study
 title: Ultra Trading Ltd
-sub-title: Product Photography
+sub-title: International Spice Trading (Miami, FL)
 description: Product and marketing photography for a Miami-based seed & spice trading company.
-tags: [ photography ]
+tags: [ photography, featured, marketing ]
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 image: https://raygun.org/assets/img/portfolio/ultra-trading/ultratrading.jpg

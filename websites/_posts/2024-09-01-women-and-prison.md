@@ -1,11 +1,11 @@
 ---
 layout: case-study
 title: Women and Prison
-sub-title: A Site for Resistance
+sub-title: Journalism & Academic Research
 business-type: Digital Publication
 image: https://raygun.org/assets/img/portfolio/WAP/womenandprison.png
 description: "Women and Prison: A Site for Resistance makes visible women's experiences in the criminal justice system. The stories, originally planned as a book, are supported by a collection of resources, such as organizations, reports, essays, and links to a wide range of information about women in prison."
-tags: [ cms, website design, featured ]
+tags: [ cms, website design, websites, featured, website development ]
 involvement: [ Website Design, Website Development, Content Strategy, Google Ads, User Experience ]
 technology: [ Jekyll + Github Pages, Figma, Expression Engine CMS ]
 nav: web

@@ -755,6 +755,82 @@ h5.case-study {
   font-family: "quatro-slab", serif;
 }
 
+.blink.elevendeg, g.circle.elevendeg, i.elevendeg, div.footer.elevendeg i, div.footer.elevendeg a {
+  fill: #97d9f7;
+  color: #97d9f7;
+}
+
+div.elevendeg div[role=progressbar] {
+  --primary: #97d9f7;
+  --secondary: #ffffff;
+}
+
+div.highlight.elevendeg {
+  background-color: #314C9B;
+}
+
+div.halftone-elevendeg {
+  background: url("/assets/img/portfolio/11-degrees/halftone-11degrees.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+}
+
+div.highlight.elevendeg h1, div.highlight.elevendeg h2, div.highlight.elevendeg h3, div.highlight.elevendeg h4, div.highlight.elevendeg h5, div.highlight.elevendeg h6, div.highlight.elevendeg a {
+  color: #97d9f7;
+}
+
+div.highlight.elevendeg p, div.highlight.elevendeg ul, div.highlight.elevendeg li {
+  color: #fefff7;
+}
+
+div.elevendeg h2.case-study {
+  letter-spacing: 0;
+}
+
+.navbar a.active.elevendeg {
+  color: #a5ff09;
+}
+
+.border-elevendeg, .border-elevendeg:hover {
+  border-color: #97d9f7;
+  background-color: #314C9B;
+}
+
+.dropdown-item.active.elevendeg {
+  background: #314C9B;
+  color: white !important;
+}
+
+h4 span.category.elevendeg {
+  border-bottom: thick #97d9f7;
+  border-width: 0.2rem;
+  border-bottom-style: solid;
+}
+
+.row.elevendeg li.left-bar {
+  border-left: 3px solid #97d9f7;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+h2.elevendeg {
+  color: #97d9f7;
+}
+
+h4.elevendeg, div.elevendeg h3, div.elevendeg h4 {
+  color: #97d9f7;
+}
+
+div.elevendeg a {
+  color: #a5ff09;
+}
+
+div.elevendeg a.alt {
+  color: #97d9f7;
+}
+
 .blink.hgrounds, g.circle.hgrounds, i.hgrounds, div.footer.hgrounds i, div.footer.hgrounds a {
   fill: #f8ca80;
   color: #f8ca80;

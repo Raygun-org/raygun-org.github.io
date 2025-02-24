@@ -6,7 +6,7 @@ description: "Over the course of 6 years, I worked as the in-house website desig
 image: https://raygun.org/assets/img/portfolio/beyondmedia/beyondmedia-store.png
 image-thumb: /assets/img/portfolio/beyondmedia/beyondmedia-nav.jpg
 statement: statement-bme.html
-tags: [ website design, cms, marketing ]
+tags: [ website design, cms ]
 involvement: [ Website Design, Website Development, E-commerce, Email Marketing, Google Ads, SEO, CMS Training, Fundraising, Grantwriting ]
 technology: [ Jekyll + Github Pages, Mailchimp, Expression Engine CMS ]
 nav: web
