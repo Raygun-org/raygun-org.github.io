@@ -12,6 +12,8 @@ collections:
   photos:
     output: true
 
+destination: docs/
+
 exclude:
   - templates/
   - raygun-jekyll-2024.code-workspace
