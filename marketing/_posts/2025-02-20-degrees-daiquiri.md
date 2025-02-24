@@ -4,7 +4,12 @@ title: 11 Degrees Daiquiri
 sub-title: Food & Beverage (Austin, TX)
 image: https://raygun.org/assets/img/portfolio/11-degrees/11-degrees-thumb.jpg
 image-thumb: /assets/img/portfolio/11-degrees/11-degrees-thumb-3.jpg
-description: "I worked with 11 Degrees Daiquiri in Austin, TX integrating their Clover POS system with Uber Eats, DoorDash and GrubHub. Working within their pre established brand guidelines I redesigned their print menu, and provided digital and print graphics for packaging, social media, and website promotions and managed their Mailchimp email marketing campaigns."
+description: |
+ I worked with 11 Degrees Daiquiri in Austin, TX integrating their Clover POS system with Uber Eats, DoorDash and GrubHub. Working within their pre established brand guidelines I redesigned their print menu, and provided digital and print graphics for packaging, social media, and website promotions and managed their Mailchimp email marketing campaigns.
+ <hr class="w-75 mx-auto my-4 text-light">
+ <p>After the first month with new 16oz, 24oz, 32oz, 64oz and 1 gallon sizes we saw increased sales immediately.</p>
+ <h4 class="elevendeg"><ul><li><i class="fa-solid fa-arrow-up pe-2"></i>44.3% increase compared to last month</li>
+ <li><i class="fa-solid fa-arrow-up pe-2 py-3"></i>38% increase in paid orders</li><li><i class="fa-solid fa-arrow-up pe-2"></i>4.5% increase in average order amount</li></ul></h4>
 nav: video
 tags: [ marketing ]
 involvement: [ Delivery App POS Integration, Menu Design, Email Marketing, Digital Signage, Sticker Design, Social Media ]
@@ -35,10 +40,6 @@ permalink: /marketing/11-degrees-daiquiri/
           <li><i class="fas fa-location-crosshairs elevendeg pe-3"></i>Developed a <a href="https://www.clover.com/" target="_blank">Clover POS</a> modifier system to integrate delivery apps with the in-store checkout process seamlessly: synchronizing available sizes, toppings, and alcohol floaters for upselling.</li>
           <li><i class="fas fa-location-crosshairs elevendeg pe-3"></i>Designed print labels for packaging and digital signage to promote delivery to their customers.</li>
         </ul></p>
-        <hr class="my-5">
-        <p>After the first month with new 16oz, 24oz, 32oz, 64oz and 1 gallon sizes we saw increased sales immediately.</p>
-        <h4><ul><li><i class="fa-solid fa-arrow-up pe-2"></i>44.3% increase compared to last month</li>
-        <li><i class="fa-solid fa-arrow-up pe-2 py-3"></i>38% increase in paid orders</li><li><i class="fa-solid fa-arrow-up pe-2"></i>4.5% increase in average order amount</li></ul></h4>
         <p class="mt-5"><a href="/assets/img/portfolio/11-degrees/11-degrees-mini-11.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-mini-11.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Mini 11 Togo Size"></a></p>
       </div>
     </div>
