@@ -7,9 +7,10 @@ image-thumb: /assets/img/portfolio/11-degrees/11-degrees-thumb-3.jpg
 description: |
  I worked with 11 Degrees Daiquiri in Austin, TX integrating their Clover POS system with Uber Eats, DoorDash and GrubHub. Working within their pre established brand guidelines I redesigned their print menu, and provided digital and print graphics for packaging, social media, and website promotions and managed their Mailchimp email marketing campaigns.
  <hr class="w-75 mx-auto my-4 text-light">
- <p>After the first month with new 16oz, 24oz, 32oz, 64oz and 1 gallon sizes we saw increased sales immediately.</p>
- <h4 class="elevendeg"><ul><li><i class="fa-solid fa-arrow-up pe-2"></i>44.3% increase compared to last month</li>
- <li><i class="fa-solid fa-arrow-up pe-2 py-3"></i>38% increase in paid orders</li><li><i class="fa-solid fa-arrow-up pe-2"></i>4.5% increase in average order amount</li></ul></h4>
+ <p>After the first month with new menu sizes we saw increased sales immediately:</p>
+ <h4><ul><li><span class="alt"><i class="fa-solid fa-arrow-up pe-2"></i>44.3%</span> increase compared to last month</li>
+ <li><span class="alt"><i class="fa-solid fa-arrow-up pe-2 py-3"></i>38%</span> increase in paid orders</li>
+ <li><span class="alt"><i class="fa-solid fa-arrow-up pe-2"></i>4.5%</span> increase in average order amount</li></ul></h4>
 nav: video
 tags: [ marketing ]
 involvement: [ Delivery App POS Integration, Menu Design, Email Marketing, Digital Signage, Sticker Design, Social Media ]
@@ -44,17 +45,17 @@ permalink: /marketing/11-degrees-daiquiri/
       </div>
     </div>
     <div class="row align-items-top g-5 mt-5">
-      <div class="col-lg-6 col-md-12">
-        <h4 data-aos="fade-up" data-aos-once="true">Mailchimp Template Design</h4>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-mardi-gras-bundle.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-mardi-gras-bundle.jpg" class="img-fluid cursor-zoom border border-5 mb-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Mardi Gras Delivery Bundle"></a>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-mailchimp.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-mailchimp.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Mailchimp template"></a>
+      <div class="col-lg-6 col-md-12" id="trigger-3">
+        <h4 data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-3">Mailchimp Template Design</h4>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-mardi-gras-bundle.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-mardi-gras-bundle.jpg" class="img-fluid cursor-zoom border border-5 mb-5" data-aos="fade-up"  data-aos-anchor="#trigger-3" data-aos-once="true" alt="11 Degrees Daiquiri - Mardi Gras Delivery Bundle"></a>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-mailchimp.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-mailchimp.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-anchor="#trigger-3" data-aos-once="true" alt="11 Degrees Daiquiri - Mailchimp template"></a>
       </div>
       <div class="col-lg-6 col-md-12">
-        <h4 data-aos="fade-up" data-aos-once="true">Digital Signamage</h4>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-viva-mexico.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-viva-mexico.jpg" class="img-fluid cursor-zoom border border-5 mb-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Viva Mexico"></a>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-holidays.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-holidays.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Happy Holidays"></a>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-fall.png" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-fall.png" class="img-fluid cursor-zoom border border-5 my-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Fall"></a>
-        <a href="/assets/img/portfolio/11-degrees/11-degrees-cupid-signage.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-cupid-signage.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Valentines"></a>
+        <h4 data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-3">Digital Signage</h4>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-viva-mexico.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-viva-mexico.jpg" class="img-fluid cursor-zoom border border-5 mb-5" data-aos="fade-up" data-aos-anchor="#trigger-3" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Viva Mexico"></a>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-holidays.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-holidays.jpg" class="img-fluid cursor-zoom border border-5" data-aos-anchor="#trigger-3" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Happy Holidays"></a>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-fall.png" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-fall.png" class="img-fluid cursor-zoom border border-5 my-5" data-aos-anchor="#trigger-3" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Fall"></a>
+        <a href="/assets/img/portfolio/11-degrees/11-degrees-cupid-signage.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/11-degrees/11-degrees-cupid-signage.jpg" class="img-fluid cursor-zoom border border-5" data-aos-anchor="#trigger-3" data-aos="fade-up" data-aos-once="true" alt="11 Degrees Daiquiri - Digital Signage Valentines"></a>
       </div>
     </div>
   </div>
