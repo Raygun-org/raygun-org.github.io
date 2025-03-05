@@ -15,6 +15,14 @@ $rlcwTextColor: white;
 $rlcwBarColor: #c12121;
 $rlcwSparkColor: #DF4F4F;
 
+// BROOKSIDE WEBSITE
+$brooksideBackgroundColor: #0F2925;
+$brooksideLinkColor: #D5EBD1;
+$brooksideHeaderColor: #D5EBD1;
+$brooksideTextColor: #fefff7;
+$brooksideBarColor: #00A477;
+$brooksideSparkColor: #00A477;
+
 // HIGHERGROUNDS WEBSITE
 $hgroundsBackgroundColor: #2a5146;
 // $rlcLinkColor: #6E4E3C;
@@ -245,6 +253,66 @@ div.statement {
 h5.case-study {
     font-weight: 800;
     font-family: $typefaceSecondary;
+}
+
+// BROOKSIDE STRATEGY
+.blink.brookside,g.circle.brookside,i.brookside,div.footer.brookside i, div.footer.brookside a {
+    fill: $brooksideSparkColor;
+    color: $brooksideSparkColor;
+}
+div.brookside div[role="progressbar"] {
+    --primary: #{$brooksideSparkColor};
+    --secondary: #ffffff;
+  }
+
+div.highlight.brookside {
+    background-color: $brooksideBackgroundColor;
+}
+div.halftone-brookside {
+    background: url('/assets/img/portfolio/brookside-strategy/halftone-brookside-strategy.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: auto 749px;
+    background-attachment: fixed;
+}
+div.highlight.brookside h1,div.highlight.brookside h2,div.highlight.brookside h3,div.highlight.brookside h4,div.highlight.brookside h5,div.highlight.brookside h6,div.highlight.brookside a {
+    color: $brooksideLinkColor;
+}
+div.highlight.brookside p,div.highlight.brookside ul,div.highlight.brookside li {
+    color: $brooksideTextColor;
+}
+div.brookside h2.case-study {
+    letter-spacing: 0;
+}
+.navbar a.active.brookside {
+    color: $brooksideSparkColor;
+}
+.border-brookside, .border-brookside:hover {
+    border-color: $brooksideSparkColor;
+    background-color: $brooksideBackgroundColor;
+}
+.dropdown-item.active.brookside {
+    background: $brooksideBackgroundColor;
+    color: white !important;
+}
+h4 span.category.brookside {
+    border-bottom: thick $brooksideHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.row.brookside li.left-bar {
+    border-left: 3px solid $brooksideBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h2.brookside {
+    color: $brooksideBarColor;
+}
+h4.brookside {
+    color: $brooksideBarColor;
+}
+div.brookside a.alt {
+    color: $brooksideBarColor;
 }
 
 // 11 DEGREES

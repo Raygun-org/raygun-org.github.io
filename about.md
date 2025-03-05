@@ -8,7 +8,7 @@ permalink: /about/
     <div class="container animate__animated animate__fadeDown">
         <div class="row py-5 justify-content-center align-items-center">
             <div class="col-md-4 col-sm-12">
-                <img src="/assets/img/about.jpg" alt="portrait" class="img-fluid border border-5 border-white rounded-circle mb-5 animate__animated animate__jackInTheBox">
+                <img src="/assets/img/about.jpg" alt="portrait" class="img-fluid border border-5 border-white rounded-circle mb-5 animate__animated animate__fadeIn animate__delay-1s">
             </div>
             <div class="col-md-8 col-sm-12 ps-4">
                 <h1>David Ball</h1>

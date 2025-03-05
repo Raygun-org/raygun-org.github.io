@@ -16,11 +16,6 @@
     <div class="d-row {{page.sub-nav}} pb-3">
       <div class="col-12 text-center">
         <h1 class="case-study pb-2">{{page.title}}{% if page.sub-title %}<br><span class="fw-normal">{{page.sub-title}}</span>{% endif %}</h1>
-        <h4 class="text-uppercase">
-          {% for feat in page.tags %}
-          <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-50"></i><a href="/portfolio/{{feat | replace: " ","-" }}" class="alt-link pe-2 fw-semibold">{{feat}}</a></div>
-          {% endfor %}
-        </h4>
         <div class="d-flex justify-content-center"><hr class="w-25 text-light"></div>
         <h5>Launch Date:<span class="pe-1"></span> {{ page.date | date: "%B, %Y" }}</h5>
       </div>

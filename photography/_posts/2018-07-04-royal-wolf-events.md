@@ -8,7 +8,7 @@ image-thumb: /assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.jpg
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 nav: photo
-tags: [ photography ]
+tags: [ photography, marketing ]
 sub-nav: rwe
 hero: kominka
 hero-highlight: photo

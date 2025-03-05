@@ -755,6 +755,78 @@ h5.case-study {
   font-family: "quatro-slab", serif;
 }
 
+.blink.brookside, g.circle.brookside, i.brookside, div.footer.brookside i, div.footer.brookside a {
+  fill: #00A477;
+  color: #00A477;
+}
+
+div.brookside div[role=progressbar] {
+  --primary: #00A477;
+  --secondary: #ffffff;
+}
+
+div.highlight.brookside {
+  background-color: #0F2925;
+}
+
+div.halftone-brookside {
+  background: url("/assets/img/portfolio/brookside-strategy/halftone-brookside-strategy.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto 749px;
+  background-attachment: fixed;
+}
+
+div.highlight.brookside h1, div.highlight.brookside h2, div.highlight.brookside h3, div.highlight.brookside h4, div.highlight.brookside h5, div.highlight.brookside h6, div.highlight.brookside a {
+  color: #D5EBD1;
+}
+
+div.highlight.brookside p, div.highlight.brookside ul, div.highlight.brookside li {
+  color: #fefff7;
+}
+
+div.brookside h2.case-study {
+  letter-spacing: 0;
+}
+
+.navbar a.active.brookside {
+  color: #00A477;
+}
+
+.border-brookside, .border-brookside:hover {
+  border-color: #00A477;
+  background-color: #0F2925;
+}
+
+.dropdown-item.active.brookside {
+  background: #0F2925;
+  color: white !important;
+}
+
+h4 span.category.brookside {
+  border-bottom: thick #D5EBD1;
+  border-width: 0.2rem;
+  border-bottom-style: solid;
+}
+
+.row.brookside li.left-bar {
+  border-left: 3px solid #00A477;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+h2.brookside {
+  color: #00A477;
+}
+
+h4.brookside {
+  color: #00A477;
+}
+
+div.brookside a.alt {
+  color: #00A477;
+}
+
 .blink.elevendeg, g.circle.elevendeg, i.elevendeg, div.footer.elevendeg i, div.footer.elevendeg a {
   fill: #97d9f7;
   color: #97d9f7;
