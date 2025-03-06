@@ -75,13 +75,23 @@ permalink: /websites/red-letter-clay/
     </div>
     <div class="row align-items-center py-5" id="trigger-2">
       <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-anchor="#trigger-2" data-aos-once="true">
-        <a href="/assets/img/portfolio/redletterclay/RLC-journal-listing.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-journal-listing.jpg" alt="Blog" class="img-fluid cursor-zoom border border-5"></a>
+        <a href="/assets/img/portfolio/redletterclay/RLC-journal-post.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-journal-post.jpg" alt="Post" class="img-fluid cursor-zoom border border-5"></a>
       </div>
       <div class="col-lg-6 col-md-12 mt-5 ps-sm-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-anchor="#trigger-2">
       <h2 class="rlcw">Exploration Into Practice + Inspiration</h2>
         <h4 class="rlcw pb-4">&mdash; Content never hurts SEO</h4>
         <p>Using Jekyll's native blog post features, galleries and videos can be featured to understand the maker's interests and inspiration for his ceramic practice. Tagging the posts aids visitors seeking particular types of content.</p>
-        <a href="/assets/img/portfolio/redletterclay/RLC-contact.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-contact.jpg" alt="Contact Form by formspree.io" class="img-fluid cursor-zoom border border-5 my-5"></a> 
+        <a href="/assets/img/portfolio/redletterclay/RLC-journal-listing.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-journal-listing.jpg" alt="Blog" class="img-fluid cursor-zoom border border-5 my-5"></a>
+      </div>
+    </div>
+    <div class="row align-items-top py-5">
+      <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-once="true">
+        <a href="/assets/img/portfolio/redletterclay/RLC-gallery.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-gallery.jpg" alt="Gallery" class="img-fluid cursor-zoom border border-5"></a>
+      </div>
+      <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-once="true">
+        <a href="/assets/img/portfolio/redletterclay/RLC-contact.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-contact.jpg" alt="Contact Form by formspree.io" class="img-fluid cursor-zoom border border-5"></a> 
+        <a href="/assets/img/portfolio/redletterclay/RLC-work-showcase.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-work-showcase.jpg" alt="Contact Form by formspree.io" class="img-fluid cursor-zoom border border-5 my-5"></a> 
+      </div>
       </div>
     </div>
 </div>
