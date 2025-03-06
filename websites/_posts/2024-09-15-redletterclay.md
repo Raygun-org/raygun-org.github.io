@@ -67,10 +67,14 @@ permalink: /websites/red-letter-clay/
             <p>Clean straightforward navigation and layouts for mobile devices make for pleasant shopping experiences on social media and via email. These can be easily incorporated into Instagram stories & various marketing campaigns.</p>  
       </div>
     </div>
-    <div class="row" id="trigger-7">
-      <div class="col-lg-12 col-md-12 mb-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top -bottom">
+    <div class="row align-items-center" id="trigger-7">
+      <div class="col-lg-6 col-md-12 mb-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top -bottom">
         <h2 class="rlcw mb-4">Business Card Design</h2>
          <a href="/assets/img/portfolio/redletterclay/RLC-business-cards.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-business-cards.jpg" alt="Business Card Design" class="img-fluid cursor-zoom border border-5"></a>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top -bottom">
+         <a href="/assets/img/portfolio/redletterclay/RLC-business-card-front.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-business-card-front.jpg" alt="Business Card Design - Front Side" class="img-fluid cursor-zoom border border-5"></a>
+         <a href="/assets/img/portfolio/redletterclay/RLC-business-card-back.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-business-card-back.jpg" alt="Business Card Design - Back Side" class="img-fluid cursor-zoom border border-5 my-5"></a>
       </div>
     </div>
     <div class="row align-items-center py-5" id="trigger-2">
