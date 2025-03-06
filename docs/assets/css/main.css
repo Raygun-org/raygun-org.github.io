@@ -58,7 +58,12 @@ input[type=text] {
 }
 
 .nav-thumbs img {
-  max-width: 400px;
+  max-width: 200px;
+}
+@media (min-width: 769px) {
+  .nav-thumbs img {
+    max-width: 400px;
+  }
 }
 
 @media (min-width: 769px) {

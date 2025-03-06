@@ -79,7 +79,10 @@ input[type=text] {
 }
 
 .nav-thumbs img {
-  max-width: 400px;
+  @media (min-width: 769px){
+    max-width: 400px;
+  }
+  max-width: 200px;
 }
 
 li.nav-item {
