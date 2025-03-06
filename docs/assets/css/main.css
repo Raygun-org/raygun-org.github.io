@@ -57,6 +57,10 @@ input[type=text] {
   padding: 1rem;
 }
 
+.nav-thumbs img {
+  max-width: 400px;
+}
+
 @media (min-width: 769px) {
   li.nav-item {
     font-size: 1.5rem;
