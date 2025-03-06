@@ -21,11 +21,6 @@
       </div>
     </div>
     <div class="row {{page.sub-nav}} justify-content-center py-4">
-      <div class="col-lg-1 d-none d-lg-inline">
-        {%if page.previous.url %}
-        <h1><a href="{{ page.previous.url }}"><i class="fa-solid fa-angles-left opacity-75"></i></a></h1>
-        {% endif %}
-      </div>
       <div class="col-lg-6 col-md-12 text-center text-md-start">        
         <p>{{page.description}}</p>
         <div class="row pt-4">
@@ -80,11 +75,6 @@
       </div>
       <div class="col-lg-4 col-md-12 text-center text-md-start">
         <img src="{{page.image-thumb}}" alt="{{page.title}} Preview" class="img-fluid mb-4 border border-3 rounded-4">
-      </div>
-      <div class="col-lg-1 d-none d-lg-block text-end">
-        {%if page.next.url %}
-        <h1><a href="{{ page.next.url}}"><i class="fa-solid fa-angles-right opacity-75"></i></a></h1>
-        {% endif %}
       </div>
     </div>
     {% if page.score-1 %}

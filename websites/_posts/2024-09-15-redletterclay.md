@@ -92,6 +92,5 @@ permalink: /websites/red-letter-clay/
         <a href="/assets/img/portfolio/redletterclay/RLC-contact.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-contact.jpg" alt="Contact Form by formspree.io" class="img-fluid cursor-zoom border border-5"></a> 
         <a href="/assets/img/portfolio/redletterclay/RLC-work-showcase.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-work-showcase.jpg" alt="Contact Form by formspree.io" class="img-fluid cursor-zoom border border-5 my-5"></a> 
       </div>
-      </div>
     </div>
 </div>

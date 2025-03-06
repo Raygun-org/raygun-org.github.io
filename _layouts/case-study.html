@@ -36,13 +36,23 @@
     {% include case-study.html %}
       <div class="container-fluid highlight {{page.sub-nav}} halftone-{{page.sub-nav}} sticky-top pt-2">
         <div class="d-flex container justify-content-between">
+          <div class="pb-2">
+            {%if page.previous.url %}
+              <h1><a href="{{ page.previous.url}}"><i class="fa-solid fa-angles-left opacity-75"></i></a></h1>
+            {% endif %}
+          </div>
           <div class="align-self-center pb-2">
             {% if page.url-link %}
-              <h5 class="fw-normal"><span class="opacity-75 pe-2 fw-light text-uppercase">Visit</span><a href="{{page.url-link}}" target="_blank" class="alt-link"><i class="fa-solid fa-link pe-1"></i> {{page.url-title}}</a></h5>
+              <h5 class="fw-normal"><span class="fw-bold pe-2 fw-light text-uppercase">Visit</span><a href="{{page.url-link}}" target="_blank" class="alt-link"><i class="fa-solid fa-link pe-1"></i> {{page.url-title}}</a></h5>
             {% endif %}
           </div>
           <div class="p-3">
             <h5><a href="#" class="btn btn-outline border-1 {% if page.sub-nav %}border-{{page.sub-nav}} {%else%}border-light {%endif%}rounded rounded-circle"><i class="fa-solid fa-chevron-up"></i></a></h5>
+          </div>
+          <div class="pb-2">
+            {%if page.next.url %}
+              <h1><a href="{{ page.next.url}}"><i class="fa-solid fa-angles-right opacity-75"></i></a></h1>
+            {% endif %}
           </div>
         </div>
       </div>
