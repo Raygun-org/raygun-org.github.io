@@ -28,7 +28,7 @@ prev-image-nav: /assets/img/portfolio/PA/present-absence-nav.jpg
 permalink: /websites/women-and-prison/
 ---
 <div class="container-fluid wap bg-white">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row" id="trigger-1">
           <div class="col-lg-4 col-md-12 pt-5">
             <a href="/assets/img/portfolio/WAP/womenandprison-zine-outside.png" class="glightboxGallery"><img src="/assets/img/portfolio/WAP/womenandprison-zine-outside.png" alt="Writers' Block Cover" class="img-fluid cursor-zoom" data-aos="fade-up" data-aos-anchor="#trigger-1" 
@@ -45,6 +45,8 @@ permalink: /websites/women-and-prison/
             data-aos-anchor-position="top-bottom" data-aos-once="true"></a>
           </div>
         </div>
+      </div>
+      <div class="container">
         <div class="row">
           <div class="col-12 col-md-12 my-5" data-aos="fade-up" data-aos-anchor-position="bottom-bottom" data-aos-once="true">
             <h2 class="wap">From Printed Zine</h2>
@@ -85,6 +87,8 @@ permalink: /websites/women-and-prison/
             <p>The website has been used in college classrooms across the country and visited by thousands of new visitors each month. I enrolled Beyondmedia in a Google AdWords Grant program, and with the success and traffic to the website we were able to sustain free hosting for the website for its duration.</p>
           </div>
         </div>
+      </div>
+      <div class="container-fluid">
         <div class="row py-5" id="contact-contributor-tags" data-aos-anchor-placement="top-center">
           <div class="col-lg-4 col-md-12" data-aos="fade-in" data-aos-anchor-placement="top-bottom" data-aos-anchor="#contact-contributor-tags" data-aos-duration="400">
             <h4 class="wap uppercase pb-4 text-center">Contact Form</h4>

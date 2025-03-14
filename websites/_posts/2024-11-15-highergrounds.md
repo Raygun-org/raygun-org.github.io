@@ -49,20 +49,24 @@ permalink: /websites/higher-grounds/
         <p class="mt-5"><a href="/assets/img/portfolio/highergrounds/HG-homepage-footer.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-homepage-footer.jpg" class="img-fluid cursor-zoom border border-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-anchor="#trigger-1" data-aos-once="true" alt="Higher Grounds of Maine - Footer"></a></p>
       </div>
     </div>
+  </div>
+  <div class="container-fluid">
     <div class="row my-5" id="trigger-4">
-        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4">
+        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="400">
             <h4 class="hgrounds">About Page</h4>
             <a href="/assets/img/portfolio/highergrounds/HG-story.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-story.jpg" alt="About" class="img-fluid cursor-zoom border border-5"></a> 
         </div>
-        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4">
+        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="800">
             <h4 class="hgrounds">Coffee Menu</h4>
             <a href="/assets/img/portfolio/highergrounds/HG-coffee.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-coffee.jpg" alt="Coffee Menu" class="img-fluid cursor-zoom border border-5"></a> 
         </div>
-        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4">
+        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="1200">
             <h4 class="hgrounds">Educational Resources</h4>
             <a href="/assets/img/portfolio/highergrounds/HG-resources.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-resources.jpg" alt="Resources" class="img-fluid cursor-zoom border border-5"></a>
         </div>
     </div>
+  </div>
+  <div class="container">
     <div class="row align-items-center justify-content-center pt-5" id="trigger-5">
       <div class="col-lg-6 col-md-12" data-aos="zoom-in-up" data-aos-once="true" data-aos-anchor="#trigger-5" data-aos-anchor-placement="top-bottom">
             <h4 class="hgrounds text-center">Mobile Navigation Design</h4>
