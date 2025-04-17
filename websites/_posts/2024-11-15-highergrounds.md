@@ -83,11 +83,17 @@ permalink: /websites/higher-grounds/
         <a href="/assets/img/portfolio/highergrounds/HG-terms-conditions.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-terms-conditions.jpg" alt="Terms & Conditions" class="img-fluid cursor-zoom border border-5 mt-5"></a> 
       </div>
     </div>
-    <div class="row align-items-top justify-content-center py-5" id="trigger-7">
-      <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top-bottom">
-      <h2 class="hgrounds">In-Store Signage</h2>
-            <p>Print design for their reward program cards.</p>  
-            <a href="/assets/img/portfolio/highergrounds/HG-signage.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-signage.jpg" alt="In-Store Signage" class="img-fluid cursor-zoom border border-5"></a> 
+    <div class="row align-items-center justify-content-center py-5" id="trigger-7">
+      <div class="col-12">
+        <h2 class="hgrounds">Print Design</h2>
+        <p>In-store signage, and reward program package envelope design.</p> 
+      </div>
+      <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top-bottom">
+          <a href="/assets/img/portfolio/highergrounds/HG-signage.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-signage.jpg" alt="In-Store Signage" class="img-fluid cursor-zoom my-5"></a> 
+      </div>
+      <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top-bottom">
+        <a href="/assets/img/portfolio/highergrounds/HG-envelope.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-envelope.jpg" alt="Print Design - Envelope" class="img-fluid cursor-zoom"></a> 
       </div>
     </div>
+  </div>
 </div>
