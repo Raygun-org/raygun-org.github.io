@@ -30,6 +30,15 @@ description: "With over a decade of experience utilizing digital media to tell e
     <div class="container-fluid">
         <div class="row">
             <h1 class="text-center">SERVICES & CAPABILITIES</h1>
+            <div class="col-12 col-md-4 mt-4">
+                <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="img-fluid" data-aos="fade-in" alt="Brookside Strategy Website Design"></a>
+            </div>
+            <div class="col-12 col-md-4 mt-4">
+                <a href="/websites/red-letter-clay/" alt="Higher Grounds Case Study"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="img-fluid" data-aos="fade-in" data-aos-delay="200" alt="Red Letter Clay Ecommerce Website Design"></a>
+            </div>
+            <div class="col-12 col-md-4 mt-4">
+                <a href="/websites/higher-grounds/" alt="Higher Grounds Case Study"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="img-fluid" data-aos="fade-in" data-aos-delay="400" alt="Higher Grounds Coffee & Dispensary Website Design"></a>
+            </div>
         </div>
         <div class="d-lg-flex text-center py-5 mt-5">
             <div class="col-lg-4 col-sm-12 ps-md-5 ps-sm-0">

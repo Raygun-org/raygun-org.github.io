@@ -9,6 +9,7 @@ sub-nav: rlcw
 url-link: https://redletterclay.com
 url-title: www.redletterclay.com
 image-thumb: /assets/img/portfolio/redletterclay/RLC-nav.jpg
+laptop: /assets/img/portfolio/rlc/redletterclay-mbp.png
 tags: [ e-commerce, cms, website design, website development, featured, websites ]
 involvement: [ Website Design, Website Development, Logo Design, Print Design, Email Marketing, Photography, E-commerce ]
 technology: [ Jekyll + Github Pages, Snipcart E-commerce, Adobe Lightroom, Adobe Illustrator, Figma ]

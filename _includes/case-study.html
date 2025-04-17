@@ -73,12 +73,16 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 text-center text-md-start">
+      <div class="{% if page.laptop %}col-lg-6{% else %}col-lg-4{%endif%} col-md-12 text-center text-md-start">
+        {% if page.laptop %}
+        <img src="{{page.laptop}}" alt="{{page.title}} Preview" class="img-fluid rounded-4">
+        {% else %}
         <img src="{{page.image-thumb}}" alt="{{page.title}} Preview" class="img-fluid mb-4 border border-3 rounded-4">
+        {% endif %}
       </div>
     </div>
     {% if page.score-1 %}
-    <div class="row {{page.sub-nav}}">
+    <div class="row {{page.sub-nav}} mt-5">
       <div class="col">{% include stat-counter.html %}</div>
     </div>
     {% endif %}
