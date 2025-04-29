@@ -15,6 +15,14 @@ $rlcwTextColor: white;
 $rlcwBarColor: #c12121;
 $rlcwSparkColor: #DF4F4F;
 
+// POBOX WEBSITE
+$poboxBackgroundColor: #233255;
+$poboxLinkColor: #9BB2E8;
+$poboxHeaderColor: #2A3D6B;
+$poboxTextColor: #fefff7;
+$poboxBarColor: #D53B38;
+$poboxSparkColor: #9BB2E8;
+
 // BROOKSIDE WEBSITE
 $brooksideBackgroundColor: #0F2925;
 $brooksideLinkColor: #D5EBD1;
@@ -253,6 +261,63 @@ div.statement {
 h5.case-study {
     font-weight: 800;
     font-family: $typefaceSecondary;
+}
+
+// POBOX
+.blink.pobox,g.circle.pobox,i.pobox,div.footer.pobox i, div.footer.pobox a {
+    fill: $poboxSparkColor;
+    color: $poboxSparkColor;
+}
+div.pobox div[role="progressbar"] {
+    --primary: #{$poboxSparkColor};
+    --secondary: #ffffff;
+  }
+
+div.highlight.pobox {
+    background-color: $poboxBackgroundColor;
+}
+div.halftone-pobox {
+    background-color: #233255;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23141c2f' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+div.highlight.pobox h1,div.highlight.pobox h2,div.highlight.pobox h3,div.highlight.pobox h4,div.highlight.pobox h5,div.highlight.pobox h6,div.highlight.pobox a {
+    color: $poboxLinkColor;
+}
+div.highlight.pobox p,div.highlight.pobox ul,div.highlight.pobox li {
+    color: $poboxTextColor;
+}
+div.pobox h2.case-study {
+    letter-spacing: 0;
+}
+.navbar a.active.pobox {
+    color: $poboxSparkColor;
+}
+.border-pobox, .border-pobox:hover {
+    border-color: $poboxSparkColor;
+    background-color: $poboxBackgroundColor;
+}
+.dropdown-item.active.pobox {
+    background: $poboxBackgroundColor;
+    color: white !important;
+}
+h4 span.category.pobox {
+    border-bottom: thick $poboxHeaderColor;
+    border-width: 0.2rem;
+    border-bottom-style: solid;
+}
+.row.pobox li.left-bar {
+    border-left: 3px solid $poboxBarColor;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+h2.pobox {
+    color: $poboxBarColor;
+}
+h4.pobox {
+    color: $poboxBarColor;
+}
+div.pobox a.alt {
+    color: $poboxBarColor;
 }
 
 // BROOKSIDE STRATEGY
