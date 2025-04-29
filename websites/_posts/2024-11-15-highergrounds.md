@@ -6,8 +6,8 @@ description: Higher Grounds of Maine is the East Coast's first coffee & cannabis
 image: https://raygun.org/assets/img/portfolio/highergrounds/higher-grounds-nav.png
 image-thumb: /assets/img/portfolio/highergrounds/higher-grounds-nav.png
 laptop: /assets/img/portfolio/highergrounds/highergrounds-mbp.png
-tags: [ featured, website design, website development, e-commerce, websites, marketing ]
-involvement: [ Website Design, Content Strategy ]
+tags: [ website design, website development, e-commerce, websites, marketing ]
+involvement: [ Website Design, Content Strategy, Marketing ]
 technology: [ Jekyll + Github Pages, Weedmaps E-commerce, Figma ]
 nav: web
 sub-nav: hgrounds

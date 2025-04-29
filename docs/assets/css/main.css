@@ -1,5 +1,13 @@
 @import "/assets/css/fontawesome.min.css";
 @import "/assets/css/brands.css";
+.accent-pink {
+  color: #ffc0cb;
+}
+
+.accent-blue {
+  color: #16384e;
+}
+
 div.footer {
   background: #000000;
   color: rgb(255, 255, 255);
@@ -165,8 +173,9 @@ a.cat {
 }
 
 a.cat.current {
-  color: #EC5656;
+  color: #FFFFFF;
   font-weight: 600;
+  text-decoration: none;
 }
 
 p.alt, li.alt {
@@ -665,6 +674,10 @@ div.stat {
   font-family: Helvetica, Arial, sans-serif;
   font-size: calc(var(--size) / 5);
   color: var(--primary);
+}
+
+.card-650 {
+  width: 624px;
 }
 
 .scroll-full {

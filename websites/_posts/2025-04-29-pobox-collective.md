@@ -6,7 +6,7 @@ description: PO Box Collective is a creative collective and intergenerational so
 image: https://raygun.org/assets/img/pobox/POBOX-thumb.jpg
 image-thumb: /assets/img/portfolio/pobox/POBOX-thumb.jpg
 laptop: /assets/img/portfolio/pobox/pobox-mbp.png
-tags: [ featured, website design, website development, websites, marketing ]
+tags: [ featured, website design, website development, websites, marketing, cms ]
 involvement: [ Website Design, Website Development, CMS Transitioning, E-mail Marketing, Content Strategy ]
 technology: [ CraftCMS, Figma, Adobe Photoshop, OneSignal ]
 nav: web

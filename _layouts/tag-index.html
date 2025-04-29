@@ -22,47 +22,51 @@
   </head>
   <body>
     {% include nav-transparent.html %}
-    <div class="container-fluid no-hero g-0">
-      <div class="container-fluid statement halftone-indigo">
+    <div class="container-fluid g-0">
+      <div class="container-fluid statement halftone-indigo pt-5">
         <div class="container pb-4">
           <div class="row">
             <div class="col">
-                <h1 class="fw-light fst-italic text-center animate__animated animate__fadeIn">Websites don't have to be alien technology.</h1>
-                <h3 class="pt-5 fst-italic text-end animate__animated animate__flipInX"><a href="/contact/">Let's get to work. <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a></h3>
+              <h1 class="fw-light fst-italic text-center animate__animated animate__fadeIn">Websites don't have to be alien technology.</h1>
+              <h3 class="pt-5 fst-italic text-end animate__animated animate__flipInX"><a href="/contact/">Let's get to work. <i class="fa fa-arrow-right-long" aria-hidden="true"></i></a></h3>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container-fluid statement halftone-indigo">
       <div class="container pt-2">
         <div class="row">
-            <div class="col-12">
-              <div class="row d-flex align-items-center my-3 ps-2">
-                <div class="col-2 halftone-rlcw p-3 rounded-2 text-white text-center"><div class="d-block d-md-inline text-center text-md-start"><span class="fw-bold pe-2">Sort <i class="fa-solid fa-arrow-down-wide-short px-2"></i></span></div></div>
-                <div class="col flex-wrap animate__animated animate__fadeIn ps-3">
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/featured/" class="{%if page.tag == "featured"%}current {%endif%}cat pe-4">Featured</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/websites/" class="{% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce"%}current {%endif%}cat pe-4">Websites</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/photography/" class="{%if page.tag == "photography"%}current {%endif%}cat pe-4">Photography</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/video/" class="{%if page.tag == "video" %}current {%endif%}cat pe-4">Video</a></div>
-                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/marketing/" class="{%if page.tag == "marketing" %}current {%endif%}cat pe-4">Marketing</a></div>
-                  {% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce" %}
-                    <hr>
-                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/website-design/" class="{%if page.tag == "website design" %}current {%endif%}cat pe-4">Website Design</a></div>
-                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/website-development/" class="{%if page.tag == "website development" %}current {%endif%}cat pe-4">Website Development</a></div>
-                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/e-commerce/" class="{%if page.tag == "e-commerce" %}current {%endif%}cat pe-4">Ecommerce</a></div>
-                    <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/cms/" class="{%if page.tag == "cms" %}current {%endif%}cat pe-4">Content Management Systems</a></div>
-                  {% endif %}
-                </div>
+          <div class="col-12">
+            <div class="row d-flex align-items-center py-3 ps-2">
+              <div class="col-2 bg-white p-3 rounded-2 text-white text-center"><div class="d-block d-md-inline text-center text-md-start"><span class="fw-bold pe-2 accent-blue">Sort <i class="fa-solid fa-arrow-down-wide-short px-2"></i></span></div></div>
+              <div class="col flex-wrap animate__animated animate__fadeIn ps-3">
+                <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/" class="cat pe-4">All</a></div>
+                <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/websites/" class="{% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce"%}current {%endif%}cat pe-4">Websites</a></div>
+                <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/photography/" class="{%if page.tag == "photography"%}current {%endif%}cat pe-4">Photography</a></div>
+                <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/video/" class="{%if page.tag == "video" %}current {%endif%}cat pe-4">Video</a></div>
+                <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/marketing/" class="{%if page.tag == "marketing" %}current {%endif%}cat pe-4">Marketing</a></div>
+                {% if page.tag == "websites" or page.tag == "website development" or page.tag == "website design" or page.tag =="cms" or page.tag =="e-commerce" %}
+                  <hr>
+                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/website-design/" class="{%if page.tag == "website design" %}current {%endif%}cat pe-4">Website Design</a></div>
+                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/website-development/" class="{%if page.tag == "website development" %}current {%endif%}cat pe-4">Website Development</a></div>
+                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/e-commerce/" class="{%if page.tag == "e-commerce" %}current {%endif%}cat pe-4">Ecommerce</a></div>
+                  <div class="d-inline text-nowrap"><i class="fa-solid fa-location-crosshairs pe-2 opacity-75"></i><a href="/portfolio/cms/" class="{%if page.tag == "cms" %}current {%endif%}cat pe-4">Content Management Systems</a></div>
+                {% endif %}
               </div>
-                {% include collecttags.html %}
+            </div>
+              {% include collecttags.html %}
+              {% if site.tags[page.tag] %}
+              <div class="container">
                 {% for post in site.tags[page.tag] %}
-                <div class="row border-bottom align-items-center g-0 py-4" data-aos="fade-up" data-aos-once="true">
+                <div class="row align-items-center g-0 py-4 my-5" data-aos="fade-up" data-aos-once="true">
                   <div class="col-lg-5 col-md-12 text-center">
                     <a href="{{post.permalink}}" alt="View {{post.title}} Case Study"><img src="{{post.image-thumb}}" class="img-fluid"></a>
                   </div>
                   <div class="col-lg-7 col-md-12 text-center ps-lg-4 ps-md-0">
                     <div class="row mt-5">
                       <div class="col-12">
-                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" alt="View {{post.title}} Case Study">{{post.title}}</h1>
+                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" alt="View {{post.title}} Case Study" class="text-decoration-none">{{post.title}}</h1>
                           {% if post.sub-title %}<h2><span class="fw-normal text-capitalize">{{post.sub-title}}</span></h2>{%endif%}
                         </a></h1>
                       </div>
@@ -93,9 +97,31 @@
                   </div>
                 </div>
                 {% endfor %}
-            </div>
+                {% else %}
+                <div class="hstack gap-5 flex-wrap align-items-start my-5">
+                {% for post in site.posts %}
+                  <article class="card-650 mb-5">
+                    <div class="ratio ratio-1x1">
+                      <a href="{{post.permalink}}" alt="View {{post.title}} Case Study"><img src="{{post.image-thumb}}" class="img-fluid"></a>
+                    </div>
+                    <h2 class="text-uppercase text-center mt-5"><a href="{{post.permalink}}" alt="View {{post.title}} Case Study" class="text-decoration-none">{{post.title}}</h2>
+                      {% if post.sub-title %}<h5 class="text-center"><span class="fw-normal text-capitalize">{{post.sub-title}}</span></h5>{%endif%}
+                    </a></h1>
+                    {% if post.involvement %}
+                      <div class="hstack flex-wrap gap-3 justify-content-evenly mt-4 flex-grow-1 px-5">
+                        {% for feat in post.involvement %}
+                          <span>{{feat}}</span>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                  </article>
+                {% endfor %}
+                </div>
+              {% endif %}
+          </div>
         </div>
       </div>
+    </div>
   </div>
     {% include footer.html %}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

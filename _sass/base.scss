@@ -9,6 +9,8 @@ $typefaceThird: "europa", "quatro-slab", san-serif;
 $typefaceName: "quatro-slab", serif;
 $navColor: #124a61;
 $statementColorlanding: #16384e;
+$accent-pink: #ffc0cb;
+$accent-blue: #16384e;
 
 // masthead
 $mastBackground: #16384e;
@@ -20,6 +22,13 @@ $mastSmile: url('/assets/img/portfolio/rlc/rlc-landing.jpg');
 $mastChambray: url('/assets/img/portfolio/kneedeepvintage/mansize-1-full-knee-deep-chambray.jpg');
 $mastBDS: url('/assets/img/portfolio/blackdoor/blackdoor_001.jpg');
 $mastWolfBanner: url('/assets/img/portfolio/royal-wolf-events/royal-wolf-events-01.jpg');
+
+.accent-pink {
+  color: $accent-pink;
+}
+.accent-blue {
+  color: $accent-blue;
+}
 
 div.footer {
   background: #000000;
@@ -183,8 +192,9 @@ a.cat {
 }
 
 a.cat.current {
-  color:#EC5656;
+  color: #FFFFFF;
   font-weight: 600;
+  text-decoration: none;
 }
 
 p.alt, li.alt {
@@ -682,4 +692,8 @@ div.stat {
   font-family: Helvetica, Arial, sans-serif;
   font-size: calc(var(--size) / 5);
   color: var(--primary);
+}
+
+.card-650 {
+  width: 624px;
 }
