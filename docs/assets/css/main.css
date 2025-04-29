@@ -764,9 +764,14 @@ h5.case-study {
   font-family: "quatro-slab", serif;
 }
 
-.blink.pobox, g.circle.pobox, i.pobox, div.footer.pobox i, div.footer.pobox a {
+g.circle.pobox, i.pobox, div.footer.pobox i, div.footer.pobox a {
   fill: #9BB2E8;
   color: #9BB2E8;
+}
+
+.blink.pobox {
+  fill: #D53B38;
+  color: #D53B38;
 }
 
 div.pobox div[role=progressbar] {

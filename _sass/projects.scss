@@ -264,9 +264,13 @@ h5.case-study {
 }
 
 // POBOX
-.blink.pobox,g.circle.pobox,i.pobox,div.footer.pobox i, div.footer.pobox a {
+g.circle.pobox,i.pobox,div.footer.pobox i, div.footer.pobox a {
     fill: $poboxSparkColor;
     color: $poboxSparkColor;
+}
+.blink.pobox {
+    fill: $poboxBarColor;
+    color: $poboxBarColor;
 }
 div.pobox div[role="progressbar"] {
     --primary: #{$poboxSparkColor};
