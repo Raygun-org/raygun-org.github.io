@@ -773,9 +773,16 @@ div.highlight.pa img.img-thumbnail {
 }
 
 // LM
+.halftone-lm g#main_logo, .halftone-lm g#main_logo, .halftone-lm g#text {
+    fill: $lmLinkColor !important;
+    color: $lmLinkColor !important;
+}
 .blink.lm,g.circle.lm,i.lm,div.footer.lm i, div.footer.lm a {
     fill: $lmSparkColor;
     color: $lmSparkColor;
+}
+.halftone-lm a {
+    color: $lmHeaderColor;
 }
 div.highlight.lm {
     background-color: $lmBackgroundColor;

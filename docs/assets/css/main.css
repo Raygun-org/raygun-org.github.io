@@ -1386,9 +1386,18 @@ div.highlight.pa img.img-thumbnail {
   border-color: white;
 }
 
+.halftone-lm g#main_logo, .halftone-lm g#main_logo, .halftone-lm g#text {
+  fill: #382c10 !important;
+  color: #382c10 !important;
+}
+
 .blink.lm, g.circle.lm, i.lm, div.footer.lm i, div.footer.lm a {
   fill: #87642f;
   color: #87642f;
+}
+
+.halftone-lm a {
+  color: #382c10;
 }
 
 div.highlight.lm {
