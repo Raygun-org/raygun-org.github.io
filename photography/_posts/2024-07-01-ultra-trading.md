@@ -15,12 +15,6 @@ url-external: https://www.ultratrading.net
 url-title: www.ultratrading.net
 hero: kominka
 hero-highlight: photo
-prev-url: /photo/royal-wolf-events/
-prev-url-name: Royal Wolf Events
-prev-image-nav: /assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.jpg
-next-url: /photo/red-letter-clay/
-next-url-name: Red Letter Clay
-next-image-nav: /assets/img/portfolio/rlc/rlc-photo-nav.jpg
 permalink: /photo/ultra-trading/
 ---
 <div class="container-fluid highlight utl">

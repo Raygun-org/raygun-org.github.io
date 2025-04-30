@@ -13,7 +13,7 @@ $rlcwLinkColor: white;
 $rlcwHeaderColor: #6E4E3C;
 $rlcwTextColor: white;
 $rlcwBarColor: #c12121;
-$rlcwSparkColor: #DF4F4F;
+$rlcwSparkColor: #fca2a2;
 
 // POBOX WEBSITE
 $poboxBackgroundColor: #233255;
@@ -47,7 +47,7 @@ $elevendegLinkColor: #a5ff09;
 $elevendegHeaderColor: #97d9f7;
 $elevendegTextColor: #fefff7;
 $elevendegBarColor: #97d9f7;
-$elevendegSparkColor: #97d9f7;
+$elevendegSparkColor: #a5ff09;
 
 // GNARWARE WORKSHOP
 $gwwBackgroundColor: #4D3832;
@@ -90,7 +90,7 @@ $lmLinkColor: #382c10;
 $lmHeaderColor: #382c10;
 $lmTextColor: black;
 $lmAltTextColor: white;
-$lmSparkColor: #e8b468;
+$lmSparkColor: #87642f;
 
 // WOMEN + PRISON
 $wapBackgroundColor: #eaf1c1;
@@ -130,10 +130,10 @@ $blackdoorSparkColor: #DF4F4F;
 // ROYAL WOLF EVENTS
 $royalwolfeventsBackgroundColor: #dac9ad;
 $rweBackgroundColor: #dac9ad;
-$royalwolfeventsLinkColor: #422b25;
+$royalwolfeventsLinkColor: #c44b29;
 $royalwolfeventsHeaderColor: #422b25;
 $royalwolfeventsTextColor: #4b3818;
-
+$royalwolfeventsSparkColor: #c44b29;
 
 // SARAH AND THE TALLBOYS
 $sattbBackgroundColor: #47625a;
@@ -280,7 +280,7 @@ div.pobox div[role="progressbar"] {
 div.highlight.pobox {
     background-color: $poboxBackgroundColor;
 }
-div.halftone-pobox {
+.halftone-pobox {
     background-color: #233255;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23141c2f' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
@@ -337,7 +337,7 @@ div.brookside div[role="progressbar"] {
 div.highlight.brookside {
     background-color: $brooksideBackgroundColor;
 }
-div.halftone-brookside {
+.halftone-brookside {
     background: url('/assets/img/portfolio/brookside-strategy/halftone-brookside-strategy.png');
     background-position: center;
     background-repeat:repeat;
@@ -397,7 +397,7 @@ div.elevendeg div[role="progressbar"] {
 div.highlight.elevendeg {
     background-color: $elevendegBackgroundColor;
 }
-div.halftone-elevendeg {
+.halftone-elevendeg {
     background: url('/assets/img/portfolio/11-degrees/halftone-11degrees.png');
     background-position: center;
     background-repeat:repeat;
@@ -465,7 +465,7 @@ div.hgrounds div[role="progressbar"] {
 div.highlight.hgrounds {
     background-color: $hgroundsBackgroundColor;
 }
-div.halftone-hgrounds {
+.halftone-hgrounds {
     background: url('/assets/img/portfolio/highergrounds/halftone-highergrounds.png');
     background-position: center;
     background-repeat:repeat;
@@ -516,6 +516,10 @@ div.hgrounds a.alt {
 .blink.utl,g.circle.utl,i.utl,div.footer.utl i, div.footer.utl a {
     fill: $utlSparkColor;
     color: $utlSparkColor;
+}
+
+.halftone-utl {
+    background-color: $utlBackgroundColor;
 }
 div.highlight.utl {
     background-color: $utlBackgroundColor;
@@ -575,7 +579,7 @@ div.highlight.gww {
     background-color: $gwwHeaderColor;
     color: $gwwBackgroundColor;
 }
-div.halftone-gww {
+.halftone-gww {
     background: url('/assets/img/portfolio/gnarware-workshop/halftone-gnarware-workshop.png');
     background-position: center;
     background-repeat:repeat;
@@ -624,14 +628,14 @@ div.highlight.gww a.alt-link {
 }
 
 // RLC WEB
-.blink.hgrounds,g.circle.rlcw,i.rlcw,div.footer.rlcw i, div.footer.rlcw a {
+.blink.rlcw,g.circle.rlcw,i.rlcw,div.footer.rlcw i, div.footer.rlcw a {
     fill: $rlcwSparkColor;
     color: $rlcwSparkColor;
 }
 div.highlight.rlcw {
     background-color: $rlcwBackgroundColor;
 }
-div.halftone-rlcw {
+.halftone-rlcw {
     background: url('/assets/img/portfolio/redletterclay/halftone-redletterclay.png');
     background-position: center;
     background-repeat:repeat;
@@ -685,7 +689,7 @@ div.rlcw a.alt {
 div.highlight.rlc {
     background-color: $rlcBackgroundColor;
 }
-div.halftone-rlc {
+.halftone-rlc {
     background: url('/assets/img/portfolio/rlc/halftone-red-letter-clay.png');
     background-position: center;
     background-repeat:repeat;
@@ -722,6 +726,9 @@ h4 span.category.rlc {
 .border-pa, .border-pa:hover {
     border-color: $paSparkColor;
     background-color: $paBackgroundColor;
+}
+.halftone-pa {
+        background-color: $paBackgroundColor;
 }
 div.highlight.pa {
     background-color: $paBackgroundColor;
@@ -773,7 +780,7 @@ div.highlight.pa img.img-thumbnail {
 div.highlight.lm {
     background-color: $lmBackgroundColor;
 }
-div.halftone-lm {
+.halftone-lm {
     background: url('/assets/img/portfolio/liz-mccarthy/halftone-liz-mccarthy.png');
     background-position: center;
     background-repeat:repeat;
@@ -785,7 +792,7 @@ div.halftone-lm {
     background-color: $lmBackgroundColor;
 }
 .navbar-dark a.active.lm {
-    --bs-navbar-active-color: #{$lmBackgroundColor};
+    --bs-navbar-active-color: #{$lmSparkColor};
 }
 .dropdown-item.active.lm {
     background: $lmBackgroundColor;
@@ -815,14 +822,21 @@ div.highlight.lm p, div.highlight.lm ul, div.highlight.lm li {
 }
 
 // WAP
+.halftone-wap g#main_logo, .halftone-wap g#main_logo, .halftone-wap g#text {
+    fill: $wapLinkColor !important;
+    color: $wapLinkColor !important;
+}
+.halftone-wap a {
+    color: $wapHeaderColor;
+}
 .blink.wap,g.circle.wap,i.wap,div.footer.wap i, div.footer.wap a {
-    fill: $wapBackgroundColor;
-    color: $wapBackgroundColor;
+    fill: $wapLinkColor;
+    color: $wapLinkColor;
 }
 div.highlight.wap {
     background-color: $wapBackgroundColor;
 }
-div.halftone-wap {
+.halftone-wap {
     background: url('/assets/img/portfolio/WAP/halftone-women-and-prison.png');
     background-position: center;
     background-repeat:repeat;
@@ -830,7 +844,10 @@ div.halftone-wap {
     background-attachment: fixed;
 }
 .navbar-dark a.active.wap {
-    --bs-navbar-active-color: #{$wapBackgroundColor};
+    --bs-navbar-active-color: #{$wapLinkColor};
+}
+.navbar-dark .halftone-wap a:link {
+    color: #000000 !important;
 }
 .border-wap, .border-wap:hover {
     border-color: $wapHeaderColor;
@@ -893,7 +910,7 @@ div.footer.tog svg g#text {
     fill: white;
     color: white;
 }
-div.halftone-tog, div.highlight-tog, div.tog {
+.halftone-tog, div.highlight-tog, div.tog {
     background: url('/assets/img/portfolio/the-other-guantanamo/halftone-the-other-guantanamo.png');
     background-position: center;
     background-repeat:repeat;
@@ -961,7 +978,7 @@ div.kdv-dark h2.case-study {
 div.highlight.kdv-dark {
     background-color: $kdvBackgroundColorDark;
 }
-div.halftone-kdv {
+.halftone-kdv {
     background: url('/assets/img/portfolio/kneedeepvintage/halftone-knee-deep-vintage.png');
     background-position: center;
     background-repeat:repeat;
@@ -1011,6 +1028,11 @@ div.highlight.blackdoor img.img-thumbnail {
 }
 
 // RWE
+.halftone-rwe g#main_logo, .halftone-rwe g#main_logo, .halftone-rwe g#text {
+    fill: $royalwolfeventsLinkColor !important;
+    color: $royalwolfeventsLinkColor !important;
+}
+
 div.highlight.rwe {
     background-color: $royalwolfeventsBackgroundColor;
     background: url('/assets/img/portfolio/royal-wolf-events/halftone-royal-wolf-events.png');
@@ -1020,21 +1042,25 @@ div.highlight.rwe {
     background-attachment: fixed;
 }
 .blink.rwe,g.circle.rwe,i.rwe,div.footer.rwe i, div.footer.rwe a {
-    fill: $rweBackgroundColor;
-    color: $rweBackgroundColor;
+    fill: $royalwolfeventsLinkColor;
+    color: $royalwolfeventsLinkColor;
 }
 h4 span.category.rwe {
     border-bottom: thick $royalwolfeventsBackgroundColor;
     border-width: 0.2rem;
     border-bottom-style: solid;
 }
-div.halftone-rwe {
+.halftone-rwe {
     background: url('/assets/img/portfolio/royal-wolf-events/halftone-royal-wolf-events.png');
     background-position: center;
     background-repeat:repeat;
     background-size: auto 749px;
     background-attachment: fixed;
 }
+.halftone-rwe a {
+    color: $royalwolfeventsHeaderColor;
+}
+
 div.highlight.rwe h1,div.highlight.rwe h2,div.highlight.rwe h3,div.highlight.rwe h4,div.highlight.rwe h5,div.highlight.rwe h6,div.highlight.rwe a {
     color: $royalwolfeventsHeaderColor;
 }
@@ -1050,7 +1076,7 @@ div.highlight.rwe img.img-thumbnail {
     border-color: white;
 }
 .navbar-dark a.active.rwe {
-    --bs-navbar-active-color: #{$royalwolfeventsBackgroundColor};
+    --bs-navbar-active-color: #{$royalwolfeventsLinkColor};
 }
 .dropdown-item.active.rwe {
     background: $royalwolfeventsBackgroundColor;
@@ -1065,7 +1091,7 @@ div.highlight.rwe img.img-thumbnail {
 div.highlight.ftt {
     background-color: $fttBackgroundColor;
 }
-div.halftone-ftt {
+.halftone-ftt {
     background: url('/assets/img/portfolio/FTT/halftone-fire-this-time-fund.png');
     background-position: center;
     background-repeat:repeat;
@@ -1132,7 +1158,7 @@ h5.ftt {
 div.highlight.sattb {
     background-color: $sattbBackgroundColor;
 }
-div.halftone-sattb {
+.halftone-sattb {
     background: url('/assets/img/portfolio/sattb/halftone-sattb.png');
     background-position: center;
     background-repeat:repeat;
@@ -1177,7 +1203,7 @@ div.sattb h2 {
 div.highlight.coc {
     background-color: $cocBackgroundColor;
 }
-div.halftone-coc {
+.halftone-coc {
     background: url('/assets/img/portfolio/coc/halftone-chain-of-change.png');
     background-position: center;
     background-repeat:repeat;
@@ -1263,7 +1289,7 @@ h5.coc {
 div.highlight.hiv {
     background-color: $hivBackgroundColor;
 }
-div.halftone-hiv {
+.halftone-hiv {
     background: url('/assets/img/portfolio/hiv/halftone-hiv-hey-its-viral.png');
     background-position: center;
     background-repeat:repeat;
@@ -1340,7 +1366,7 @@ h5.hiv {
 div.highlight.bme {
     background-color: $bmeBackgroundColor;
 }
-div.halftone-bme {
+.halftone-bme {
     background: url('/assets/img/portfolio/beyondmedia/halftone-beyondmedia.png');
     background-position: center;
     background-repeat:repeat;
