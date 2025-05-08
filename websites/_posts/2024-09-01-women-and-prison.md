@@ -10,6 +10,7 @@ involvement: [ Website Design, Website Development, Content Strategy, Google Ads
 technology: [ Jekyll + Github Pages, Figma, Expression Engine CMS ]
 nav: web
 image-thumb: /assets/img/portfolio/WAP/womenandprison-nav.jpg
+laptop: /assets/img/portfolio/WAP/women-and-prison-mbp.png
 tags: [ cms, website design, featured ]
 sub-nav: wap
 url-link: https://www.womenandprison.org
