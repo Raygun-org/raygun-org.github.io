@@ -3,7 +3,7 @@ layout: case-study
 title: 11 Degrees Daiquiri
 sub-title: Food & Beverage (Austin, TX)
 image: https://raygun.org/assets/img/portfolio/11-degrees/11-degrees-mailchimp.jpg
-image-thumb: /assets/img/portfolio/11-degrees/11-degrees-thumb-3.jpg
+image-thumb: /assets/img/portfolio/11-degrees/11-degrees-thumb-4.jpg
 description: |
  I worked with 11 Degrees Daiquiri in Austin, TX integrating their Clover POS system with Uber Eats, DoorDash and GrubHub. Working within their pre established brand guidelines I redesigned their print menu, and provided digital and print graphics for packaging, social media, and website promotions and managed their Mailchimp email marketing campaigns.
  <hr class="w-75 mx-auto my-4 text-light">
