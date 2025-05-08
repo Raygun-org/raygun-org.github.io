@@ -5,6 +5,7 @@ sub-title: Artist Portfolio
 description: Liz McCarthy, a professor and ceramic artist, needed a website redesign that highlighted her gallery work, clay practice and community involvement for residencies and other professional applications. We used Squarespace's latest 7.1 template engine to create a custom solution to best showcase her exhibition and functional clay pieces.
 image: https://raygun.org/assets/img/portfolio/liz-mccarthy/thumb-lizmccarthy-mca.png
 image-thumb: /assets/img/portfolio/liz-mccarthy/liz-mccarthy-thumb.jpg
+laptop: /assets/img/portfolio/liz-mccarthy/liz-mccarthy-mbp.png
 tags: [ website design, websites, video ]
 involvement: [ Website Design, Photo Editing, Video Editing, Professional Development ]
 technology: [ Squarespace 7.1 Custom Template, Adobe Lightroom]

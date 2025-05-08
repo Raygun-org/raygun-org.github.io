@@ -5,6 +5,7 @@ sub-title: Digital Art Installation
 description: Present Absence is a five-channel video installation that individualizes and personalizes the lives of 5 people killed by Chicago Police. These stories, generated from long-form interviews with family members, invite viewers to experience those murdered not as closed cases or dry statistics, as sensational media stories or police cover-up tales – but as unique human beings who made life-changing contributions to others, who are loved and mourned.
 image: https://raygun.org/assets/img/portfolio/PA/Present-Absence-Installation.png
 image-thumb: /assets/img/portfolio/PA/present-absence-nav.jpg
+laptop: /assets/img/portfolio/PA/present-absence-mbp.png
 tags: [ website design, website development, video, featured, websites ]
 involvement: [ Website Design, Website Development, Video Post-Production ]
 technology: [ Jekyll + GitHub Pages, Adobe Premiere ]

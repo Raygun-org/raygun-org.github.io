@@ -5,6 +5,7 @@ sub-title: Ceramic Studio
 description: GnarWare Workshop, a women-run small business offering ceramic classes in the Pilsen neighborhood of Chicago, sought a comprehensive revamp of its website. I transitioned them off of the Squarespace 7.0 engine, to the newer and easier-to-maintain 7.1 version. The new website not only aims to boost revenue in needed areas where capacity allows, but also enhance the overall search engine optimization (SEO) performance for the business.
 image: https://raygun.org/assets/img/portfolio/gnarware-workshop/gnarware-workshop.png
 image-thumb: /assets/img/portfolio/gnarware-workshop/gnarware-workshop-nav.jpg
+laptop: /assets/img/portfolio/gnarware-workshop/gnarware-workshop-mbp.png
 nav: web
 sub-nav: gww
 url-link: https://www.gnarwareworkshop.com
