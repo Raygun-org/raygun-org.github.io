@@ -7,7 +7,7 @@ tags: [ photography ]
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 image: https://raygun.org/assets/img/portfolio/rlc/rlc-landing.jpg
-image-thumb: /assets/img/portfolio/rlc/rlc-photo-nav.jpg
+image-thumb: /assets/img/portfolio/rlc/rlc-photo-nav-2.png
 statement: statement-rlc-photo.html
 nav: photo
 sub-nav: rwe
@@ -15,12 +15,6 @@ url-external: https://redletterclay.com
 url-title: www.redletterclay.com
 hero: kominka
 hero-highlight: photo
-prev-url: /photo/ultra-trading/
-prev-url-name: Ultra Trading Ltd
-prev-image-nav: /assets/img/portfolio/ultra-trading/ultra-trading-nav.jpg
-next-url: /photo/knee-deep-vintage/
-next-url-name: Knee Deep Vintage
-next-image-nav: /assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav.jpg
 permalink: /photo/red-letter-clay/
 ---
 <div class="container-fluid highlight rwe">

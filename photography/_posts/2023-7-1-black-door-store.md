@@ -8,18 +8,12 @@ involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 description: Garment photography for online vintage pop-up Black Door Store. Special attention was paid to show garment details when photographing all black merchandise.
 image: https://raygun.org/assets/img/portfolio/blackdoor/blackdoor_001.jpg
-image-thumb: /assets/img/portfolio/blackdoor/blackdoor-nav.jpg
+image-thumb: /assets/img/portfolio/blackdoor/blackdoor-nav-2.png
 statement: statement-blackdoor.html
 nav: photo
 sub-nav: utl
 hero: kominka
 hero-highlight: photo
-prev-url: /photo/knee-deep-vintage/
-prev-url-name: Knee Deep Vintage
-prev-image-nav: /assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav.jpg
-next-url: /photo/royal-wolf-events/
-next-url-name: Royal Wolf Events
-next-image-nav: /assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.jpg
 permalink: /photo/black-door-store/
 ---
 <div class="container-fluid highlight blackdoor">

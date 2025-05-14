@@ -2,7 +2,7 @@
   {%if page.previous.url %}
       {% if page.previous.image-thumb %}
         <div class="text-start col-6 ps-3">
-        <a href="{{ page.previous.url }}"><img src="{{page.previous.image-thumb}}" class="img-fluid border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+        <a href="{{ page.previous.url }}"><img src="{{page.previous.image-thumb}}" class="img-fluid" data-aos="flip-left" data-aos-duration="500"></a>
         <h6 class="text-start mt-3 fw-semibold text-uppercase letter-spacing">{{page.previous.title}}</h6>
        </div>
       {% endif %}
@@ -10,7 +10,7 @@
   {%if page.next.url %}
       {% if page.next.image-thumb %}
         <div class="text-end col-6 align-items-top pe-3">
-          <a href="{{ page.next.url }}"><img src="{{page.next.image-thumb}}" class="img-fluid border border-3 border-white" data-aos="flip-left" data-aos-duration="500"></a>
+          <a href="{{ page.next.url }}"><img src="{{page.next.image-thumb}}" class="img-fluid" data-aos="flip-left" data-aos-duration="500"></a>
           <h6 class="text-end mt-3 fw-semibold text-uppercase letter-spacing">{{page.next.title}}</h6>
         </div>
       {% endif %}

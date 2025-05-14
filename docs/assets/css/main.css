@@ -1,5 +1,17 @@
 @import "/assets/css/fontawesome.min.css";
 @import "/assets/css/brands.css";
+.type-3 {
+  font-family: "europa", "quatro-slab", san-serif;
+}
+
+.type-2 {
+  font-family: "quatro-slab", serif;
+}
+
+.type-1 {
+  font-family: "fieldwork-hum", sans-serif;
+}
+
 .accent-pink {
   color: #ffc0cb;
 }
@@ -150,7 +162,7 @@ a.dropdown-item {
   font-size: 1.3rem;
 }
 
-active.dropdown-item, .dropdown-item:active {
+.active.dropdown-item, .dropdown-item:active {
   background-color: #ffc0cb;
   color: black;
 }

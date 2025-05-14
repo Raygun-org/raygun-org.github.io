@@ -27,38 +27,90 @@ description: "With over a decade of experience utilizing digital media to tell e
     </div>
 </div>
 <div class="container-fluid statement pb-5">
-    <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-center">SERVICES & CAPABILITIES</h1>
-            <div class="col-12 col-md-4 mt-4">
-                <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="img-fluid" data-aos="fade-in" alt="Brookside Strategy Website Design"></a>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="fw-normal mb-5">Digital Media Services</h1>
             </div>
-            <div class="col-12 col-md-4 mt-4">
-                <a href="/websites/red-letter-clay/" alt="Higher Grounds Case Study"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="img-fluid" data-aos="fade-in" data-aos-delay="200" alt="Red Letter Clay Ecommerce Website Design"></a>
+            <div class="col-md-12 col-lg-6">
+                <div id="carouselWebsites" class="carousel carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="d-block w-100" alt="Brookside Strategy"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/websites/pobox-collective/" alt="PO Box Collective Case Study"><img src="/assets/img/portfolio/pobox/pobox-mbp.png" class="d-block w-100" alt="PO Box Collective"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/websites/higher-grounds/" alt="PO Box Collective Case Study"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="d-block w-100" alt="Higher Grounds of Maine"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebsites" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselWebsites" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-            <div class="col-12 col-md-4 mt-4">
-                <a href="/websites/higher-grounds/" alt="Higher Grounds Case Study"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="img-fluid" data-aos="fade-in" data-aos-delay="400" alt="Higher Grounds Coffee & Dispensary Website Design"></a>
+            <div class="col-md-12 col-lg-6">
+                <h2 class="my-5 header-spacing"><a href="/portfolio/website-design/" alt="Website Design Portfolio" class="text-white">Website Design</a> + <a href="/portfolio/website-development/" alt="Website Development Portfolio" class="text-white">Development</a></h2>
+                <h3 class="fw-bold my-4">Don't settle for a website that's just "good enough"</h3>
+                <p>I craft websites for a diverse range of clients—including <a href="/websites/higher-grounds/" alt="Higher Grounds of Maine">small businesses</a>, <a href="/websites/brookside-strategy/" alt="Brookside Strategy">industry leaders</a>, <a href="/websites/women-and-prison/" alt="Women and Prison">journalism platforms</a>, <a href="/websites/liz-mccarthy/" alt="Liz McCarthy">artist portfolios</a>, <a href="/websites/pobox-collective/" alt="PO Box Collective">non-profits</a>, and <a href="/websites/present-absence/" alt="Present Absence">interactive digital installations</a>.</p>
+                <p class="my-5">Whether it’s a fully customized CMS-driven site with complex data structures or a lightweight, maintenance-free static website, every project is thoughtfully designed with a mobile-first approach to ensure performance and accessibility across all devices.</p>
             </div>
         </div>
-        <div class="d-lg-flex text-center py-5 mt-5">
-            <div class="col-lg-4 col-sm-12 ps-md-5 ps-sm-0">
-                <div class="btn btn-primary bg-coin text-theme-blue rounded-5 mx-auto border border-5 border-coin"><h3><i class="fa fa-laptop pt-2"></i></h3></div>
-                <h3 class="my-5 header-spacing"><a href="/portfolio/website-design/" alt="Website Design Portfolio" class="text-white">Website Design</a> + <a href="/portfolio/website-development/" alt="Website Development Portfolio" class="text-white">Development</a></h3>
-                <p class="alt px-xs-0">I've designed and developed sites for <a href="/websites/higher-grounds/" alt="GnarWare Workshop">small businesses</a>, <a href="/websites/women-and-prison/" alt="Women and Prison">journalism blogs</a>, <a href="/websites/liz-mccarthy/" alt="Liz McCarthy">artist portfolios</a>, <a href="/websites/beyondmedia-education/" alt="Beyondmedia Education">non-profits</a>, and <a href="/websites/present-absence/">digital art installations</a> to name a few.</p>
-                <p class="alt px-md-5 px-xs-0 py-4">Some were handbuilt from scratch with complex data relationships on content management systems, and some were standalone static websites that required no upkeep, but all projects are built with a mobile-first approach.</p>
+        <div class="row my-5 align-items-center">
+            <div class="col-md-12 col-lg-6">
+                <h2 class="my-5 header-spacing"><a href="/portfolio/photography/" alt="Digital Photography Portfolio" class="text-white">Photography</a></h2>
+                <h3 class="my-5">Bringing Brands to Life & Making Products Shine</h3>
+                <p>Need custom photography for your project? I’ve got you covered. Whether it’s professional headshots, event coverage, behind-the-scenes tours, marketing imagery, or product photography, I offer photography services tailored to your needs.</p>
+                <p class="my-4">Using a Nikon DSLR and Paul C. Buff Einstein studio strobes, I deliver high-quality visuals that elevate your brand. Photography can be included as part of your project estimate upon request.</p>
             </div>
-            <div class="col-lg-4 col-sm-12 ps-md-5 ps-sm-0">
-                <div class="btn btn-primary bg-coin text-theme-blue border border-5 border-coin rounded-5 mx-auto"><h3><i class="fa fa-camera px-1 pt-2"></i></h3></div>
-                <h3 class="my-5 header-spacing"><a href="/portfolio/photography/" alt="Digital Photography Portfolio" class="text-white">Digital Photography</a></h3>
-                <p class="alt px-md-5 px-xs-0">If your project needs photography services, these can be included in your estimate.</p>
-                <p class="alt px-md-5 px-xs-0 py-4">I can shoot everything from headshots, <a href="/photo/royal-wolf-events/" alt="Royal Wolf Events">events</a> and business tours, <a href="/photo/ultra-trading/">marketing materials</a>, and <a href="/photo/black-door-store/" alt="Black Door Store">product photography</a> with my Nikon DSLR and 2 Paul C Buff Einstein studio strobes.</p>
+            <div class="col-md-12 col-lg-6">
+            <div id="carouselPhoto" class="carousel carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="/photo/royal-wolf-events/" alt="Royal Wolf Events Case Study"><img src="/assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.png" class="d-block w-100" data-aos="fade-in" alt="Royal Wolf Events"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/photo/ultra-trading/" alt="Ultra Trading Case Study"><img src="/assets/img/portfolio/ultra-trading/ultra-trading-nav-test.png" class="d-block w-100" data-aos="fade-in" alt="Ultra Trading"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/photo/red-letter-clay/" alt="Red Letter Clay Case Study"><img src="/assets/img/portfolio/rlc/rlc-photo-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Ultra Trading"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/photo/knee-deep-vintage/" alt="Red Letter Clay Case Study"><img src="/assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Knee Deep Vintage Catalogue"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/photo/black-door-store/" alt="Black Door Store Case Study"><img src="/assets/img/portfolio/blackdoor/blackdoor-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Black Door Store"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoto" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPhoto" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-12 ps-md-5 ps-sm-0">
-                <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-film px-1 pt-2"></i></h3></div>
-                <h3 class="my-5 header-spacing"><a href="/portfolio/video/" alt="Video Editing Portfolio" class="text-white">Video Editing</a></h3>
-                <p class="alt px-md-5 px-xs-0">Storytelling is powerful, and sometimes video is the best method.</p>
-                <p class="alt px-md-5 px-xs-0 py-4">I have edited <a href="/video/the-other-guantanamo/" alt="The Other Guantanamo">documentary film</a> and trailers, digitally archived physical DV tape footage, and also work with legacy formats like DVD authoring.</p>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-12 col-lg-6">
+                <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study"><img src="/assets/img/portfolio/11-degrees/11-degrees-nav.png" class="img-fluid" data-aos="fade-in" alt="Brookside Strategy Website Design"></a>
             </div>
+            <div class="col-md-12 col-lg-6">
+                <h2 class="my-5 header-spacing"><a href="/portfolio/marketing/" alt="Digital Photography Portfolio" class="text-white">Digital Marketing + Content Management</a></h2>
+                <p>From email templates to social media assets, I create on-brand designs that connect with your audience—right in their inboxes and on their devices.</p>
+                <p>Many small businesses don’t have the resources for a full-time designer or content manager. That’s why I offer flexible, à la carte creative services. Whether you need updates to your website, email campaigns, social media graphics, digital signage, or other digital media, I'm here to support your business when and where you need it.</p>
+            </div>
+        </div>
+        <div class="row text-center my-5">
+            <div class="col-12"><h2>Additional Services</h2></div>
         </div>
         <div class="d-lg-flex text-center">
             <div class="col-lg-4 col-sm-12 ps-md-5 px-sm-0">
@@ -66,11 +118,11 @@ description: "With over a decade of experience utilizing digital media to tell e
                 <h3 class="my-5 header-spacing"><a href="/websites/higher-grounds/" alt="Higher Grounds SEO Score" class="text-white">Search Engine Optimization (SEO)</a></h3>
                 <p class="alt px-md-5 px-xs-0 pb-4">Discoverability is essential. I'm happy to work with clients to get their websites set up on Google Console paired with proper meta tags, sitemap structuring, and copywriting to improve their page rankings using best practices.</p>
             </div>
-            <div class="col-lg-4 col-sm-12 ps-md-5 ps-xs-0">
-                <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-envelopes-bulk pt-2"></i></h3></div>
-                <h3 class="my-5 header-spacing"><a href="/portfolio/marketing/" alt="Digital Photography Portfolio" class="text-white">Digital Marketing + Management</a></h3>
-                <p class="alt px-md-5 px-xs-0 pb-4">Email or social media templates that deliver an on-brand experience for your customers to inboxes and handheld devices.</p>
-                <p class="alt px-md-5 px-xs-0 pb-4">Many small businesses I've worked with can't afford a full-time designer or content manager. I offer creative "a la carte" add-on services for this reason. Hire me for updates to your website platform, email campaigns, reels, digital signage and more.</p>
+            <div class="col-lg-4 col-sm-12 ps-md-5 ps-sm-0">
+                <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-film px-1 pt-2"></i></h3></div>
+                <h3 class="my-5 header-spacing"><a href="/portfolio/video/" alt="Video Editing Portfolio" class="text-white">Video Editing</a></h3>
+                <p class="alt px-md-5 px-xs-0">Storytelling is powerful, and sometimes video is the best method.</p>
+                <p class="alt px-md-5 px-xs-0 py-4">I have edited <a href="/video/the-other-guantanamo/" alt="The Other Guantanamo">documentary film</a> and trailers, digitally archived physical DV tape footage, and also work with legacy formats like DVD authoring.</p>
             </div>
             <div class="col-lg-4 col-sm-12 ps-md-5 ps-xs-0">
                 <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-suitcase-medical pt-2"></i></h3></div>

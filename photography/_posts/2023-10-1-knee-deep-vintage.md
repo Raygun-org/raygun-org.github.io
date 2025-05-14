@@ -7,19 +7,13 @@ tags: [ photography, featured ]
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 image: https://raygun.org/assets/img/portfolio/kneedeepvintage/thumbs/osh-kosh-1-full-knee-deep-chambray-thumb.jpg
-image-thumb: /assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav.jpg
+image-thumb: /assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav-2.png
 description: A collection of chambray garments from the 1950's for a print catalogue archive and lot sale for Knee Deep Vintage. Detail photographs were taken of labels, collar designs, stiches, buttons, pockets, and deadstock labels for buyers. Garments were photographed folded as found to preserve their highest value.
 statement: statement-knee-deep-vintageo.html
 nav: photo
 sub-nav: utl
 hero: kominka
 hero-highlight: photo
-prev-url: /photo/red-letter-clay/
-prev-url-name: Red Letter Clay
-prev-image-nav: /assets/img/portfolio/rlc/rlc-photo-nav.jpg
-next-url: /photo/black-door-store/
-next-url-name: Black Door Store
-next-image-nav: /assets/img/portfolio/blackdoor/blackdoor-nav.jpg
 permalink: /photo/knee-deep-vintage/
 ---
 <div class="container-fluid highlight kdv">

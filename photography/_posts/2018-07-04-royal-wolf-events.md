@@ -4,7 +4,7 @@ title: Royal Wolf Events
 sub-title: Event Planning & Design
 description: Royal Wolf Events, a wedding planning and rental company, needed marketing photography of wedding setups and tablescapes.
 image: https://raygun.org/assets/img/portfolio/royal-wolf-events/royal-wolf-events-05.jpg
-image-thumb: /assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.jpg
+image-thumb: /assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.png
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 nav: photo
@@ -12,12 +12,6 @@ tags: [ photography, marketing ]
 sub-nav: rwe
 hero: kominka
 hero-highlight: photo
-prev-url: /photo/black-door-store/
-prev-url-name: Black Door Store
-prev-image-nav: /assets/img/portfolio/blackdoor/blackdoor-nav.jpg
-next-url: /photo/ultra-trading/
-next-url-name: Ultra Trading Ltd
-next-image-nav: /assets/img/portfolio/ultra-trading/ultra-trading-nav.jpg
 permalink: /photo/royal-wolf-events/
 ---
 <div class="container-fluid highlight halftone rwe">

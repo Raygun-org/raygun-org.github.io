@@ -7,7 +7,7 @@ tags: [ photography, featured, marketing ]
 involvement: [ Digital Photography, Photo Editing]
 technology: [ 2 Paul C Buff Einstein Strobes, Nikon D7200, Adobe Lightroom ]
 image: https://raygun.org/assets/img/portfolio/ultra-trading/ultratrading.jpg
-image-thumb: /assets/img/portfolio/ultra-trading/ultra-trading-nav.jpg
+image-thumb: /assets/img/portfolio/ultra-trading/ultra-trading-nav-test.png
 statement: statement-utl.html
 nav: photo
 sub-nav: utl
