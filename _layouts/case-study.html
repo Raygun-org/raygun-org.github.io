@@ -34,13 +34,13 @@
     </div>
     {% include case-study.html %}
       <div class="container-fluid highlight {{page.sub-nav}} halftone-{{page.sub-nav}} sticky-top pt-2">
-        <div class="d-flex container justify-content-between">
-          <div class="pb-2">
+        <div class="d-flex container justify-content-between align-items-center py-1">
+          <div>
             {%if page.previous.url %}
               <h2><a href="{{ page.previous.url}}"><i class="fa-solid fa-angles-left opacity-75"></i></a></h2>
             {% endif %}
           </div>
-          <div class="align-self-center pb-2">
+          <div>
             {% if page.url-link %}
               <h5 class="fw-normal"><a href="{{page.url-link}}" target="_blank" class="alt-link"><i class="fa-solid fa-link pe-1"></i> {{page.url-title}}</a></h5>
             {% else %}
@@ -48,9 +48,9 @@
             {% endif %}
           </div>
           <div>
-            <h5 class="fw-normal pt-1"><a href="/portfolio/" class="rounded rounded-circle">Portfolio</a></h5>
+            <h5 class="fw-normal"><a href="/portfolio/" class="rounded rounded-circle">Portfolio</a></h5>
           </div>
-          <div class="pb-2">
+          <div>
             {%if page.next.url %}
               <h2><a href="{{ page.next.url}}"><i class="fa-solid fa-angles-right opacity-75"></i></a></h2>
             {% endif %}
