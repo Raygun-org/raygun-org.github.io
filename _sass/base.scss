@@ -191,6 +191,39 @@ div.highlight p, p.introduction, p {
   line-height: 2.1rem;
 }
 
+.btn-outline-pill-white.current {
+  background-color: white;
+  color: $accent-blue;
+}
+
+.btn-outline-pill-white.current i {
+  color: $accent-blue;
+}
+
+.btn-outline-pill-white i {
+  color: white;
+}
+
+.btn-outline-pill-white {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50rem;
+  font-size: 1.3rem;
+  font-family: $typefacePrimary;
+  background-color: transparent;
+}
+
+.btn-outline-pill-white:hover,
+.btn-outline-pill-white:focus {
+  background-color: rgba(255, 255, 255, 0.1); /* Optional hover effect */
+  color: #fff;
+}
+
+.btn-outline-pill-white:hover i,
+.btn-outline-pill-white:focus i{
+  color: #fff;
+}
+
 p.introduction {
   margin-bottom: 2rem;
 }
@@ -249,6 +282,16 @@ h4 span.category {
   border-bottom: thick #ffc0cb;
   border-width: 0.2rem;
   border-bottom-style: solid;
+}
+
+.eyebrow {
+  letter-spacing: 0.1rem;
+}
+
+.hr-custom {
+  width: 60px;         /* Adjust as needed */
+  border-top: 3px solid #000; /* Custom thickness/color */
+  opacity: 1;           /* Ensure it's fully visible */
 }
 
 .border-coin {
