@@ -93,7 +93,7 @@ permalink: /websites/higher-grounds/
           <a href="/assets/img/portfolio/highergrounds/HG-signage.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-signage.jpg" alt="In-Store Signage" class="img-fluid cursor-zoom my-5"></a> 
       </div>
       <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top-bottom">
-        <a href="/assets/img/portfolio/highergrounds/HG-envelope.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-envelope.jpg" alt="Print Design - Envelope" class="img-fluid cursor-zoom"></a> 
+        <a href="/assets/img/portfolio/highergrounds/HGrounds-envelope.png" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HGrounds-envelope.png" alt="Print Design - Envelope" class="img-fluid cursor-zoom"></a> 
       </div>
     </div>
   </div>

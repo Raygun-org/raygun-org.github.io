@@ -300,6 +300,11 @@ div.pobox h2.case-study {
     border-color: $poboxSparkColor;
     background-color: $poboxBackgroundColor;
 }
+
+.pobox .border-top {
+    border-color: $poboxSparkColor !important;
+}
+
 .dropdown-item.active.pobox {
     background: $poboxBackgroundColor;
     color: white !important;
@@ -334,6 +339,9 @@ div.brookside div[role="progressbar"] {
     --secondary: #ffffff;
   }
 
+.brookside .border-top {
+    border-color: $brooksideHeaderColor !important;
+}
 div.highlight.brookside {
     background-color: $brooksideBackgroundColor;
 }
@@ -393,6 +401,10 @@ div.elevendeg div[role="progressbar"] {
     --primary: #{$elevendegSparkColor};
     --secondary: #ffffff;
   }
+
+.elevendeg .border-top {
+    border-color: $elevendegHeaderColor !important;
+}
 
 div.highlight.elevendeg {
     background-color: $elevendegBackgroundColor;
@@ -460,7 +472,11 @@ div.elevendeg a.alt {
 div.hgrounds div[role="progressbar"] {
     --primary: #{$hgroundsSparkColor};
     --secondary: #ffffff;
-  }
+}
+
+.hgrounds .border-top {
+    border-color: $hgroundsHeaderColor !important;
+}
 
 div.highlight.hgrounds {
     background-color: $hgroundsBackgroundColor;
@@ -529,6 +545,11 @@ div.highlight.utl {
     background-size: auto 749px;
     background-attachment: fixed;
 }
+
+.utl .border-top {
+    border-color: $utlHeaderColor !important;
+}
+
 div.highlight.utl h1,div.highlight.utl h2,div.highlight.utl h3,div.highlight.utl h4,div.highlight.utl h5,div.highlight.utl h6,div.highlight.utl a {
     color: $utlHeaderColor;
 }
@@ -579,6 +600,11 @@ div.highlight.gww {
     background-color: $gwwHeaderColor;
     color: $gwwBackgroundColor;
 }
+
+.gww .border-top {
+    border-color: $gwwHeaderColor !important;
+}
+
 .halftone-gww {
     background: url('/assets/img/portfolio/gnarware-workshop/halftone-gnarware-workshop.png');
     background-position: center;
@@ -689,6 +715,7 @@ div.rlcw a.alt {
 div.highlight.rlc {
     background-color: $rlcBackgroundColor;
 }
+
 .halftone-rlc {
     background: url('/assets/img/portfolio/rlc/halftone-red-letter-clay.png');
     background-position: center;
@@ -752,6 +779,11 @@ h4.pa {
 div.pa a {
     color: $paLinkColor;
 }
+
+.pa .border-top {
+    border-color: $paHeaderColor !important;
+}
+
 div.pa h2 {
     color: black;
     letter-spacing: 0rem;
@@ -794,6 +826,10 @@ div.highlight.lm {
     background-size: auto 749px;
     background-attachment: fixed;
 }
+.lm .border-top {
+    border-color: $lmHeaderColor !important;
+}
+
 .border-lm, .border-lm:hover {
     border-color: $lmLinkColor;
     background-color: $lmBackgroundColor;
@@ -850,6 +886,11 @@ div.highlight.wap {
     background-size: auto 749px;
     background-attachment: fixed;
 }
+
+.wap .border-top {
+    border-color: $wapHeaderColor !important;
+}
+
 .navbar-dark a.active.wap {
     --bs-navbar-active-color: #{$wapLinkColor};
 }
@@ -917,6 +958,11 @@ div.footer.tog svg g#text {
     fill: white;
     color: white;
 }
+
+.tog .border-top {
+    border-color: $togHeaderColor !important;
+}
+
 .halftone-tog, div.highlight-tog, div.tog {
     background: url('/assets/img/portfolio/the-other-guantanamo/halftone-the-other-guantanamo.png');
     background-position: center;
@@ -1090,10 +1136,18 @@ div.highlight.rwe img.img-thumbnail {
     color: $royalwolfeventsTextColor;
 }
 
+.rwe .border-top {
+    border-color: $royalwolfeventsTextColor !important;
+}
+
 // FTT
 .blink.ftt,g.circle.ftt,i.ftt,div.footer.ftt i, div.footer.ftt a {
     fill: $fttSparkColor;
     color: $fttSparkColor;
+}
+.halftone-ftt g#text g, .halftone-ftt g#main_logo g {
+    fill: $fttTextColor;
+    color: $fttTextColor;
 }
 div.highlight.ftt {
     background-color: $fttBackgroundColor;
@@ -1107,7 +1161,7 @@ div.highlight.ftt {
 }
 
 .navbar-dark a.active.ftt {
-    --bs-navbar-active-color: #{$fttBackgroundColor};
+    --bs-navbar-active-color: #{$fttBarColor};
 }
 .dropdown-item.active.ftt {
     background: $fttBackgroundColor;
@@ -1139,6 +1193,10 @@ div.ftt h2 {
     letter-spacing: 0rem;
 }
 
+.ftt .border-top {
+    border-color: $fttHeaderColor !important;
+}
+
 .row.ftt li.left-bar {
     border-left: 3px solid $fttBarColor;
     margin-bottom: 15px;
@@ -1157,11 +1215,24 @@ h5.ftt {
     color: $fttHeaderColor;
 }
 
+.halftone-ftt a.nav-link {
+    color: $fttHeaderColor;
+}
+
+.halftone-ftt a.nav-link:hover {
+    color: $fttLinkColor;
+}
+
 // SATTB
 .blink.sattb,g.circle.sattb,i.sattb,div.footer.sattb i, div.footer.sattb a {
     fill: $sattbSparkColor;
     color: $sattbSparkColor;
 }
+
+.sattb .border-top {
+    border-color: $sattbHeaderColor !important;
+}
+
 div.highlight.sattb {
     background-color: $sattbBackgroundColor;
 }

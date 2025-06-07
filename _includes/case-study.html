@@ -21,8 +21,8 @@
           <div class="flex-grow-1 border-top" data-aos="fade-left"></div>
        </div>
         <h1 class="case-study pb-2">{% if page.sub-title %}<span class="fw-normal">{{page.sub-title}}</span>{% endif %}</h1>
+        <h5 class="eyebrow type-3">Launch Date:<span class="pe-1"></span> {{ page.date | date: "%B, %Y" }}</h5>
         <div class="d-flex justify-content-center"><hr class="w-25 text-light"></div>
-        <h5>Launch Date:<span class="pe-1"></span> {{ page.date | date: "%B, %Y" }}</h5>
       </div>
     </div>
     <div class="row {{page.sub-nav}} justify-content-center py-4">
