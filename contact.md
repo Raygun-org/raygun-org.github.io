@@ -7,11 +7,11 @@ permalink: /contact/
 <div class="container-fluid statement">
   <div class="container">
     <div class="row">
-      <div class="col-12" data-aos="flip-up">
+      <div class="col-12">
         <div class="d-flex align-items-center text-center my-4 pb-2">
-              <div class="flex-grow-1 border-top"></div>
-              <h1 class="fw-normal px-5 mb-2">Contact</h1>
-              <div class="flex-grow-1 border-top"></div>
+              <div class="flex-grow-1 border-top" data-aos="fade-right"></div>
+              <h1 class="fw-normal px-5 mb-2" data-aos="fade-in">Contact</h1>
+              <div class="flex-grow-1 border-top" data-aos="fade-left"></div>
           </div>
       </div>
     </div>

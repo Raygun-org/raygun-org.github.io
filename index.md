@@ -33,9 +33,9 @@ description: "With over a decade of experience utilizing digital media to tell e
         <div class="row align-items-center">
             <div class="col-12 text-center">
                 <div class="d-flex align-items-center text-center my-4">
-                    <div class="flex-grow-1 border-top"></div>
+                    <div class="flex-grow-1 border-top" data-aos="fade-right"></div>
                     <h1 class="fw-normal px-5 mb-0">Digital Media Services</h1>
-                    <div class="flex-grow-1 border-top"></div>
+                    <div class="flex-grow-1 border-top" data-aos="fade-left"></div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">
@@ -121,9 +121,9 @@ description: "With over a decade of experience utilizing digital media to tell e
     <div class="row text-center my-5">
         <div class="col-12">
             <div class="d-flex align-items-center text-center my-4">
-                <div class="flex-grow-1 border-top"></div>
+                <div class="flex-grow-1 border-top" data-aos="fade-right"></div>
                 <h1 class="fw-normal px-5 mb-0">Additional Services</h1>
-                <div class="flex-grow-1 border-top"></div>
+                <div class="flex-grow-1 border-top" data-aos="fade-left"></div>
             </div>
         </div>
     </div>
@@ -153,9 +153,9 @@ description: "With over a decade of experience utilizing digital media to tell e
     <div class="row">
         <div class="col-12">
             <div class="d-flex align-items-center text-center my-4">
-                <div class="flex-grow-1 border-top"></div>
+                <div class="flex-grow-1 border-top" data-aos="fade-right"></div>
                 <h1 class="fw-normal px-5 mb-0">Familiar Platforms</h1>
-                <div class="flex-grow-1 border-top"></div>
+                <div class="flex-grow-1 border-top" data-aos="fade-left"></div>
             </div>
         </div>
     </div>
