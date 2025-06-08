@@ -3,12 +3,12 @@ layout: case-study
 title: Red Letter Clay
 sub-title: Handmade Ceramics
 description: Red Letter Clay is a handmade ceramic line. After a 5 year studio practice and selling at various markets around Chicago, I designed & developed an online store to allow for national shipping and in-person pick ups as an option for sales.
-image: https://raygun.org/assets/img/portfolio/redletterclay/RLC-nav.jpg
+image: https://raygun.org/assets/img/portfolio/rlc/redletterclay-mbp.png
 nav: web
 sub-nav: rlcw
 url-link: https://redletterclay.com
 url-title: www.redletterclay.com
-image-thumb: /assets/img/portfolio/redletterclay/RLC-nav.jpg
+image-thumb: /assets/img/portfolio/rlc/redletterclay-mbp.png
 laptop: /assets/img/portfolio/rlc/redletterclay-mbp.png
 tags: [ e-commerce, cms, website design, website development, featured, websites ]
 involvement: [ Website Design, Website Development, Logo Design, Print Design, Email Marketing, Photography, E-commerce ]

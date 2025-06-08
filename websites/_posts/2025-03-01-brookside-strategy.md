@@ -4,8 +4,7 @@ title: Brookside Strategy
 sub-title: Financial Advising (Los Angeles, CA)
 description: Brookside Strategy is a financial advising firm in LA, led by David Ward, CFA. David needed a full branding package including logo design, visual identity, e-mail marketing templates, business cards, and a Squarespace redesign. I curated photographs and incorporated design elements to align with their craftsman-like approach to financial services.
 imgage: https://raygun.org/assets/img/portfolio/brookside-strategy/process-page.jpg
-image-thumb: /assets/img/portfolio/brookside-strategy/brookside-strategy-thumb.jpg
-laptop: /assets/img/portfolio/brookside-strategy/brookside-mbp.png
+image-thumb: /assets/img/portfolio/brookside-strategy/brookside-mbp.png
 tags: [ featured, website design, websites, marketing ]
 involvement: [ Branding, Print Design, E-mail Marketing, Website Design, Content Strategy ]
 technology: [ Squarespace, Adobe Illustrator, Adobe Photoshop, Mailchimp ]

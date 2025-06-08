@@ -3,8 +3,8 @@ layout: case-study
 title: PO Box Collective
 sub-title: Art & Education (Chicago, IL)
 description: PO Box Collective is a creative collective and intergenerational social practice center in the Rogers Park neighborhood of Chicago (located inside a former US Post Office). I transitioned them off WordPress and onto CraftCMS with a new design that prominently features their community programming and events.
-image: https://raygun.org/assets/img/pobox/POBOX-thumb.jpg
-image-thumb: /assets/img/portfolio/pobox/POBOX-thumb.jpg
+image: https://raygun.org/assets/img/pobox/pobox-mbp.png
+image-thumb: /assets/img/portfolio/pobox/pobox-mbp.png
 laptop: /assets/img/portfolio/pobox/pobox-mbp.png
 tags: [ featured, website design, website development, websites, marketing, cms ]
 involvement: [ Website Design, Website Development, CMS Transitioning, E-mail Marketing, Content Strategy ]

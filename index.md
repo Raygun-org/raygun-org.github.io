@@ -2,7 +2,7 @@
 layout: landing
 nav: home
 title: "Digital Marketing, Photography, Websites + Video"
-image: https://raygun.org/assets/img/vasquez.jpg
+image: https://raygun.org/assets/img/raygun-mbp.png
 description: "With over a decade of experience utilizing digital media to tell engaging stories and establishing my client's online presence, I believe that mindful design leaves a lasting impression. Combining my professional experience with photography, website design, digital video, and print, I have a toolset capable of executing campaigns that elevate my customers' projects to help them flourish."
 ---
 <div class="container-fluid g-0 statement pb-5 overflow-hidden">

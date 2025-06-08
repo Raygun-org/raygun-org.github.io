@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: "David Ball - Digital Media Specialist"
+image: https://raygun.org/assets/img/raygun-mbp.png
 nav: contact
 permalink: /contact/
 ---

@@ -4,7 +4,7 @@ title: Higher Grounds of Maine
 sub-title: Cannabis Dispensary & Coffee (Portland, ME)
 description: Higher Grounds of Maine is the East Coast's first coffee & cannabis shop. I transitioned them off WordPress and developed a custom-built static site, cutting their monthly hosting fees to $0 and ending an annual contract with an agency. 
 image: https://raygun.org/assets/img/portfolio/highergrounds/higher-grounds-nav.png
-image-thumb: /assets/img/portfolio/highergrounds/higher-grounds-nav.png
+image-thumb: /assets/img/portfolio/highergrounds/highergrounds-mbp.png
 laptop: /assets/img/portfolio/highergrounds/highergrounds-mbp.png
 tags: [ website design, website development, e-commerce, websites, marketing ]
 involvement: [ Website Design, Content Strategy, Marketing ]
