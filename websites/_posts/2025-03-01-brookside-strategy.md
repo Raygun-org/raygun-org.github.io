@@ -19,26 +19,28 @@ permalink: /websites/brookside-strategy/
 <div class="container-fluid">
   <div class="row py-5" id="trigger-4">
         <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="400">
-            <h4 class="brookside">Landing Page</h4>
+            <h4 class="brookside text-center">Landing Page</h4>
             <a href="/assets/img/portfolio/brookside-strategy/landing-page.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/brookside-strategy/landing-page.jpg" alt="Brookside Strategy Landing Page" class="img-fluid cursor-zoom border border-5"></a> 
         </div>
         <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="800">
-            <h4 class="brookside">Process Page</h4>
+            <h4 class="brookside text-center">Process Page</h4>
             <a href="/assets/img/portfolio/brookside-strategy/process-page.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/brookside-strategy/process-page.jpg" alt="Brookside Strategy Process Page" class="img-fluid cursor-zoom border border-5"></a> 
         </div>
         <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-4" data-aos-duration="1200">
-            <h4 class="brookside">Small Business Marketing</h4>
+            <h4 class="brookside text-center">Small Business Marketing</h4>
             <a href="/assets/img/portfolio/brookside-strategy/market-page.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/brookside-strategy/market-page.jpg" alt="Brookside Strategy Small Business Marketing" class="img-fluid cursor-zoom border border-5"></a>
         </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row align-items-top gx-0 py-5 text-center" data-aos="fade-up">
       <h4 class="brookside text-center">Logo, Email Signature, Business Cards</h4>
       <div class="col-lg-10 mx-auto">  
-        <a href="/assets/img/portfolio/brookside-strategy/brand-package.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/brookside-strategy/brand-package.jpg" class="img-fluid cursor-zoom" alt="Brookside Strategy - Brand Package"></a>
+        <a href="/assets/img/portfolio/brookside-strategy/brookside-branding.png" class="glightboxGallery"><img src="/assets/img/portfolio/brookside-strategy/brookside-branding.png" class="img-fluid cursor-zoom" alt="Brookside Strategy - Brand Package"></a>
       </div>  
     </div>
+  </div>
+  <div class="container">
     <div class="row py-5" id="trigger-6">
       <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-6" data-aos-duration="400">
         <h4 class="brookside text-center">Newsletter Design</h4>
