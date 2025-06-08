@@ -800,6 +800,20 @@ div.stat {
   color: white;
 }
 
+@media only screen and (min-width: 768px) {
+  .arrow-hover:hover i {
+    animation: headShake 1s infinite linear;
+    transition-timing-function: ease-out;
+    transition: 1s;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .zoom-hover:hover i {
+    animation: pulse 0.75s infinite linear;
+    transition-timing-function: ease-out;
+    transition: 1s;
+  }
+}
 .halftone- a, h3 a {
   color: #ffc0cb;
 }
@@ -868,6 +882,14 @@ div.pobox h2.case-study {
   letter-spacing: 0;
 }
 
+.bg-pobox {
+  background-color: #9BB2E8;
+}
+
+.bg-pobox-2 {
+  background-color: #2C5646;
+}
+
 .navbar a.active.pobox {
   color: #9BB2E8;
 }
@@ -903,7 +925,7 @@ h2.pobox {
 }
 
 h4.pobox {
-  color: #D53B38;
+  color: #2A3D6B;
 }
 
 div.pobox a.alt {

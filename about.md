@@ -17,7 +17,7 @@ permalink: /about/
                 <hr>
                 <p class="introduction">An award-winning designer, consultant and long-time Pilsen resident, David's been rooted in Chicago’s creative community for over 20 years. Since launching his first website in 2003, he's navigated the evolving landscape of web design with a multidisciplinary approach. His work has been featured on MTV, Yahoo, WTTW, and NPR, and he remains driven by how emerging tools and technologies can empower designers to build smarter, more expressive digital experiences for clients.</p>
                 <p>Below you can read more about his volunteer work and interests including his involvement in grassroots giving initiatives that created micro grants for under-represented and under-served communities in Chicago working in the arts and towards social justice.</p>
-                <h3 class="fst-italic text-end" data-aos="flip-up" data-aos-delay="400" data-aos-anchor-position="top-bottom"><a href="/contact/" class="text-decoration-none" alt="Schedule a call">Let's work together <i class="fa fa-arrow-right-long ps-3" aria-hidden="true" data-aos="fade-right" data-aos-delay="600"></i></a></h3>
+                <h3 class="fst-italic text-end animate__animated arrow-hover" data-aos="flip-up" data-aos-delay="400" data-aos-anchor-position="top-bottom"><a href="/contact/" class="text-decoration-none" alt="Schedule a call">Let's work together <i class="fa fa-arrow-right-long ps-3" aria-hidden="true" data-aos="fade-right" data-aos-delay="600"></i></a></h3>
             </div>
         </div>
     </div>
