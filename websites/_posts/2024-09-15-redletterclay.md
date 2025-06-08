@@ -70,7 +70,7 @@ permalink: /websites/red-letter-clay/
     </div>
     <div class="row align-items-center" id="trigger-7">
       <div class="col-lg-12 col-md-12 mb-5" data-aos="fade-up" data-aos-once="true" data-aos-anchor="#trigger-7" data-aos-anchor-placement="top-bottom">
-        <h2 class="rlcw mb-4 text-center">Business Card Design</h2>
+        <h2 class="rlcw mb-4">Business Card Design</h2>
          <a href="/assets/img/portfolio/redletterclay/RLC-print.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/redletterclay/RLC-print.jpg" alt="Business Card Design" class="img-fluid cursor-zoom"></a>
       </div>
     </div>
