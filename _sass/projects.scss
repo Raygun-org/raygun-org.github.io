@@ -232,7 +232,7 @@ $bmeSparkColor: #ff3399;
 }
 
 @media only screen and (min-width: 768px) {
-    .arrow-hover:hover i {
+    .arrow-hover i {
         animation: headShake 1s infinite linear;
         transition-timing-function: ease-out;
         transition: 1s;
