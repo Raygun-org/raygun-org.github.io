@@ -78,14 +78,14 @@
                       {% if post.laptop %}
                       <img src="{{post.laptop}}" class="img-fluid" alt="{{post.title}} Thumbnail">
                       {% else %}
-                      <img src="{{post.image-thumb}}" class="img-fluid">
+                      <img src="{{post.image-thumb}}" class="img-fluid" alt="{{post.title}} Thumbnail">
                       {%endif %}
                     </a>
                   </div>
                   <div class="col-lg-7 col-md-12 text-center ps-lg-4 ps-md-0">
                     <div class="row mt-5">
                       <div class="col-12">
-                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" class="text-decoration-none">{{post.title}}</h1>
+                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" class="text-decoration-none">{{post.title}}</a></h1>
                           {% if post.sub-title %}<h3><span class="fw-normal text-capitalize">{{post.sub-title}}</span></h3>{%endif%}
                         </a>
                       </div>
@@ -122,7 +122,7 @@
                   <div class="col-lg-5 col-md-12 text-center">
                     <a href="{{post.permalink}}">
                       {% if post.laptop %}
-                      <img src="{{post.laptop}}" class="img-fluid">
+                      <img src="{{post.laptop}}" class="img-fluid" alt="{{post.title}} Thumbnail">
                       {% else %}
                       <img src="{{post.image-thumb}}" class="img-fluid" alt="{{post.title}} Thumbnail">
                       {%endif %}
@@ -131,7 +131,7 @@
                   <div class="col-lg-7 col-md-12 text-center ps-lg-4 ps-md-0">
                     <div class="row mt-5">
                       <div class="col-12">
-                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" class="text-decoration-none">{{post.title}}</h1>
+                        <h1 class="text-uppercase text-center"><a href="{{post.permalink}}" class="text-decoration-none">{{post.title}}</a></h1>
                           {% if post.sub-title %}<h3><span class="fw-normal text-capitalize">{{post.sub-title}}</span></h3>{%endif%}
                         </a>
                       </div>
