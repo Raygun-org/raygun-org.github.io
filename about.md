@@ -184,11 +184,11 @@ permalink: /about/
                     <li>
                     <h4 class="text-date pt-4">2012</h4>
                     <p class="alt">Chicago Public Schools</p>
-                    <p class="ps-3 alt">Lane credit courses for CPS teachers with <a href="/websites/beyondmedia-education.html" alt="Beyondmedia Education">Beyondmedia Education</a>.</p>
+                    <p class="ps-3 alt">Lane credit courses for CPS teachers with <a href="/websites/beyondmedia-education.html">Beyondmedia Education</a>.</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2011</h4>
-                    <p class="alt"><a href="/websites/beyondmedia-education.html" alt="Beyondmedia Education">Beyondmedia Education</a>'s 3rd Annual Youth Summit @ Columbia College</p>
+                    <p class="alt"><a href="/websites/beyondmedia-education.html">Beyondmedia Education</a>'s 3rd Annual Youth Summit @ Columbia College</p>
                     <p class="ps-3 alt">Youth workshop facilitator</p>
                     </li>
                 </ul>
@@ -198,72 +198,72 @@ permalink: /about/
                 <ul>
                     <li>
                     <h4 class="text-date pt-4">2022</h4>
-                    <p class="alt"><a href="/videos/the-other-guantanamo.html" alt="The Other Guantanamo">The Other Guantanamo</a> Work-in-Progress Screening</p>
+                    <p class="alt"><a href="/videos/the-other-guantanamo.html">The Other Guantanamo</a> Work-in-Progress Screening</p>
                     <p class="ps-3 alt">PO BOX Collective - Chicago, IL</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/videos/the-other-guantanamo.html" alt="The Other Guantanamo">The Other Guantanamo</a> Work-in-Progress Screening</p>
+                    <p class="alt"><a href="/videos/the-other-guantanamo.html">The Other Guantanamo</a> Work-in-Progress Screening</p>
                     <p class="ps-3 alt">Screen Test | Berger Park Cultural Center - Chicago, IL<br>(Chicago Park District + Roman Susan Gallery)</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="https://vimeo.com/730482816/8325518015" alt="Susan Nussbaum Memorial" target="_blank">Susan Nussbaum Memorial Video</a></p>
+                    <p class="alt"><a href="https://vimeo.com/730482816/8325518015" target="_blank">Susan Nussbaum Memorial Video</a></p>
                     <p class="ps-3 alt">Gene Siskel Film Center - Chicago, IL</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2013</h4>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Cinema Mostra AIDS | Sao Paulo, Brazil</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2012</h4>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Q! Film Festival, Makassar | Sulawesi, Indonesia</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Provincetown International Film Festival | Provincetown, MA</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2011</h4>
-                    <p class="alt"><a href="https://vimeo.com/522144573" alt="Your Social Life">Your Social Life</a></p>
+                    <p class="alt"><a href="https://vimeo.com/522144573">Your Social Life</a></p>
                     <p class="ps-3 alt">Common Sense Media, Yahoo + MTV Chicago | <a href="https://www.fieldmuseum.org/" target="_blank" alt="The Field Museum">The Field Museum</a><br>Designed accompanying website for the event.</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Merlinka International Queer Film Festival - Belgrade, Serbia</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Q! Film Festival - Jakarta, Indonesia</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2010</h4>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Frameline Film Festival - San Francisco, CA</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">National Museum of Mexican Art - Chicago, IL</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Humboldt Film Festival - Arcata, CA</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Urban Suburban Film Festival - Philadelphia, PA</p>
                     </li>
                     <li>
                     <h4 class="text-date pt-4">2009</h4>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">Austin Gay + Lesbian Film Festival - Austin, TX</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="https://www.wbez.org/stories/condom-sense-for-some-chicago-public-schools/ae8e1ab8-332d-4a69-a850-f94895e25214" alt="WBEZ Condom Sense for Some Chicago Public Schools" target="_blank">"Condom Sense for Some Chicago Public Schools"</a> - Broadcast WBEZ - Chicago, IL</p>
+                    <p class="alt"><a href="https://www.wbez.org/stories/condom-sense-for-some-chicago-public-schools/ae8e1ab8-332d-4a69-a850-f94895e25214" target="_blank">"Condom Sense for Some Chicago Public Schools"</a> - Broadcast WBEZ - Chicago, IL</p>
                     <p class="ps-3 alt">Designed accompanying website for the event in collaboration with Chicago Public Schools + Howard Brown Health Center.</p>
                     </li>
                     <li>
-                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html" alt="HIV Hey Its Viral">HIV: Hey, It's Viral</a> - Official Selection</p>
+                    <p class="alt"><a href="/websites/hiv-hey-its-viral.html">HIV: Hey, It's Viral</a> - Official Selection</p>
                     <p class="ps-3 alt">National LGBTI Health Summit - Washington, DC</p>
                     </li>
                 </ul>

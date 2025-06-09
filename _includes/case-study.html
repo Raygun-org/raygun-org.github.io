@@ -32,21 +32,21 @@
           <div class="col-md-6 col-sm-12 text-center text-md-start">
             {% if page.involvement %}
               <h4>INVOLVEMENT</h4>
-              <p><ul class="{{page.sub-nav}}">
+              <ul class="{{page.sub-nav}}">
               {% for involvement in page.involvement %}
                 <li>{{involvement}}</li>
               {% endfor %}
-              </ul></p>
+              </ul>
             {% endif %}
           </div>
           <div class="col-md-6 col-sm-12 text-center text-md-start pt-4 pt-md-0">
             {% if page.technology %}
             <h4>TECHNOLOGY</h4>
-            <p><ul class="{{page.sub-nav}}">
+            <ul class="{{page.sub-nav}}">
               {% for tech in page.technology %}
                 <li>{{tech}}</li>
               {% endfor %}
-            </ul></p>
+            </ul>
             {% endif %}
           </div>
         </div>
