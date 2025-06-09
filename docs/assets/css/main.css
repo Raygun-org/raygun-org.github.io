@@ -803,7 +803,7 @@ div.stat {
 
 @media only screen and (min-width: 768px) {
   .arrow-hover i {
-    animation: headShake 1s infinite linear;
+    animation: headShake 1.5s infinite linear;
     transition-timing-function: ease-out;
     transition: 1s;
   }
