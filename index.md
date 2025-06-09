@@ -43,19 +43,19 @@ description: "With over a decade of experience utilizing digital media to tell e
                 <div id="carouselWebsites" class="carousel carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/brookside-strategy/"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/pobox-collective/" alt="PO Box Collective Case Study"><img src="/assets/img/portfolio/pobox/pobox-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/pobox-collective/"><img src="/assets/img/portfolio/pobox/pobox-mbp.png" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/higher-grounds/" alt="PO Box Collective Case Study"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/higher-grounds/"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/liz-mccarthy/" alt="Liz McCarthy Case Study"><img src="/assets/img/portfolio/liz-mccarthy/liz-mccarthy-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/liz-mccarthy/"><img src="/assets/img/portfolio/liz-mccarthy/liz-mccarthy-mbp.png" class="d-block w-100"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/red-letter-clay/" alt="Red Letter Clay Case Study"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/red-letter-clay/"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="d-block w-100"></a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebsites" data-bs-slide="prev">
@@ -69,9 +69,9 @@ description: "With over a decade of experience utilizing digital media to tell e
                 </div>
             </div>
             <div class="col-md-12 col-lg-6 mt-5">
-                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/website-design/" alt="Website Design Portfolio" class="text-white text-decoration-none">Website Design</a> <span class="fw-light">&</span> <a href="/portfolio/website-development/" alt="Website Development Portfolio" class="text-white text-decoration-none">Development</a></h2>
+                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/website-design/" class="text-white text-decoration-none">Website Design</a> <span class="fw-light">&</span> <a href="/portfolio/website-development/" class="text-white text-decoration-none">Development</a></h2>
                 <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Responsive designs tailored to your brand</h4>
-                <p>I craft websites for a diverse range of clients and projects &mdash; including <a href="/websites/higher-grounds/" alt="Higher Grounds of Maine">small businesses</a>, <a href="/websites/brookside-strategy/">industry leaders</a>, <a href="/websites/women-and-prison/">journalism platforms</a>, <a href="/websites/liz-mccarthy/">artists</a>, <a href="/websites/pobox-collective/" alt="PO Box Collective">nonprofits</a>, and <a href="/websites/present-absence/">interactive digital installations</a>.</p>
+                <p>I craft websites for a diverse range of clients and projects &mdash; including <a href="/websites/higher-grounds/">small businesses</a>, <a href="/websites/brookside-strategy/">industry leaders</a>, <a href="/websites/women-and-prison/">journalism platforms</a>, <a href="/websites/liz-mccarthy/">artists</a>, <a href="/websites/pobox-collective/">nonprofits</a>, and <a href="/websites/present-absence/">interactive digital installations</a>.</p>
                 <p class="mt-4">Whether it’s a fully customized CMS-driven site with complex data structures or a lightweight, maintenance-free static website, every project is thoughtfully designed with a mobile-first approach to ensure performance and accessibility across all devices. <span class="fw-bold">Don't settle for a website that's just "good enough."</span></p>
             </div>
         </div>
