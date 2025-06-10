@@ -37,10 +37,11 @@
   <body>
     <nav class="navbar navbar-dark navbar-expand-lg halftone-indigo">
     <div class="container animate__animated animate__fadeIn">
+      <div class="logo" id="logo-scroll">
       <a class="navbar-brand me-4" href="/index.html">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 443.9 361.3" style="enable-background:new 0 0 443.9 361.3;" xml:space="preserve" class="raygun-logo">
-        <g id="main_logo">
+          <g id="main_logo">
             <g>
                 <path d="M248.3,234.5c-1.4,25.8-3.9,51.4-8.8,76.9c-2.7,13.2-5.4,26.4-11.7,38.6c-5.9,11.8-18.1,16.3-26.8,4
                     c-4.3-6.8-5.7-13.2-7.9-20.4c-3.5-12.9-5.7-25.8-7.6-38.9c-12-83.8-7-170,15.9-251.5c4.2-13.3,8.1-26.9,17.8-37.8
@@ -104,7 +105,9 @@
             </g>
         </g>
         </svg>
-        <!--<img src="/assets/img/raygun-text.png" height="45">--></a>
+        <!--<img src="/assets/img/raygun-text.png" height="45">-->
+      </a>
+    </div> 
       <div class="d-flex justify-content-center align-self-center">
         <!--
         <div>
@@ -747,6 +750,32 @@
       gtag('js', new Date());
 
       gtag('config', 'G-YJW234TJNJ');
+    </script>
+    <script>
+      // Debounce function
+      function debounce(func, delay) {
+        let timeout;
+        return function () {
+          const context = this;
+          const args = arguments;
+          clearTimeout(timeout);
+          timeout = setTimeout(() => func.apply(context, args), delay);
+        };
+      }
+
+      // Shrink logo handler
+      function handleScroll() {
+        const logo = document.getElementById('logo-scroll');
+        if (!logo) return;
+        if (window.scrollY > 35) {
+          logo.classList.add('shrink');
+        } else {
+          logo.classList.remove('shrink');
+        }
+      }
+
+      // Attach debounced scroll listener
+      window.addEventListener('scroll', debounce(handleScroll, 35));
     </script>
   </body>
 </html>

@@ -1,5 +1,20 @@
 @import "/assets/css/fontawesome.min.css";
 @import "/assets/css/brands.css";
+.logo {
+  height: 115px;
+  transition: height 0.3s ease;
+  top: 0;
+  z-index: 999;
+}
+
+.logo.shrink {
+  height: 70px;
+}
+
+.logo.shrink g#text {
+  display: none;
+}
+
 .type-3 {
   font-family: "europa", "quatro-slab", san-serif;
 }
@@ -642,7 +657,7 @@ nav.navbar g#text {
   }
 }
 svg.raygun-logo {
-  min-height: 115px;
+  height: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
 }

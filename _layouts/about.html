@@ -74,5 +74,31 @@
 
       gtag('config', 'G-YJW234TJNJ');
     </script>
+    <script>
+      // Debounce function
+      function debounce(func, delay) {
+        let timeout;
+        return function () {
+          const context = this;
+          const args = arguments;
+          clearTimeout(timeout);
+          timeout = setTimeout(() => func.apply(context, args), delay);
+        };
+      }
+
+      // Shrink logo handler
+      function handleScroll() {
+        const logo = document.getElementById('logo-scroll');
+        if (!logo) return;
+        if (window.scrollY > 35) {
+          logo.classList.add('shrink');
+        } else {
+          logo.classList.remove('shrink');
+        }
+      }
+
+      // Attach debounced scroll listener
+      window.addEventListener('scroll', debounce(handleScroll, 35));
+    </script>
   </body>
 </html>

@@ -23,6 +23,22 @@ $mastChambray: url('/assets/img/portfolio/kneedeepvintage/mansize-1-full-knee-de
 $mastBDS: url('/assets/img/portfolio/blackdoor/blackdoor_001.jpg');
 $mastWolfBanner: url('/assets/img/portfolio/royal-wolf-events/royal-wolf-events-01.jpg');
 
+
+.logo {
+  height: 115px;
+  transition: height 0.3s ease;
+  top: 0;
+  z-index: 999;
+}
+
+.logo.shrink {
+  height: 70px;
+}
+
+.logo.shrink g#text {
+  display: none;
+}
+
 .type-3 {
   font-family: $typefaceThird;
 }
@@ -658,7 +674,7 @@ nav.navbar g#text{
 }
 
 svg.raygun-logo {
-  min-height:115px;
+  height: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
