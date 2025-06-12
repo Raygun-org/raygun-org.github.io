@@ -26,7 +26,7 @@ $mastWolfBanner: url('/assets/img/portfolio/royal-wolf-events/royal-wolf-events-
 
 .logo {
   height: 115px;
-  transition: height 0.6s ease;
+  transition: height 0.5s ease-in-out;
   top: 0;
   z-index: 999;
 }
@@ -272,6 +272,7 @@ nav {
 
 html, body {
   overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
 }
 
 body {

@@ -23,7 +23,7 @@ description: "With over a decade of experience utilizing digital media to tell e
                 <div class="hstack justify-content-end animate__animated arrow-hover mt-5">
                 <div class="vr me-3" style="width: 3px;" data-aos="fade-left"></div>
                     <h3 class="fst-italic fw-semibold" data-aos="flip-up" data-aos-delay="400"><a href="/contact/" class="text-decoration-none">Introduce yourself<br><span class="fw-light">&</span> get started today</a></h3>
-                    <h3 class="fst-italic fw-semibold" data-aos="fade-right" data-aos-delay="600" data-aos-anchor-placement="top-bottom"><a href="/contact/" class="text-decoration-none"><i class="ps-4 fa fa-arrow-right-long"></i></a></h3>
+                    <h3 class="fst-italic fw-semibold" data-aos="fade-right" data-aos-delay="600" data-aos-anchor-placement="top-bottom"><a href="/contact/" class="text-decoration-none" aria-label="Introduce yourself and get started today""><i class="ps-4 fa fa-arrow-right-long"></i></a></h3>
                 </div>
             </div>
         </div>
@@ -43,19 +43,19 @@ description: "With over a decade of experience utilizing digital media to tell e
                 <div id="carouselWebsites" class="carousel carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="/websites/brookside-strategy/"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/brookside-strategy/" aria-label="Brookside Strategy Case Study"><img src="/assets/img/portfolio/brookside-strategy/brookside-mbp.png" class="d-block w-100" alt="Brookside Strategy Case Study"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/pobox-collective/"><img src="/assets/img/portfolio/pobox/pobox-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/pobox-collective/" aria-label="PO Box Collective Case Study"><img src="/assets/img/portfolio/pobox/pobox-mbp.png" class="d-block w-100" alt="PO Box Collective Case Study"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/higher-grounds/"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/higher-grounds/" aria-label="Higher Grounds Case Study"><img src="/assets/img/portfolio/highergrounds/highergrounds-mbp.png" class="d-block w-100" alt="Higher Grounds Case Study"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/liz-mccarthy/"><img src="/assets/img/portfolio/liz-mccarthy/liz-mccarthy-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/liz-mccarthy/" aria-label="Liz McCarthy Case Study"><img src="/assets/img/portfolio/liz-mccarthy/liz-mccarthy-mbp.png" class="d-block w-100" alt="Liz McCarthy Case Study"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/websites/red-letter-clay/"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="d-block w-100"></a>
+                            <a href="/websites/red-letter-clay/" aria-label="Red Letter Clay Case Study"><img src="/assets/img/portfolio/rlc/redletterclay-mbp.png" class="d-block w-100" alt="Red Letter Clay Case Study"></a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebsites" data-bs-slide="prev">
@@ -69,15 +69,15 @@ description: "With over a decade of experience utilizing digital media to tell e
                 </div>
             </div>
             <div class="col-md-12 col-lg-6 mt-5">
-                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/website-design/" class="text-white text-decoration-none">Website Design</a> <span class="fw-light">&</span> <a href="/portfolio/website-development/" class="text-white text-decoration-none">Development</a></h2>
+                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/website-design/" class="text-white text-decoration-none" aria-label="Website Design Portfolio">Website Design</a> <span class="fw-light">&</span> <a href="/portfolio/website-development/" class="text-white text-decoration-none" aria-label="Website Development Portfolio">Development</a></h2>
                 <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Responsive designs tailored to your brand</h4>
-                <p>I craft websites for a diverse range of clients and projects &mdash; including <a href="/websites/higher-grounds/">small businesses</a>, <a href="/websites/brookside-strategy/">industry leaders</a>, <a href="/websites/women-and-prison/">journalism platforms</a>, <a href="/websites/liz-mccarthy/">artists</a>, <a href="/websites/pobox-collective/">nonprofits</a>, and <a href="/websites/present-absence/">interactive digital installations</a>.</p>
+                <p>I craft websites for a diverse range of clients and projects &mdash; including <a href="/websites/higher-grounds/" aria-label="Higher Grounds of Maine Case Study">small businesses</a>, <a href="/websites/brookside-strategy/" aria-label="Brookside Strategy Case Study">industry leaders</a>, <a href="/websites/women-and-prison/" aria-label="Women and Prison Case Study">journalism platforms</a>, <a href="/websites/liz-mccarthy/" aria-label="Liz McCarthy Case Study">artists</a>, <a href="/websites/pobox-collective/" aria-label="PO Box Collective Case Study">nonprofits</a>, and <a href="/websites/present-absence/" aria-label="Present Absence Case Study">interactive digital installations</a>.</p>
                 <p class="mt-4">Whether it’s a fully customized CMS-driven site with complex data structures or a lightweight, maintenance-free static website, every project is thoughtfully designed with a mobile-first approach to ensure performance and accessibility across all devices. <span class="fw-bold">Don't settle for a website that's just "good enough."</span></p>
             </div>
         </div>
         <div class="row my-5 py-5 align-items-center">
             <div class="col-md-12 col-lg-6">
-                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/photography/" class="text-white text-decoration-none">Digital Photography</a></h2>
+                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/photography/" class="text-white text-decoration-none" aria-label="Photography Portfolio">Digital Photography</a></h2>
                 <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Professional imagery to enhance your marketing</h4>
                 <p>Need custom photography for your project? Whether it’s professional headshots, event coverage, behind-the-scenes tours, marketing imagery, or product photography, I offer photography services tailored to your needs.</p>
                 <p class="my-4">Using a Nikon DSLR and Paul C. Buff Einstein studio strobes, I deliver high-quality visuals that elevate your brand. Photography can be included as part of your project estimate upon request.</p>
@@ -86,19 +86,19 @@ description: "With over a decade of experience utilizing digital media to tell e
             <div id="carouselPhoto" class="carousel carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="/photo/royal-wolf-events/"><img src="/assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.png" class="d-block w-100" data-aos="fade-in" alt="Royal Wolf Events"></a>
+                            <a href="/photo/royal-wolf-events/" aria-label="Royal Wolf Events Case Study"><img src="/assets/img/portfolio/royal-wolf-events/royal-wolf-events-nav.png" class="d-block w-100" data-aos="fade-in" alt="Royal Wolf Events"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/photo/ultra-trading/"><img src="/assets/img/portfolio/ultra-trading/ultra-trading-nav-test.png" class="d-block w-100" data-aos="fade-in" alt="Ultra Trading"></a>
+                            <a href="/photo/ultra-trading/" aria-label="Ultra Trading Case Study"><img src="/assets/img/portfolio/ultra-trading/ultra-trading-nav-test.png" class="d-block w-100" data-aos="fade-in" alt="Ultra Trading"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/photo/red-letter-clay/"><img src="/assets/img/portfolio/rlc/rlc-photo-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Ultra Trading"></a>
+                            <a href="/photo/red-letter-clay/" aria-label="Red Letter Clay Case Study"><img src="/assets/img/portfolio/rlc/rlc-photo-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Red Letter Clay"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/photo/knee-deep-vintage/"><img src="/assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Knee Deep Vintage Catalogue"></a>
+                            <a href="/photo/knee-deep-vintage/" aria-label="Knee Deep Vintage Case Study"><img src="/assets/img/portfolio/kneedeepvintage/knee-deep-vintage-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Knee Deep Vintage Case Study"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="/photo/black-door-store/"><img src="/assets/img/portfolio/blackdoor/blackdoor-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Black Door Store"></a>
+                            <a href="/photo/black-door-store/" aria-label="Black Door Store Case Study"><img src="/assets/img/portfolio/blackdoor/blackdoor-nav-2.png" class="d-block w-100" data-aos="fade-in" alt="Black Door Store Case Study"></a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoto" data-bs-slide="prev">
@@ -114,10 +114,10 @@ description: "With over a decade of experience utilizing digital media to tell e
         </div>
         <div class="row my-5 py-5">
             <div class="col-md-12 col-lg-6">
-                <a href="/marketing/11-degrees-daiquiri/"><img src="/assets/img/portfolio/11-degrees/11-degrees-nav.png" class="img-fluid" data-aos="fade-in" alt="11 Degrees Daiquiri Case Study"></a>
+                <a href="/marketing/11-degrees-daiquiri/" aria-label="11 Degrees Daiquiri Case Study"><img src="/assets/img/portfolio/11-degrees/11-degrees-nav.png" class="img-fluid" data-aos="fade-in" alt="11 Degrees Daiquiri Case Study"></a>
             </div>
             <div class="col-md-12 col-lg-6">
-                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/marketing/" class="text-white text-decoration-none">Digital Marketing<br> <span class="fw-light">&</span> Content Management</a></h2>
+                <h2 class="mt-5 header-spacing text-uppercase text-center"><a href="/portfolio/marketing/" class="text-white text-decoration-none" aria-label="Digital Marketing Portfolio">Digital Marketing<br> <span class="fw-light">&</span> Content Management</a></h2>
                 <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Elevate online visibility & engagement</h4>
                 <p>From email templates to social media assets, I create on-brand designs that connect with your audience..</p>
                 <p>Many small businesses don’t have the resources for a full-time designer or content manager. That’s why I offer flexible, à la carte creative services. Whether you need updates to your website, email campaigns, social media graphics, digital signage, or other digital media, I'm here to support your business when and where you need it.</p>
@@ -139,19 +139,19 @@ description: "With over a decade of experience utilizing digital media to tell e
     <div class="d-lg-flex text-center">
         <div class="col-lg-4 col-sm-12 px-md-5 px-sm-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-search px-1 pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing"><a href="/websites/higher-grounds/" class="text-white text-decoration-none">Search Engine Optimization (SEO)</a></h3>
+            <h3 class="mt-5 header-spacing"><a href="/websites/higher-grounds/" class="text-white text-decoration-none" aria-label="Higher Grounds of Maine Case Study">Search Engine Optimization (SEO)</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Get Seen, Get Customers</h4>
             <p>I’ll optimize your site for Google setting up Search Console, Analytics, structuring your sitemap, and fine-tuning your copy so you rank higher, attract more visitors, and turn clicks into customers.</p>
         </div>
         <div class="col-lg-4 col-sm-12 px-md-5 px-sm-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-film px-1 pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing"><a href="/portfolio/video/" class="text-white text-decoration-none">Video Editing</a></h3>
+            <h3 class="mt-5 header-spacing"><a href="/portfolio/video/" class="text-white text-decoration-none" aria-label="Video Post Production Portfolio">Video Editing</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Mood, Meaning & Message</h4>
-            <p class="alt">I have edited <a href="/video/the-other-guantanamo/">documentary film</a> and trailers, digitally archived physical DV tape footage, and also work with legacy formats like DVD authoring.</p>
+            <p class="alt">I have edited <a href="/video/the-other-guantanamo/" aria-label="The Other Guantanamo Case Study">documentary film</a> and trailers, digitally archived physical DV tape footage, and also work with legacy formats like DVD authoring.</p>
         </div>
         <div class="col-lg-4 col-sm-12 px-md-5 ps-xs-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-suitcase-medical pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing">Restoration<br><span class="fw-normal">&</span> <a href="/portfolio/cms/" class="text-white text-decoration-none">CMS Transitioning</a></h3>
+            <h3 class="mt-5 header-spacing">Restoration<br><span class="fw-normal">&</span> <a href="/portfolio/cms/" class="text-white text-decoration-none" aria-label="Content Management System Portfolio">CMS Transitioning</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Recover or Reinvent your Website</h4>
             <p>I specialize in restoring websites from backups or archived snapshots, migrating to new content management systems, and transitioning from paid platforms to streamlined static HTML setups &mdash; eliminating overhead while keeping your content intact.</p>
         </div>
