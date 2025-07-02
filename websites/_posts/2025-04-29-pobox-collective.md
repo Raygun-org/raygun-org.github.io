@@ -8,6 +8,7 @@ image-thumb: /assets/img/portfolio/pobox/pobox-mbp.png
 laptop: /assets/img/portfolio/pobox/pobox-mbp.png
 tags: [ featured, website design, website development, websites, marketing, cms ]
 involvement: [ Website Design, Website Development, CMS Transitioning, E-mail Marketing, Content Strategy ]
+impact: After launch, PO Box Collective was promptly awarded a $10,000 grant from Crossroads Fund. An additional $4,000 was raised in the grassroots community fundraising campaign.
 technology: [ CraftCMS, Figma, Adobe Photoshop, OneSignal ]
 nav: web
 sub-nav: pobox

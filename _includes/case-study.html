@@ -49,11 +49,19 @@
             </ul>
             {% endif %}
           </div>
+          {% if page.impact %}
+          <div class="col-12 mt-4 pt-md-0">
+            <h4>IMPACT</h4>
+            <ul class="{{page.sub-nav}} mt-3">
+              <li class="left-bar">{{page.impact}}</li>
+            </ul>
+          </div>
+          {% endif %}
         </div>
-        <div class="row pt-4 pb-5">
+        <div class="row pb-5">
           <div class="col text-center text-md-start pt-4 pt-md-0">
             {% if page.award-1 %}
-            <h4>RECOGNITION</h4>
+            <h4 class="pt-4">RECOGNITION</h4>
             <p>
               <ul class="{{page.sub-nav}}">
                 <li class="left-bar"><em>"{{page.award-1}}"</em><br>{% if page.award-1-source-url%}<a href="{{page.award-1-source-url}}" class="alt-link"><i class="fa fa-arrow-right"></i> {{page.award-1-source}}</a>{%else%}{%endif%}{{page.award-1-source}}</li>

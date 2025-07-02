@@ -767,7 +767,7 @@
       function handleScroll() {
         const logo = document.getElementById('logo-scroll');
         if (!logo) return;
-        if (window.scrollY > 35) {
+        if (window.scrollY > 10) {
           logo.classList.add('shrink');
         } else {
           logo.classList.remove('shrink');
@@ -775,7 +775,7 @@
       }
 
       // Attach debounced scroll listener
-      window.addEventListener('scroll', debounce(handleScroll, 35));
+      window.addEventListener('scroll', debounce(handleScroll, 10));
     </script>
   </body>
 </html>

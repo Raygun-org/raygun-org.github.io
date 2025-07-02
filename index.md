@@ -139,19 +139,19 @@ description: "With over a decade of experience utilizing digital media to tell e
     <div class="d-lg-flex text-center">
         <div class="col-lg-4 col-sm-12 px-md-5 px-sm-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-search px-1 pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing"><a href="/websites/higher-grounds/" class="text-white text-decoration-none" aria-label="Higher Grounds of Maine Case Study">Search Engine Optimization (SEO)</a></h3>
+            <h3 class="mt-5 header-spacing text-uppercase"><a href="/websites/higher-grounds/" class="text-white text-decoration-none" aria-label="Higher Grounds of Maine Case Study">Search Engine Optimization (SEO)</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Get Seen, Get Customers</h4>
             <p>I’ll optimize your site for Google setting up Search Console, Analytics, structuring your sitemap, and fine-tuning your copy so you rank higher, attract more visitors, and turn clicks into customers.</p>
         </div>
         <div class="col-lg-4 col-sm-12 px-md-5 px-sm-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-film px-1 pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing"><a href="/portfolio/video/" class="text-white text-decoration-none" aria-label="Video Post Production Portfolio">Video Editing</a></h3>
+            <h3 class="mt-5 header-spacing text-uppercase"><a href="/portfolio/video/" class="text-white text-decoration-none" aria-label="Video Post Production Portfolio">Video Editing</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Mood, Meaning & Message</h4>
             <p class="alt">I have edited <a href="/video/the-other-guantanamo/" aria-label="The Other Guantanamo Case Study">documentary film</a> and trailers, digitally archived physical DV tape footage, and also work with legacy formats like DVD authoring.</p>
         </div>
         <div class="col-lg-4 col-sm-12 px-md-5 ps-xs-0">
             <div class="btn btn-primary bg-coin text-theme-blue border border-coin border-5 rounded-5 mx-auto"><h3><i class="fa fa-suitcase-medical pt-2"></i></h3></div>
-            <h3 class="mt-5 header-spacing">Restoration<br><span class="fw-normal">&</span> <a href="/portfolio/cms/" class="text-white text-decoration-none" aria-label="Content Management System Portfolio">CMS Transitioning</a></h3>
+            <h3 class="mt-5 header-spacing text-uppercase">Restoration<br><span class="fw-normal">&</span> <a href="/portfolio/cms/" class="text-white text-decoration-none" aria-label="Content Management System Portfolio">CMS Transitioning</a></h3>
             <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center">Recover or Reinvent your Website</h4>
             <p>I specialize in restoring websites from backups or archived snapshots, migrating to new content management systems, and transitioning from paid platforms to streamlined static HTML setups &mdash; eliminating overhead while keeping your content intact.</p>
         </div>
