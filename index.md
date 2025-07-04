@@ -5,7 +5,7 @@ title: "Digital Marketing, Photography, Websites + Video"
 image: https://raygun.org/assets/img/raygun-mbp.png
 description: "With over a decade of experience utilizing digital media to tell engaging stories and establishing my client's online presence, I believe that mindful design leaves a lasting impression. Combining my professional experience with photography, website design, digital video, and print, I have a toolset capable of executing campaigns that elevate my customers' projects to help them flourish."
 ---
-<div class="container-fluid g-0 statement pb-5 overflow-hidden">
+<div class="container-fluid g-0 statement overflow-hidden">
     <div class="row py-5 text-center">
         <h1 class="fst-italic fw-light animate__animated animate__fadeIn">Websites don't have to be alien technology.</h1>
         <h5 class="type-3 text-uppercase eyebrow mt-3 mt-sm-0 animate__animated animate__fadeIn">Empowering businesses and nonprofits with accessible & affordable digital solutions</h5>
@@ -29,7 +29,7 @@ description: "With over a decade of experience utilizing digital media to tell e
         </div>
     </div>
 </div>
-<div class="container-fluid statement pb-5">
+<div class="container-fluid g-0 statement pb-5 overflow-hidden">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 text-center">
@@ -124,6 +124,18 @@ description: "With over a decade of experience utilizing digital media to tell e
             </div>
         </div>
     </div>
+<div class="container-fluid">
+  <div class="row container mx-auto py-5 justify-content-center">
+    <div class="col-md-7 col-sm-12">
+      <blockquote class="text-white type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun's timely turnaround on my website design & new business branding was crucial during a pivotal time. David's clear communication and intuitive design choices helped me attract clients confidently right from the start. I highly recommend his services.</blockquote>
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <h3 class="text-white">— David Ward, CFA</h3>
+      <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-start text-sm-center text-white">Business Owner, <a href="/websites/brookside-strategy/" alt="Brookside Strategy Case Study">Brookside Strategy</a></h4>
+    </div>
+  </div>
+</div>
+<div class="container-fluid statement pb-5">
 <div class="container pb-5">
     <div class="row text-center my-5">
         <div class="col-12">
