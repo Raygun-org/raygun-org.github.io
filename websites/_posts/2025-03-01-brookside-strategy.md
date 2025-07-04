@@ -39,7 +39,7 @@ permalink: /websites/brookside-strategy/
       <blockquote class="text-white type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun's timely turnaround on my website design & new business branding was crucial during a pivotal time. David's clear communication and intuitive design choices helped me attract clients confidently right from the start. I highly recommend his services.</blockquote>
     </div>
     <div class="col-md-3 col-sm-12">
-      <h3 class="text-white">— David Ward, CFA</h3>
+      <h3 class="text-white mb-4">— David Ward, CFA</h3>
       <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-start text-sm-center text-white">Business Owner, Brookside Strategy</h4>
     </div>
   </div>
