@@ -1,5 +1,9 @@
 @import "/assets/css/fontawesome.min.css";
 @import "/assets/css/brands.css";
+.quote-border {
+  border-color: #16384e !important;
+}
+
 .logo {
   height: 115px;
   transition: height 0.5s ease-in-out;
@@ -878,7 +882,7 @@ g.circle.pobox, i.pobox, div.footer.pobox i, div.footer.pobox a {
   color: #9BB2E8;
 }
 
-.blink.pobox {
+.blink.pobox, .halftone-pobox a.nav-link:hover {
   fill: #D53B38;
   color: #D53B38;
 }
@@ -959,7 +963,7 @@ div.pobox a.alt {
   color: #D53B38;
 }
 
-.blink.brookside, g.circle.brookside, i.brookside, div.footer.brookside i, div.footer.brookside a {
+.blink.brookside, g.circle.brookside, i.brookside, div.footer.brookside i, div.footer.brookside a, .halftone-brookside a.nav-link:hover {
   fill: #00A477;
   color: #00A477;
 }
@@ -1035,7 +1039,7 @@ div.brookside a.alt {
   color: #00A477;
 }
 
-.blink.elevendeg, g.circle.elevendeg, i.elevendeg, div.footer.elevendeg i, div.footer.elevendeg a {
+.blink.elevendeg, g.circle.elevendeg, i.elevendeg, div.footer.elevendeg i, div.footer.elevendeg a, .halftone-elevendeg a.nav-link:hover {
   fill: #a5ff09;
   color: #a5ff09;
 }
@@ -1119,7 +1123,7 @@ div.elevendeg a.alt {
   color: #97d9f7;
 }
 
-.blink.hgrounds, g.circle.hgrounds, i.hgrounds, div.footer.hgrounds i, div.footer.hgrounds a {
+.blink.hgrounds, g.circle.hgrounds, i.hgrounds, div.footer.hgrounds i, div.footer.hgrounds a, .halftone-hgrounds a.nav-link:hover {
   fill: #f8ca80;
   color: #f8ca80;
 }
@@ -1195,7 +1199,7 @@ div.hgrounds a.alt {
   color: #923f15;
 }
 
-.blink.utl, g.circle.utl, i.utl, div.footer.utl i, div.footer.utl a {
+.blink.utl, g.circle.utl, i.utl, div.footer.utl i, div.footer.utl a, .halftone-utl a.nav-link:hover {
   fill: #f9b275;
   color: #f9b275;
 }
@@ -1523,7 +1527,7 @@ div.highlight.pa img.img-thumbnail {
   color: #382c10 !important;
 }
 
-.blink.lm, g.circle.lm, i.lm, div.footer.lm i, div.footer.lm a {
+.blink.lm, g.circle.lm, i.lm, div.footer.lm i, div.footer.lm a, .halftone-lm a.nav-link:hover {
   fill: #87642f;
   color: #87642f;
 }
@@ -1590,7 +1594,7 @@ div.highlight.lm p, div.highlight.lm ul, div.highlight.lm li {
   --bs-border-width: 0.4rem;
 }
 
-.halftone-wap g#main_logo, .halftone-wap g#main_logo, .halftone-wap g#text {
+.halftone-wap g#main_logo, .halftone-wap g#main_logo, .halftone-wap g#text, .halftone-wap a.nav-link:hover {
   fill: #ed6709 !important;
   color: #ed6709 !important;
 }
@@ -1691,7 +1695,7 @@ h5.wap {
   color: #55321b;
 }
 
-.blink.tog, g.circle.tog, i.tog, div.footer.tog i, div.footer.tog a {
+.blink.tog, g.circle.tog, i.tog, div.footer.tog i, div.footer.tog a, .halftone-tog a.nav-link:hover {
   fill: hsl(45, 100%, 81%);
   color: hsl(45, 100%, 81%);
 }
@@ -1860,7 +1864,7 @@ div.highlight.rwe {
   background-attachment: fixed;
 }
 
-.blink.rwe, g.circle.rwe, i.rwe, div.footer.rwe i, div.footer.rwe a {
+.blink.rwe, g.circle.rwe, i.rwe, div.footer.rwe i, div.footer.rwe a, .halftone-rwe a.nav-link:hover {
   fill: #c44b29;
   color: #c44b29;
 }
@@ -2010,7 +2014,7 @@ h5.ftt {
   color: #ee5042;
 }
 
-.blink.sattb, g.circle.sattb, i.sattb, div.footer.sattb i, div.footer.sattb a {
+.blink.sattb, g.circle.sattb, i.sattb, div.footer.sattb i, div.footer.sattb a, .halftone-sattb a.nav-link:hover {
   fill: #e2daa1;
   color: #e2daa1;
 }
@@ -2068,7 +2072,7 @@ div.sattb h2 {
   letter-spacing: 0rem;
 }
 
-.blink.coc, g.circle.coc, i.coc, div.footer.coc i, div.footer.coc a {
+.blink.coc, g.circle.coc, i.coc, div.footer.coc i, div.footer.coc a, .halftone-coc a.nav-link:hover {
   fill: #fff45a;
   color: #fff45a;
 }
@@ -2171,7 +2175,7 @@ h5.coc {
   color: white;
 }
 
-.blink.hiv, g.circle.hiv, i.hiv, div.footer.hiv i, div.footer.hiv a {
+.blink.hiv, g.circle.hiv, i.hiv, div.footer.hiv i, div.footer.hiv a, .halftone-hiv a.nav-link:hover {
   fill: #fffd3a;
   color: #fffd3a;
 }
@@ -2262,7 +2266,7 @@ h5.hiv {
   color: #3467de;
 }
 
-.blink.bme, g.circle.bme, i.bme, div.footer.bme i, div.footer.bme a {
+.blink.bme, g.circle.bme, i.bme, div.footer.bme i, div.footer.bme a, .halftone-bme a.nav-link:hover {
   fill: #ff3399;
   color: #ff3399;
 }

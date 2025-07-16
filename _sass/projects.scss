@@ -284,7 +284,7 @@ g.circle.pobox,i.pobox,div.footer.pobox i, div.footer.pobox a {
     fill: $poboxSparkColor;
     color: $poboxSparkColor;
 }
-.blink.pobox {
+.blink.pobox, .halftone-pobox a.nav-link:hover {
     fill: $poboxBarColor;
     color: $poboxBarColor;
 }
@@ -353,7 +353,7 @@ div.pobox a.alt {
 }
 
 // BROOKSIDE STRATEGY
-.blink.brookside,g.circle.brookside,i.brookside,div.footer.brookside i, div.footer.brookside a {
+.blink.brookside,g.circle.brookside,i.brookside,div.footer.brookside i, div.footer.brookside a, .halftone-brookside a.nav-link:hover {
     fill: $brooksideSparkColor;
     color: $brooksideSparkColor;
 }
@@ -416,7 +416,7 @@ div.brookside a.alt {
 }
 
 // 11 DEGREES
-.blink.elevendeg,g.circle.elevendeg,i.elevendeg,div.footer.elevendeg i, div.footer.elevendeg a {
+.blink.elevendeg,g.circle.elevendeg,i.elevendeg,div.footer.elevendeg i, div.footer.elevendeg a, .halftone-elevendeg a.nav-link:hover {
     fill: $elevendegSparkColor;
     color: $elevendegSparkColor;
 }
@@ -488,7 +488,7 @@ div.elevendeg a.alt {
 }
 
 // HIGHER GROUNDS OF MAINE WEB
-.blink.hgrounds,g.circle.hgrounds,i.hgrounds,div.footer.hgrounds i, div.footer.hgrounds a {
+.blink.hgrounds,g.circle.hgrounds,i.hgrounds,div.footer.hgrounds i, div.footer.hgrounds a, .halftone-hgrounds a.nav-link:hover {
     fill: $hgroundsSparkColor;
     color: $hgroundsSparkColor;
 }
@@ -552,7 +552,7 @@ div.hgrounds a.alt {
 }
 
 // ULTRA TRADING LTD
-.blink.utl,g.circle.utl,i.utl,div.footer.utl i, div.footer.utl a {
+.blink.utl,g.circle.utl,i.utl,div.footer.utl i, div.footer.utl a, .halftone-utl a.nav-link:hover {
     fill: $utlSparkColor;
     color: $utlSparkColor;
 }
@@ -832,7 +832,7 @@ div.highlight.pa img.img-thumbnail {
     fill: $lmLinkColor !important;
     color: $lmLinkColor !important;
 }
-.blink.lm,g.circle.lm,i.lm,div.footer.lm i, div.footer.lm a {
+.blink.lm,g.circle.lm,i.lm,div.footer.lm i, div.footer.lm a, .halftone-lm a.nav-link:hover {
     fill: $lmSparkColor;
     color: $lmSparkColor;
 }
@@ -888,7 +888,7 @@ div.highlight.lm p, div.highlight.lm ul, div.highlight.lm li {
 }
 
 // WAP
-.halftone-wap g#main_logo, .halftone-wap g#main_logo, .halftone-wap g#text {
+.halftone-wap g#main_logo, .halftone-wap g#main_logo, .halftone-wap g#text, .halftone-wap a.nav-link:hover {
     fill: $wapLinkColor !important;
     color: $wapLinkColor !important;
 }
@@ -973,7 +973,7 @@ h5.wap {
 }
 
 // TOG
-.blink.tog,g.circle.tog,i.tog,div.footer.tog i, div.footer.tog a   {
+.blink.tog,g.circle.tog,i.tog,div.footer.tog i, div.footer.tog a, .halftone-tog a.nav-link:hover {
     fill: $togSparkColor;
     color: $togSparkColor;
 }
@@ -1117,7 +1117,7 @@ div.highlight.rwe {
     background-size: auto 749px;
     background-attachment: fixed;
 }
-.blink.rwe,g.circle.rwe,i.rwe,div.footer.rwe i, div.footer.rwe a {
+.blink.rwe,g.circle.rwe,i.rwe,div.footer.rwe i, div.footer.rwe a, .halftone-rwe a.nav-link:hover {
     fill: $royalwolfeventsLinkColor;
     color: $royalwolfeventsLinkColor;
 }
@@ -1247,7 +1247,7 @@ h5.ftt {
 }
 
 // SATTB
-.blink.sattb,g.circle.sattb,i.sattb,div.footer.sattb i, div.footer.sattb a {
+.blink.sattb,g.circle.sattb,i.sattb,div.footer.sattb i, div.footer.sattb a, .halftone-sattb a.nav-link:hover {
     fill: $sattbSparkColor;
     color: $sattbSparkColor;
 }
@@ -1297,7 +1297,7 @@ div.sattb h2 {
 }
 
 // COC
-.blink.coc,g.circle.coc,i.coc,div.footer.coc i, div.footer.coc a {
+.blink.coc,g.circle.coc,i.coc,div.footer.coc i, div.footer.coc a, .halftone-coc a.nav-link:hover {
     fill: $cocSparkColor;
     color: $cocSparkColor;
 }
@@ -1383,7 +1383,7 @@ h5.coc {
 }
 
 // HIV
-.blink.hiv,g.circle.hiv,i.hiv,div.footer.hiv i, div.footer.hiv a {
+.blink.hiv,g.circle.hiv,i.hiv,div.footer.hiv i, div.footer.hiv a, .halftone-hiv a.nav-link:hover {
     fill: $hivSparkColor;
     color: $hivSparkColor;
 }
@@ -1460,7 +1460,7 @@ h5.hiv {
 }
 
 // BME
-.blink.bme,g.circle.bme,i.bme,div.footer.bme i, div.footer.bme a {
+.blink.bme,g.circle.bme,i.bme,div.footer.bme i, div.footer.bme a, .halftone-bme a.nav-link:hover {
     fill: $bmeSparkColor;
     color: $bmeSparkColor;
 }
