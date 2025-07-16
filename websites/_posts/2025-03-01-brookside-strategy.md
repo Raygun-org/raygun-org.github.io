@@ -40,7 +40,7 @@ permalink: /websites/brookside-strategy/
     </div>
     <div class="col-md-3 col-sm-12">
       <h3 class="text-white mb-4">— David Ward, CFA</h3>
-      <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-start text-sm-center text-white">Business Owner, Brookside Strategy</h4>
+      <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center text-sm-start text-white border border-3 border-start border-end-0 border-top-0 border-bottom-0 ps-3">Business Owner, Brookside Strategy</h4>
     </div>
   </div>
 </div>
