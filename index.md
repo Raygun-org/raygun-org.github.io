@@ -129,7 +129,7 @@ description: "With over a decade of experience utilizing digital media to tell e
     </div>
 <div class="container-fluid halftone-rwe pt-5">
     <div class="row container mx-auto py-5 justify-content-center" data-aos="fade-in">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-9 col-sm-12">
         <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun's timely turnaround on my website design & new business branding was crucial during a pivotal time. David's clear communication and intuitive design choices helped me attract clients confidently right from the start. I highly recommend his services.</blockquote>
         </div>
         <div class="col-md-3 col-sm-12">
@@ -138,7 +138,7 @@ description: "With over a decade of experience utilizing digital media to tell e
         </div>
     </div>
     <div class="row container mx-auto py-5 justify-content-center" data-aos="fade-in">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-9 col-sm-12">
             <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun built a beautiful, accessible & functional website for the PO Box Collective that reflects our complex work and captured our community. After years of hobbling along with a dysfunctional Wordpress site, it’s now working smoothly and effectively on CraftCMS, and the number of visitors has increased enormously.</blockquote>
         </div>
         <div class="col-md-3 col-sm-12">
