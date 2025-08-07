@@ -128,16 +128,23 @@ description: "With over a decade of experience utilizing digital media to tell e
         </div>
     </div>
 <div class="container-fluid halftone-rwe pt-5">
-    <div class="row container mx-auto g-5 py-5 align-content-between" data-aos="fade-in">
-        <div class="col-md-6 col-sm-12">
-        <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun's timely turnaround on my website design & new business branding was crucial during a pivotal time. David's clear communication and intuitive design choices helped me attract clients confidently right from the start. I highly recommend his services.</blockquote>
-        <h3 class="accent-blue mb-4">— David Ward, CFA</h3>
-        <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">Business Owner, Brookside Strategy</h4>
-        </div>
-        <div class="col-md-6 col-sm-12">
-            <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun built a beautiful, accessible & functional website for the PO Box Collective that reflects our complex work and captured our community. After years of hobbling along with a dysfunctional Wordpress site, it’s now working smoothly and effectively on CraftCMS, and the number of visitors has increased enormously.</blockquote>
-            <h3 class="accent-blue mb-4">— Mary Zerkel</h3>
-            <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">PO Box Co-Founder & AFSC Associate Regional Director (Midwest Region)</h4>
+    <div class="row mx-auto g-5 py-5 align-content-between" data-aos="fade-in">
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+            <div class="carousel-cell col-md-7 col-sm-12 px-5">
+                <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun's timely turnaround on my website design & new business branding was crucial during a pivotal time. David's clear communication and intuitive design choices helped me attract clients confidently right from the start. I highly recommend his services.</blockquote>
+                <h3 class="accent-blue mb-4">— David Ward, CFA</h3>
+                <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">Business Owner, Brookside Strategy</h4>
+            </div>
+            <div class="carousel-cell col-md-7 col-sm-12 px-5">
+                <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>David revitalized our retail website — boosting online sales while eliminating monthly fees with a contracted design agency. He refined our visual branding across digital and print, giving every asset a cohesive and polished look. David listens carefully, explains which platforms and tools best match our needs, and solves problems with creativity and skill. We continue to rely on him for fast‑turnaround design projects!</blockquote>
+                <h3 class="accent-blue mb-4">— Mark Barnett</h3>
+                <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">Founder, Higher Grounds of Maine</h4>
+            </div>
+            <div class="carousel-cell col-md-7 col-sm-12 px-5">
+                <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun built a beautiful, accessible & functional website for the PO Box Collective that reflects our complex work and captured our community. After years of hobbling along with a dysfunctional Wordpress site, it’s now working smoothly and effectively on CraftCMS, and the number of visitors has increased enormously.</blockquote>
+                <h3 class="accent-blue mb-4">— Mary Zerkel</h3>
+                <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">PO Box Co-Founder & AFSC Associate Regional Director (Midwest Region)</h4>
+            </div>
         </div>
     </div>
 </div>

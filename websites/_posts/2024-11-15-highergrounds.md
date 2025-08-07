@@ -67,6 +67,15 @@ permalink: /websites/higher-grounds/
         </div>
     </div>
   </div>
+  <div class="container-fluid halftone-hgrounds">
+    <div class="row container mx-auto py-5 justify-content-center">
+      <div class="col-md-7 col-sm-12">
+        <blockquote class="text-white type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>David revitalized our retail website — boosting online sales while eliminating monthly fees with a contracted design agency. He refined our visual branding across digital and print, giving every asset a cohesive and polished look. David listens carefully, explains which platforms and tools best match our needs, and solves problems with creativity and skill. We continue to rely on him for fast‑turnaround design projects!</blockquote>
+        <h3 class="text-white mb-4">— Mark Barnett</h3>
+        <h4 class="fw-light type-3 mb-5 eyebrow text-uppercase text-center text-sm-start text-white border border-3 border-start border-end-0 border-top-0 border-bottom-0 ps-3">Founder, Higher Grounds of Maine</h4>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row align-items-center justify-content-center pt-5" id="trigger-5">
       <div class="col-lg-6 col-md-12" data-aos="zoom-in-up" data-aos-once="true" data-aos-anchor="#trigger-5" data-aos-anchor-placement="top-bottom">
