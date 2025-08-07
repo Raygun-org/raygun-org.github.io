@@ -80,7 +80,7 @@ permalink: /websites/higher-grounds/
   <div class="container-fluid hgrounds bg-white">
   <div class="container">
     <div class="row align-items-center justify-content-center pt-5" id="trigger-5">
-      <div class="col-lg-6 col-md-12" data-aos="zoom-in-up" data-aos-once="true" data-aos-anchor="#trigger-5" data-aos-anchor-placement="top-bottom">
+      <div class="col-lg-6 col-md-12 pt-5" data-aos="zoom-in-up" data-aos-once="true" data-aos-anchor="#trigger-5" data-aos-anchor-placement="top-bottom">
             <h4 class="hgrounds text-center">Mobile Navigation Design</h4>
             <a href="/assets/img/portfolio/highergrounds/HG-mobile-menu.png" class="glightboxGallery"><img src="/assets/img/portfolio/highergrounds/HG-mobile-menu.png" alt="Mobile Menu" class="img-fluid cursor-zoom"></a> 
       </div>
