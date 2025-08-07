@@ -143,7 +143,7 @@ description: "With over a decade of experience utilizing digital media to tell e
             <div class="carousel-cell col-md-7 col-sm-12 px-5">
                 <blockquote class="accent-blue type-3 fs-4"><span class="fs-1 pe-1">&ldquo;</span>Raygun built a beautiful, accessible & functional website for the PO Box Collective that reflects our complex work and captured our community. After years of hobbling along with a dysfunctional Wordpress site, it’s now working smoothly and effectively on CraftCMS, and the number of visitors has increased enormously.</blockquote>
                 <h3 class="accent-blue mb-4">— Mary Zerkel</h3>
-                <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">PO Box Co-Founder & AFSC Associate Regional Director (Midwest Region)</h4>
+                <h4 class="fw-light accent-blue type-3 mb-5 eyebrow text-uppercase text-center text-sm-start border border-3 border-start border-end-0 border-top-0 border-bottom-0 quote-border ps-3">Co-Founder, <a href="/websites/pobox-collective/" alt="PO Box Case Study">PO Box</a> Co-Founder & Associate Regional Director (Midwest Region), AFSC</h4>
             </div>
         </div>
     </div>
