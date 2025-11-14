@@ -3,7 +3,7 @@ layout: case-study
 title: Present Absence
 sub-title: Digital Art Installation
 description: |
- Present Absence is a five-channel video installation that individualizes and personalizes the lives of 5 people killed by Chicago Police. Originally exhibited at Roman Susan Gallery and Theaster Gates' Stony Island Arts Bank.
+ Present Absence is a five-channel video installation that individualizes and personalizes the lives of 5 people killed by Chicago Police. Originally exhibited at Roman Susan Gallery, Hairpin Arts Center and Theaster Gates' Stony Island Arts Bank.
 image: https://raygun.org/assets/img/portfolio/PA/Present-Absence-Installation.png
 image-thumb: /assets/img/portfolio/PA/present-absence-mbp.png
 laptop: /assets/img/portfolio/PA/present-absence-mbp.png
