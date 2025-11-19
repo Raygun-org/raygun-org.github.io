@@ -35,17 +35,21 @@ permalink: /websites/liz-mccarthy/
     <div class="ratio ratio-16x9 py-5" id="player" data-aos="fade-up" data-aos-once="true">
       <iframe src="https://player.vimeo.com/video/1088223152?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Liz McCarthy @ Bemis"></iframe>
     </div>
+    <div data-aos="fade-in" data-aos-once="true">
     <h4 class="text-white text-center mb-2">Liz McCarthy Synchronicities Performance</h4>
     <h4 class="text-white text-center mb-4 fw-normal">Bemis Center for Contemporary Art (Omaha, NE)</h4>
     <h4 class="text-white text-center mb-5 eyebrow type-3">VIDEO EDITOR</h4>
+    </div>
 </div>
 <div class="container" style="bg-dark">
     <div class="ratio ratio-16x9 py-5" id="player" data-aos="fade-up" data-aos-once="true">
       <iframe src="https://player.vimeo.com/video/1088146067?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Liz McCarthy - Monstrare @ Belong Gallery"></iframe>
     </div>
+    <div data-aos="fade-in" data-aos-once="true">
     <h4 class="text-white text-center mb-2">Liz McCarthy Monstrare Performance</h4>
     <h4 class="text-white text-center mb-4 fw-normal">Belong Gallery (Chicago, IL)</h4>
     <h4 class="text-white text-center mb-5 eyebrow type-3">VIDEO EDITOR</h4>
+    </div>
 </div>
 <div class="container-fluid highlight lm halftone-lm pb-5">
     <div class="container">
