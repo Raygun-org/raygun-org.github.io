@@ -29,9 +29,9 @@ permalink: /contact/
             <label for="full-name"><h4>NAME <sup>*</sup></h4></label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" class="rounded-4" required="">
             <label for="email-address"><h4>EMAIL <sup>*</sup></h4></label>
-            <input type="text" name="name" id="full-name" placeholder="your@email.com" class="rounded-4" required="">
+            <input type="text" name="email-address" id="email-address" class="rounded-4" required="">
             <label for="phone"><h4>PHONE</h4></label>
-            <input type="tel" name="_replyto" id="mobile" placeholder="(optional)" class="rounded-4" required="">
+            <input type="tel" name="phone" id="phone" placeholder="(optional)" class="rounded-4" required="">
             <label for="message"><h4>MESSAGE <sup>*</sup></h4></label>
             <textarea rows="5" name="message" id="message" placeholder="Enter your message" class="rounded-4" required=""></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
