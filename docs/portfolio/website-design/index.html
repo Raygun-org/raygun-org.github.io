@@ -1106,7 +1106,9 @@
   (function () {
     const el = document.getElementById("scramble-text");
     if (!el) return;
-    const phrases = ["alien technology.", "expensive.", "good enough.", "a headache.", "stuck on a platform."];
+    const phrases = ["alien technology.", "expensive.", "good enough.", "a headache.", "stuck on a platform.", 
+      "sluggish."
+    ];
     let index = Math.floor(Math.random() * phrases.length);
     el.textContent = phrases[index];
 
