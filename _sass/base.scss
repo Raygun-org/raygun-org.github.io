@@ -372,6 +372,11 @@ h1 span {
   letter-spacing: 0rem;
 }
 
+h1 span#scramble-text {
+  font-size: inherit;
+  padding-bottom: 0;
+}
+
 h2, h3, h4 {
   font-family: $typefaceSecondary;
   font-weight: 600;

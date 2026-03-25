@@ -7,7 +7,7 @@ description: "With over a decade of experience utilizing digital media to tell e
 ---
 <div class="container-fluid g-0 statement overflow-hidden">
     <div class="row py-5 text-center">
-        <h1 class="fst-italic fw-light animate__animated animate__fadeIn">Websites don't have to be alien technology.</h1>
+        <h1 class="fst-italic fw-light animate__animated animate__fadeIn">Websites don't have to be <span id="scramble-text">alien technology.</span></h1>
         <h5 class="type-3 text-uppercase eyebrow mt-3 mt-sm-0 animate__animated animate__fadeIn">Empowering businesses and nonprofits with accessible & affordable digital solutions</h5>
     </div>
     <div class="row pb-5">

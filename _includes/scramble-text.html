@@ -1,0 +1,46 @@
+<script>
+  (function () {
+    const el = document.getElementById("scramble-text");
+    if (!el) return;
+    const phrases = ["alien technology.", "expensive.", "good enough.", "a headache.", "stuck on a platform."];
+    let index = Math.floor(Math.random() * phrases.length);
+    el.textContent = phrases[index];
+
+    function wipe(text, duration, out, callback) {
+      const frameMs = 40;
+      const totalFrames = Math.round(duration / frameMs);
+      let frame = 0;
+      const interval = setInterval(function () {
+        frame++;
+        const t = frame / totalFrames;
+        const progress = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        const visible = out
+          ? Math.floor((1 - progress) * text.length)
+          : Math.floor(progress * text.length);
+        let result = "";
+        for (let i = 0; i < text.length; i++) {
+          result += i < visible ? text[i] : " ";
+        }
+        el.textContent = result;
+        if (frame >= totalFrames) {
+          clearInterval(interval);
+          el.textContent = out ? "" : text;
+          if (callback) callback();
+        }
+      }, frameMs);
+    }
+
+    function cycleNext() {
+      const from = phrases[index];
+      index = (index + 1) % phrases.length;
+      const to = phrases[index];
+      wipe(from, 600, true, function () {
+        wipe(to, 1200, false, function () {
+          setTimeout(cycleNext, 4000);
+        });
+      });
+    }
+
+    setTimeout(cycleNext, 4000);
+  })();
+</script>

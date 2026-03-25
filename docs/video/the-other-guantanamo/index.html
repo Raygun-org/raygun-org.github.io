@@ -151,7 +151,7 @@
       <div class="container pb-5">
         <div class="row">
           <div class="col">
-            <h1 class="fst-italic fw-light animate__animated animate__fadeIn text-center">Websites don't have to be alien technology.</h1>
+            <h1 class="fst-italic fw-light animate__animated animate__fadeIn text-center">Websites don't have to be <span id="scramble-text">alien technology.</span></h1>
             <h5 class="type-3 text-center text-uppercase eyebrow mt-3 mt-sm-0 animate__animated animate__fadeIn">Empowering businesses and nonprofits with accessible & affordable digital solutions</h5>
             <h3 class="mt-4 text-end fst-italic fw-semibold animate__animated arrow-hover" data-aos="flip-up" data-aos-delay="400"><a href="/contact/" class="text-decoration-none">Introduce yourself <span class="fw-light">&</span> get started today <i class="ps-4 fa fa-arrow-right-long" data-aos="fade-right" data-aos-delay="600"></i></a></h3>
           </div>
@@ -474,5 +474,52 @@
     <script>
       quicklink.listen();
     </script>
+    <script>
+  (function () {
+    const el = document.getElementById("scramble-text");
+    if (!el) return;
+    const phrases = ["alien technology.", "expensive.", "good enough.", "a headache.", "stuck on a platform."];
+    let index = Math.floor(Math.random() * phrases.length);
+    el.textContent = phrases[index];
+
+    function wipe(text, duration, out, callback) {
+      const frameMs = 40;
+      const totalFrames = Math.round(duration / frameMs);
+      let frame = 0;
+      const interval = setInterval(function () {
+        frame++;
+        const t = frame / totalFrames;
+        const progress = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        const visible = out
+          ? Math.floor((1 - progress) * text.length)
+          : Math.floor(progress * text.length);
+        let result = "";
+        for (let i = 0; i < text.length; i++) {
+          result += i < visible ? text[i] : " ";
+        }
+        el.textContent = result;
+        if (frame >= totalFrames) {
+          clearInterval(interval);
+          el.textContent = out ? "" : text;
+          if (callback) callback();
+        }
+      }, frameMs);
+    }
+
+    function cycleNext() {
+      const from = phrases[index];
+      index = (index + 1) % phrases.length;
+      const to = phrases[index];
+      wipe(from, 600, true, function () {
+        wipe(to, 1200, false, function () {
+          setTimeout(cycleNext, 4000);
+        });
+      });
+    }
+
+    setTimeout(cycleNext, 4000);
+  })();
+</script>
+
   </body>
 </html>
