@@ -113,3 +113,18 @@
         </div>
     </div>
 </div>
+<script>
+  (function () {
+    const logo = document.getElementById('logo-scroll');
+    let ticking = false;
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        requestAnimationFrame(function () {
+          if (logo) logo.classList.toggle('shrink', window.scrollY > 10);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  })();
+</script>
