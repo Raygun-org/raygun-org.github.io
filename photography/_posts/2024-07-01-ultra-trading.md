@@ -65,11 +65,5 @@ permalink: /photo/ultra-trading/
         <a href="/assets/img/portfolio/ultra-trading/caraway-ground.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/ultra-trading/caraway-ground.jpg" alt="Ultra Trading Ltd Ground Caraway" class="img-fluid cursor-zoom mb-4"></a>
       </div>
     </div>
-    <div class="row justify-content-center py-5">
-      <div class="col-lg-6 col-sm-12" data-aos="fade-up" data-aos-once="true">
-        <h3 class="text-center">Business Card Design</h3>
-        <a href="/assets/img/portfolio/ultra-trading/ultra-trading-business-cards.jpg" class="glightboxGallery"><img src="/assets/img/portfolio/ultra-trading/ultra-trading-business-cards.jpg" alt="Ultra Trading Ltd Business Card Design" class="img-fluid cursor-zoom"></a>
-      </div>
-    </div>
   </div>
 </div>
